@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anatomia - fiszki
 
-## Getting Started
+Aplikacja do nauki anatomii na fiszkach: układ kostno-stawowy i układ mięśniowy (133 fiszki). Na jednej stronie ilustracja i nazwa łacińska, na drugiej nazwa polska (kierunek można odwrócić). Postęp ("Umiem" / "Nie umiem") zapisuje się w przeglądarce.
 
-First, run the development server:
+## Uruchomienie (Windows, PowerShell)
 
-```bash
+```powershell
+git clone https://github.com/vWiewiorax/anatomy-learning.git
+cd anatomy-learning
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Potem otwórz http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Dodawanie fiszek
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Fiszki są w `src/data/cards.ts`, ilustracje w `public/cards/`.
 
-## Learn More
+## Ilustracje
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Wikimedia Commons: BodyParts3D/Anatomography (DBCLS, CC BY-SA 2.1 JP), Gray's Anatomy (domena publiczna) i inne. Pełna lista autorów i licencji jest na stronie `/zrodla`.
