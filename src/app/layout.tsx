@@ -23,17 +23,19 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               </svg>
               Anatomia - fiszki
             </Link>
-            <nav className="flex gap-4 text-sm text-stone-600">
-              <Link href="/nauka?uklad=kostno-stawowy" className="hover:text-stone-900">Kości i stawy</Link>
+            <nav className="flex gap-3 sm:gap-4 text-sm text-stone-600">
+              <Link href="/nauka?uklad=kostno-stawowy" className="hover:text-stone-900">Kości</Link>
               <Link href="/nauka?uklad=miesniowy" className="hover:text-stone-900">Mięśnie</Link>
-              <Link href="/zrodla" className="hidden sm:inline hover:text-stone-900">Źródła ilustracji</Link>
+              <Link href="/szkielet" className="hover:text-stone-900">Szkielet</Link>
+              <Link href="/quiz?uklad=kostno-stawowy" className="hover:text-stone-900">Quiz</Link>
+              <Link href="/powtorka" className="hover:text-stone-900">Powtórka</Link>
             </nav>
           </div>
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-stone-200 text-xs text-stone-500">
           <div className="mx-auto max-w-5xl px-4 py-4 flex flex-wrap gap-x-4 gap-y-1 justify-between">
-            <span>Ilustracje: Wikimedia Commons (BodyParts3D/Anatomography, Gray&apos;s Anatomy i inne), licencje CC i domena publiczna.</span>
+            <span>Modele kości: BodyParts3D, (c) DBCLS, CC BY-SA 2.1 JP. Ilustracje mięśni: Wikimedia Commons.</span>
             <Link href="/zrodla" className="underline hover:text-stone-800">Autorzy i licencje</Link>
           </div>
         </footer>

@@ -3,29 +3,12 @@
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { Card } from "@/data/cards";
+import { readProgress, shuffled, writeProgress, type Status } from "@/lib/progress";
 
 type Direction = "la-pl" | "pl-la";
-type Status = "known" | "unknown";
+type Filter = "all" | "notKnown" | "unknown";
 
-const PROGRESS_KEY = "anatomia-fiszki:postep";
 const DIRECTION_KEY = "anatomia-fiszki:kierunek";
-
-function readProgress(): Record<string, Status> {
-  try {
-    return JSON.parse(localStorage.getItem(PROGRESS_KEY) ?? "{}");
-  } catch {
-    return {};
-  }
-}
-
-function shuffled<T>(arr: T[]) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 function Icon({ d, className = "h-4 w-4" }: { d: string; className?: string }) {
   return (
@@ -45,10 +28,10 @@ const ICONS = {
   reset: "M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5",
 };
 
-export default function Flashcards({ cards, title }: { cards: Card[]; title: string }) {
+export default function Flashcards({ cards, title, initialFilter = "all" }: { cards: Card[]; title: string; initialFilter?: Filter }) {
   const [direction, setDirection] = useState<Direction>("la-pl");
   const [progress, setProgress] = useState<Record<string, Status>>({});
-  const [onlyUnknown, setOnlyUnknown] = useState(false);
+  const [filter, setFilter] = useState<Filter>(initialFilter);
   const [order, setOrder] = useState<string[]>(() => cards.map((c) => c.id));
   const [pos, setPos] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -61,8 +44,8 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
 
   const byId = useMemo(() => new Map(cards.map((c) => [c.id, c])), [cards]);
   const deck = useMemo(
-    () => order.map((id) => byId.get(id)!).filter((c) => c && (!onlyUnknown || progress[c.id] !== "known")),
-    [order, byId, onlyUnknown, progress],
+    () => order.map((id) => byId.get(id)!).filter((c) => c && (filter === "all" || (filter === "notKnown" ? progress[c.id] !== "known" : progress[c.id] === "unknown"))),
+    [order, byId, filter, progress],
   );
   const index = Math.min(pos, Math.max(deck.length - 1, 0));
   const card = deck[index];
@@ -83,15 +66,15 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
       if (!card) return;
       const next = { ...progress, [card.id]: status };
       setProgress(next);
-      localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
+      writeProgress(next);
       setFlipped(false);
-      if (onlyUnknown && status === "known") {
+      if (filter !== "all" && status === "known") {
         setPos((p) => Math.min(p, Math.max(deck.length - 2, 0)));
       } else {
         setPos((p) => (Math.min(p, deck.length - 1) + 1) % deck.length);
       }
     },
-    [card, progress, onlyUnknown, deck.length],
+    [card, progress, filter, deck.length],
   );
 
   const toggleDirection = () => {
@@ -111,7 +94,7 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
     const next = { ...progress };
     for (const c of cards) delete next[c.id];
     setProgress(next);
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
+    writeProgress(next);
   };
 
   useEffect(() => {
@@ -153,19 +136,20 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
             <Icon d={ICONS.shuffle} />
             Tasuj
           </button>
-          <label className="inline-flex items-center gap-2 rounded-lg border border-stone-200 bg-white px-3 py-1.5 cursor-pointer hover:border-teal-600">
-            <input
-              type="checkbox"
-              className="accent-teal-700"
-              checked={onlyUnknown}
-              onChange={(e) => {
-                setOnlyUnknown(e.target.checked);
-                setPos(0);
-                setFlipped(false);
-              }}
-            />
-            Tylko nieopanowane
-          </label>
+          <select
+            value={filter}
+            onChange={(e) => {
+              setFilter(e.target.value as Filter);
+              setPos(0);
+              setFlipped(false);
+            }}
+            className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 hover:border-teal-600"
+            aria-label="Które fiszki pokazać"
+          >
+            <option value="all">Wszystkie fiszki</option>
+            <option value="notKnown">Bez oznaczonych jako Umiem</option>
+            <option value="unknown">Tylko oznaczone Nie umiem</option>
+          </select>
           <button onClick={resetProgress} className="inline-flex items-center gap-1.5 rounded-lg border border-stone-200 bg-white px-3 py-1.5 text-stone-600 hover:border-red-400 hover:text-red-700">
             <Icon d={ICONS.reset} />
             Wyzeruj postęp
@@ -179,8 +163,8 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
 
       {!card ? (
         <div className="rounded-2xl border border-dashed border-stone-300 bg-white p-10 text-center text-stone-600">
-          <p className="text-lg font-medium">Wszystko opanowane w tym zestawie.</p>
-          <p className="text-sm mt-1">Odznacz &quot;Tylko nieopanowane&quot; albo wyzeruj postęp, żeby powtórzyć całość.</p>
+          <p className="text-lg font-medium">{filter === "unknown" ? "Brak fiszek oznaczonych jako Nie umiem." : "Wszystko opanowane w tym zestawie."}</p>
+          <p className="text-sm mt-1">Zmień wybór na &quot;Wszystkie fiszki&quot; albo wyzeruj postęp, żeby powtórzyć całość.</p>
         </div>
       ) : (
         <>
@@ -193,7 +177,14 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
             >
               <div className="flip-face rounded-2xl border border-stone-200 bg-white shadow-md flex flex-col overflow-hidden">
                 <div className="relative flex-1 bg-white">
-                  <Image src={card.image} alt={`Ilustracja: ${card.latin}`} fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-3" priority />
+                  {card.image ? (
+                    <Image src={card.image} alt={`Ilustracja: ${card.latin}`} fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-3" priority />
+                  ) : (
+                    <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 p-6 text-center">
+                      <span className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-500">Pojęcie: {card.subgroup}</span>
+                      <span className={`text-4xl font-bold text-stone-800 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="border-t border-stone-100 px-5 py-4 text-center">
                   <p className="text-xs uppercase tracking-wider text-stone-400">{frontLang}</p>
@@ -201,14 +192,16 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
                 </div>
               </div>
               <div className="flip-face flip-back rounded-2xl border border-teal-200 bg-teal-50 shadow-md flex flex-col overflow-hidden">
-                <div className="relative h-44 sm:h-56 bg-white border-b border-teal-100">
-                  <Image src={card.image} alt="" fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-2" />
-                </div>
+                {card.image && (
+                  <div className="relative h-44 sm:h-56 bg-white border-b border-teal-100">
+                    <Image src={card.image} alt="" fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-2" />
+                  </div>
+                )}
                 <div className="flex-1 flex flex-col items-center justify-center px-6 text-center gap-2">
                   <p className="text-xs uppercase tracking-wider text-teal-700/70">{backLang}</p>
                   <p className={`text-3xl font-bold text-teal-950 ${direction === "pl-la" ? "italic" : ""}`}>{backName}</p>
                   <p className={`text-stone-500 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</p>
-                  <p className="mt-2 rounded-full bg-white px-3 py-1 text-xs text-stone-500 border border-teal-100">{card.group}</p>
+                  <p className="mt-2 rounded-full bg-white px-3 py-1 text-xs text-stone-500 border border-teal-100">{card.group === card.subgroup ? card.group : `${card.group} - ${card.subgroup}`}</p>
                 </div>
               </div>
             </button>
@@ -244,13 +237,15 @@ export default function Flashcards({ cards, title }: { cards: Card[]; title: str
             {progress[card.id] === "known" && <span className="ml-2 text-teal-700">(umiem)</span>}
             {progress[card.id] === "unknown" && <span className="ml-2 text-red-700">(do powtórki)</span>}
           </p>
-          <p className="mt-6 text-center text-[11px] text-stone-400">
-            Ilustracja:{" "}
-            <a href={card.credit.page} target="_blank" rel="noreferrer" className="underline">
-              {card.credit.file}
-            </a>
-            , {card.credit.author.slice(0, 80)}, {card.credit.license}
-          </p>
+          {card.credit && (
+            <p className="mt-6 text-center text-[11px] text-stone-400">
+              Ilustracja:{" "}
+              <a href={card.credit.page} target="_blank" rel="noreferrer" className="underline">
+                {card.credit.file}
+              </a>
+              , {card.credit.author.slice(0, 80)}, {card.credit.license}
+            </p>
+          )}
         </>
       )}
     </div>

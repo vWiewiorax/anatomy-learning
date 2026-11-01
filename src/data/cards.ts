@@ -1,4 +1,8 @@
+import { BONE_CARDS } from "./bones";
+
 export type SystemId = "kostno-stawowy" | "miesniowy";
+
+export type Credit = { file: string; page: string; author: string; license: string; licenseUrl: string };
 
 export type Card = {
   id: string;
@@ -7,16 +11,28 @@ export type Card = {
   system: SystemId;
   group: string;
   groupSlug: string;
-  image: string;
-  credit: { file: string; page: string; author: string; license: string; licenseUrl: string };
+  subgroup: string;
+  subgroupSlug: string;
+  image: string | null;
+  credit?: Credit;
+};
+
+type LegacyCard = Omit<Card, "subgroup" | "subgroupSlug" | "image"> & { image: string; credit: Credit };
+
+export const BP3D_CREDIT: Credit = {
+  file: "BodyParts3D 4.0",
+  page: "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/desc.html",
+  author: "BodyParts3D, (c) The Database Center for Life Science (DBCLS)",
+  license: "CC BY-SA 2.1 jp",
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
 };
 
 export const SYSTEMS: { id: SystemId; name: string; latin: string; description: string }[] = [
-  { id: "kostno-stawowy", name: "Układ kostno-stawowy", latin: "Systema skeletale et articulare", description: "Kości czaszki, kręgosłupa, klatki piersiowej i kończyn oraz najważniejsze stawy i więzadła." },
+  { id: "kostno-stawowy", name: "Układ kostno-stawowy", latin: "Systema skeletale et articulare", description: "Podstawy budowy kości i stawów, kości czaszki, kręgosłupa, klatki piersiowej i kończyn ze szczegółami (wyrostki, łuki, kłykcie) oraz stawy." },
   { id: "miesniowy", name: "Układ mięśniowy", latin: "Systema musculare", description: "Mięśnie głowy, szyi, tułowia oraz kończyny górnej i dolnej." },
 ];
 
-export const CARDS: Card[] = [
+const LEGACY: LegacyCard[] = [
   {
     "id": "os-frontale",
     "latin": "Os frontale",
@@ -2146,6 +2162,41 @@ export const CARDS: Card[] = [
     }
   }
 ];
+
+export const CARDS: Card[] = [
+  ...BONE_CARDS.map((c) => ({ ...c, credit: c.image ? BP3D_CREDIT : undefined })),
+  ...LEGACY.filter((c) => c.system === "miesniowy").map((c) => ({ ...c, subgroup: c.group, subgroupSlug: c.groupSlug })),
+];
+
+export function subgroupsOf(system: SystemId, groupSlug: string) {
+  const map = new Map<string, { slug: string; name: string; count: number }>();
+  for (const c of CARDS) {
+    if (c.system !== system || c.groupSlug !== groupSlug) continue;
+    const g = map.get(c.subgroupSlug) ?? { slug: c.subgroupSlug, name: c.subgroup, count: 0 };
+    g.count++;
+    map.set(c.subgroupSlug, g);
+  }
+  return [...map.values()];
+}
+
+export type Selection = { uklad?: string; grupa?: string; podgrupa?: string };
+
+export function selectCards({ uklad, grupa, podgrupa }: Selection) {
+  const system = SYSTEMS.find((s) => s.id === uklad);
+  const groups = system ? groupsOf(system.id) : [];
+  const group = groups.find((g) => g.slug === grupa);
+  const subgroups = system && group ? subgroupsOf(system.id, group.slug) : [];
+  const subgroup = subgroups.find((g) => g.slug === podgrupa);
+  const cards = CARDS.filter(
+    (c) => (!system || c.system === system.id) && (!group || c.groupSlug === group.slug) && (!subgroup || c.subgroupSlug === subgroup.slug),
+  );
+  const title = subgroup ? subgroup.name : group ? group.name : system ? system.name : "Wszystkie fiszki";
+  const query = new URLSearchParams();
+  if (system) query.set("uklad", system.id);
+  if (group) query.set("grupa", group.slug);
+  if (subgroup) query.set("podgrupa", subgroup.slug);
+  return { system, groups, group, subgroups, subgroup, cards, title, query: query.toString() };
+}
 
 export function groupsOf(system: SystemId) {
   const map = new Map<string, { slug: string; name: string; count: number }>();
