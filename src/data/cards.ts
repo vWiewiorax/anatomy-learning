@@ -1,4 +1,5 @@
 import { BONE_CARDS } from "./bones";
+import { IMAGE_3D } from "./images3d";
 
 export type SystemId = "kostno-stawowy" | "miesniowy";
 
@@ -2163,9 +2164,15 @@ const LEGACY: LegacyCard[] = [
   }
 ];
 
+function with3d(c: Card): Card {
+  const o = IMAGE_3D[c.id];
+  if (!o) return { ...c, credit: c.image ? BP3D_CREDIT : undefined };
+  return { ...c, image: o.image, credit: o.credit === "BP3D" ? BP3D_CREDIT : (o.credit ?? undefined) };
+}
+
 export const CARDS: Card[] = [
-  ...BONE_CARDS.map((c) => ({ ...c, credit: c.image ? BP3D_CREDIT : undefined })),
-  ...LEGACY.filter((c) => c.system === "miesniowy").map((c) => ({ ...c, subgroup: c.group, subgroupSlug: c.groupSlug })),
+  ...BONE_CARDS.map(with3d),
+  ...LEGACY.filter((c) => c.system === "miesniowy").map((c) => with3d({ ...c, subgroup: c.group, subgroupSlug: c.groupSlug })),
 ];
 
 export function subgroupsOf(system: SystemId, groupSlug: string) {

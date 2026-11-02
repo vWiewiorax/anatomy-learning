@@ -8,9 +8,9 @@ export default function Sources() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-2xl font-bold">Źródła ilustracji</h1>
       <p className="mt-2 text-sm text-slate-600 max-w-3xl">
-        Ilustracje układu kostno-stawowego oraz szkielet to rendery modeli 3D z bazy BodyParts3D 4.0 (The Database Center for Life Science, licencja CC BY-SA 2.1 JP), na których zaznaczono struktury na czerwono. Ilustracje mięśni pochodzą z Wikimedia Commons (lista poniżej). Większość to modele 3D z projektu BodyParts3D/Anatomography (DBCLS, licencja
-        CC BY-SA 2.1 JP) oraz ryciny z &quot;Gray&apos;s Anatomy of the Human Body&quot; (domena publiczna). Obrazy zostały przeskalowane
-        i zapisane w formacie WebP.
+        Wszystkie ilustracje to modele 3D z bazy BodyParts3D 4.0 (The Database Center for Life Science, licencja CC BY-SA 2.1 JP). Większość
+        pochodzi z Wikimedia Commons (projekt Anatomography, lista poniżej). Dla struktur, których nie ma tam w wersji 3D, ilustracje oraz szkielet
+        wyrenderowano z tej samej bazy BodyParts3D i zaznaczono na nich strukturę. Obrazy zostały przeskalowane i zapisane w formacie WebP.
       </p>
       <div className="mt-6 overflow-x-auto rounded-xl border border-slate-200 bg-white">
         <table className="w-full text-sm">
@@ -23,7 +23,7 @@ export default function Sources() {
             </tr>
           </thead>
           <tbody>
-            {CARDS.filter((c) => c.system === "miesniowy").map((c) => (
+            {CARDS.filter((c) => c.credit?.page.includes("commons.wikimedia.org")).map((c) => (
               <tr key={c.id} className="border-t border-slate-100 align-top">
                 <td className="px-3 py-2">
                   <span className="italic">{c.latin}</span>
