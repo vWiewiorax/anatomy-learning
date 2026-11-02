@@ -1,53 +1,51 @@
 import Link from "next/link";
-import { SYSTEMS, selectCards, type Selection } from "@/data/cards";
+import ChapterSelect, { type ChapterGroup } from "@/components/ChapterSelect";
+import { SYSTEMS, groupsOf, selectCards, subgroupsOf, type Selection } from "@/data/cards";
 
-const chip = (on: boolean) =>
-  `rounded-full px-3 py-1 text-sm border ${on ? "border-teal-600 text-teal-800 bg-teal-50" : "border-stone-200 text-stone-600 bg-white hover:border-teal-600"}`;
+const seg = (on: boolean) => `rounded-lg px-4 py-2 text-sm font-semibold transition ${on ? "bg-blue-600 text-white shadow-sm" : "text-slate-600 hover:text-blue-700"}`;
 
 export default function DeckNav({ base, sel }: { base: "/nauka" | "/quiz"; sel: Selection }) {
-  const { system, groups, group, subgroups, subgroup, query } = selectCards(sel);
-  const href = (q: Record<string, string>) => `${base}?${new URLSearchParams(q).toString()}`;
-  const other = base === "/nauka" ? "/quiz" : "/nauka";
+  const { system, group, subgroup, query } = selectCards(sel);
+  const href = (b: string, q: Record<string, string>) => `${b}?${new URLSearchParams(q).toString()}`;
+  const sys = system ?? SYSTEMS[0];
+  const groups: ChapterGroup[] = groupsOf(sys.id).map((g) => {
+    const subs = subgroupsOf(sys.id, g.slug);
+    return {
+      label: g.name,
+      options: [
+        { label: `${g.name} - cały dział (${g.count})`, value: href(base, { uklad: sys.id, grupa: g.slug }) },
+        ...(subs.length > 1 ? subs.map((s) => ({ label: `${s.name} (${s.count})`, value: href(base, { uklad: sys.id, grupa: g.slug, podgrupa: s.slug }) })) : []),
+      ],
+    };
+  });
+  const current = subgroup
+    ? href(base, { uklad: sys.id, grupa: group!.slug, podgrupa: subgroup.slug })
+    : group
+      ? href(base, { uklad: sys.id, grupa: group.slug })
+      : href(base, { uklad: sys.id });
   return (
-    <div className="mb-6 space-y-3">
-      <div className="flex flex-wrap items-center gap-2">
-        {SYSTEMS.map((s) => (
-          <Link
-            key={s.id}
-            href={href({ uklad: s.id })}
-            className={`rounded-lg px-3 py-1.5 text-sm font-medium border ${system?.id === s.id ? "bg-teal-700 border-teal-700 text-white" : "bg-white border-stone-200 text-stone-700 hover:border-teal-600"}`}
-          >
-            {s.name}
+    <div className="mb-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="inline-flex rounded-xl bg-slate-100 p-1">
+          {SYSTEMS.map((s) => (
+            <Link key={s.id} href={href(base, { uklad: s.id })} className={seg(sys.id === s.id)}>
+              {s.id === "kostno-stawowy" ? "Kości i stawy" : "Mięśnie"}
+            </Link>
+          ))}
+        </div>
+        <div className="inline-flex rounded-xl bg-slate-100 p-1">
+          <Link href={`/nauka?${query}`} className={seg(base === "/nauka")}>
+            Fiszki
           </Link>
-        ))}
-        <Link href={`${other}?${query}`} className="ml-auto rounded-lg border border-stone-200 bg-white px-3 py-1.5 text-sm text-stone-700 hover:border-teal-600">
-          {base === "/nauka" ? "Quiz z tego zestawu" : "Fiszki z tego zestawu"}
-        </Link>
+          <Link href={`/quiz?${query}`} className={seg(base === "/quiz")}>
+            Quiz
+          </Link>
+        </div>
       </div>
-      {system && (
-        <div className="flex flex-wrap gap-2">
-          <Link href={href({ uklad: system.id })} className={chip(!group)}>
-            Cały układ
-          </Link>
-          {groups.map((g) => (
-            <Link key={g.slug} href={href({ uklad: system.id, grupa: g.slug })} className={chip(group?.slug === g.slug)}>
-              {g.name} <span className="text-stone-400">{g.count}</span>
-            </Link>
-          ))}
-        </div>
-      )}
-      {system && group && subgroups.length > 1 && (
-        <div className="flex flex-wrap gap-2 border-l-2 border-teal-200 pl-3">
-          <Link href={href({ uklad: system.id, grupa: group.slug })} className={chip(!subgroup)}>
-            Wszystko: {group.name}
-          </Link>
-          {subgroups.map((g) => (
-            <Link key={g.slug} href={href({ uklad: system.id, grupa: group.slug, podgrupa: g.slug })} className={chip(subgroup?.slug === g.slug)}>
-              {g.name} <span className="text-stone-400">{g.count}</span>
-            </Link>
-          ))}
-        </div>
-      )}
+      <div className="mt-4">
+        <p className="mb-1.5 text-xs font-semibold uppercase tracking-wider text-slate-400">{sys.id === "kostno-stawowy" ? "Rozdział" : "Grupa mięśni"}</p>
+        <ChapterSelect value={current} top={[{ label: `Cały układ (${selectCards({ uklad: sys.id }).cards.length})`, value: href(base, { uklad: sys.id }) }]} groups={groups} />
+      </div>
     </div>
   );
 }

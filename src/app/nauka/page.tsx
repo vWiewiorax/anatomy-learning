@@ -9,7 +9,7 @@ export default async function StudyPage({ searchParams }: { searchParams: Promis
   const sel = await searchParams;
   const { cards, title, query } = selectCards(sel);
   return (
-    <div className="mx-auto max-w-5xl px-4 py-6">
+    <div className="mx-auto max-w-6xl px-4 py-6">
       <DeckNav base="/nauka" sel={sel} />
       <Flashcards key={query} cards={cards} title={title} />
     </div>

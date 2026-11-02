@@ -101,19 +101,19 @@ export default function SkeletonExplorer() {
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
       <div>
         <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
-          <div className="inline-flex rounded-lg border border-stone-200 bg-white p-1">
+          <div className="inline-flex rounded-lg border border-slate-200 bg-white p-1">
             {(["front", "back"] as const).map((v) => (
-              <button key={v} onClick={() => setView(v)} className={`rounded-md px-4 py-1.5 ${view === v ? "bg-teal-700 text-white" : "text-stone-600"}`}>
+              <button key={v} onClick={() => setView(v)} className={`rounded-md px-4 py-1.5 ${view === v ? "bg-blue-700 text-white" : "text-slate-600"}`}>
                 {v === "front" ? "Widok z przodu" : "Widok z tyłu"}
               </button>
             ))}
           </div>
-          <label className="inline-flex items-center gap-2 text-stone-600">
+          <label className="inline-flex items-center gap-2 text-slate-600">
             Powiększenie
-            <input type="range" min={1} max={3} step={0.5} value={zoom} onChange={(e) => setZoom(Number(e.target.value))} className="accent-teal-700" />
+            <input type="range" min={1} max={3} step={0.5} value={zoom} onChange={(e) => setZoom(Number(e.target.value))} className="accent-blue-700" />
           </label>
         </div>
-        <div className="h-[75vh] overflow-auto rounded-2xl border border-stone-200 bg-white">
+        <div className="h-[75vh] overflow-auto rounded-2xl border border-slate-200 bg-white">
           <div
             className="relative mx-auto cursor-crosshair"
             style={{ height: `calc(75vh * ${zoom} - 4px)`, aspectRatio: `${W} / ${H}` }}
@@ -132,7 +132,7 @@ export default function SkeletonExplorer() {
             <canvas ref={overlay} width={W} height={H} className="absolute inset-0 h-full w-full" />
           </div>
         </div>
-        <p className="mt-2 text-xs text-stone-500 min-h-4">{hover ? `${hover.polish} - ${hover.latin}${hover.side ? ` (strona ${hover.side})` : ""}` : "Najedź lub kliknij kość. Prawa strona ciała jest w widoku z przodu po lewej."}</p>
+        <p className="mt-2 text-xs text-slate-500 min-h-4">{hover ? `${hover.polish} - ${hover.latin}${hover.side ? ` (strona ${hover.side})` : ""}` : "Najedź lub kliknij kość. Prawa strona ciała jest w widoku z przodu po lewej."}</p>
       </div>
 
       <aside className="space-y-4">
@@ -141,20 +141,20 @@ export default function SkeletonExplorer() {
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Szukaj po polsku lub po łacinie, np. kręg, femur, wyrostek"
-            className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm outline-none focus:border-teal-600"
+            className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm outline-none focus:border-blue-600"
           />
           {(results.bones.length > 0 || results.details.length > 0) && (
-            <div className="mt-2 max-h-80 overflow-auto rounded-lg border border-stone-200 bg-white text-sm">
+            <div className="mt-2 max-h-80 overflow-auto rounded-lg border border-slate-200 bg-white text-sm">
               {results.bones.map((b) => (
-                <button key={b.id} onClick={() => pickBone(b.id)} className="block w-full border-b border-stone-100 px-3 py-2 text-left hover:bg-teal-50">
-                  {b.polish} {b.side && <span className="text-stone-400">({b.side})</span>}
-                  <span className="block text-xs italic text-stone-500">{b.latin}</span>
+                <button key={b.id} onClick={() => pickBone(b.id)} className="block w-full border-b border-slate-100 px-3 py-2 text-left hover:bg-blue-50">
+                  {b.polish} {b.side && <span className="text-slate-400">({b.side})</span>}
+                  <span className="block text-xs italic text-slate-500">{b.latin}</span>
                 </button>
               ))}
               {results.details.map((c) => (
-                <button key={c.id} onClick={() => setDetail(c)} className="block w-full border-b border-stone-100 px-3 py-2 text-left hover:bg-teal-50">
-                  {c.polish} <span className="text-stone-400">- {c.subgroup}</span>
-                  <span className="block text-xs italic text-stone-500">{c.latin}</span>
+                <button key={c.id} onClick={() => setDetail(c)} className="block w-full border-b border-slate-100 px-3 py-2 text-left hover:bg-blue-50">
+                  {c.polish} <span className="text-slate-400">- {c.subgroup}</span>
+                  <span className="block text-xs italic text-slate-500">{c.latin}</span>
                 </button>
               ))}
             </div>
@@ -162,49 +162,49 @@ export default function SkeletonExplorer() {
         </div>
 
         {detail ? (
-          <div className="rounded-2xl border border-stone-200 bg-white overflow-hidden">
+          <div className="rounded-2xl border border-slate-200 bg-white overflow-hidden">
             <div className="relative h-72">
               <Image src={detail.image!} alt={detail.latin} fill sizes="380px" className="object-contain p-2" />
             </div>
-            <div className="border-t border-stone-100 p-4">
+            <div className="border-t border-slate-100 p-4">
               <p className="text-lg font-semibold">{detail.polish}</p>
-              <p className="italic text-stone-600">{detail.latin}</p>
-              <p className="mt-1 text-xs text-stone-500">
+              <p className="italic text-slate-600">{detail.latin}</p>
+              <p className="mt-1 text-xs text-slate-500">
                 {detail.group} - {detail.subgroup}
               </p>
-              <button onClick={() => setDetail(null)} className="mt-3 text-sm text-teal-800 underline">
+              <button onClick={() => setDetail(null)} className="mt-3 text-sm text-blue-800 underline">
                 Wróć
               </button>
             </div>
           </div>
         ) : bone ? (
-          <div className="rounded-2xl border border-stone-200 bg-white p-4">
-            <p className="text-xs uppercase tracking-wider text-stone-400">Zaznaczona kość {bone.side ? `(strona ${bone.side})` : ""}</p>
+          <div className="rounded-2xl border border-slate-200 bg-white p-4">
+            <p className="text-xs uppercase tracking-wider text-slate-400">Zaznaczona kość {bone.side ? `(strona ${bone.side})` : ""}</p>
             <p className="text-xl font-semibold">{bone.polish}</p>
-            <p className="italic text-stone-600">{bone.latin}</p>
+            <p className="italic text-slate-600">{bone.latin}</p>
             <div className="mt-3 flex gap-2 text-sm">
-              <Link href={`/nauka?uklad=kostno-stawowy&grupa=${bone.groupSlug}&podgrupa=${bone.subgroupSlug}`} className="rounded-lg bg-teal-700 px-3 py-1.5 text-white hover:bg-teal-800">
+              <Link href={`/nauka?uklad=kostno-stawowy&grupa=${bone.groupSlug}&podgrupa=${bone.subgroupSlug}`} className="rounded-lg bg-blue-700 px-3 py-1.5 text-white hover:bg-blue-800">
                 Fiszki
               </Link>
-              <Link href={`/quiz?uklad=kostno-stawowy&grupa=${bone.groupSlug}&podgrupa=${bone.subgroupSlug}`} className="rounded-lg border border-stone-200 px-3 py-1.5 hover:border-teal-600">
+              <Link href={`/quiz?uklad=kostno-stawowy&grupa=${bone.groupSlug}&podgrupa=${bone.subgroupSlug}`} className="rounded-lg border border-slate-200 px-3 py-1.5 hover:border-blue-600">
                 Quiz
               </Link>
             </div>
             {related.length > 0 && (
               <div className="mt-4 grid grid-cols-3 gap-2">
                 {related.slice(0, 18).map((c) => (
-                  <button key={c.id} onClick={() => setDetail(c)} className="rounded-lg border border-stone-100 p-1 text-left hover:border-teal-600" title={`${c.polish} - ${c.latin}`}>
+                  <button key={c.id} onClick={() => setDetail(c)} className="rounded-lg border border-slate-100 p-1 text-left hover:border-blue-600" title={`${c.polish} - ${c.latin}`}>
                     <span className="relative block aspect-square">
                       <Image src={c.image!} alt="" fill sizes="120px" className="object-contain" />
                     </span>
-                    <span className="block truncate text-[11px] text-stone-600">{c.polish}</span>
+                    <span className="block truncate text-[11px] text-slate-600">{c.polish}</span>
                   </button>
                 ))}
               </div>
             )}
           </div>
         ) : (
-          <p className="rounded-2xl border border-dashed border-stone-300 bg-white p-4 text-sm text-stone-600">
+          <p className="rounded-2xl border border-dashed border-slate-300 bg-white p-4 text-sm text-slate-600">
             Kliknij kość na szkielecie albo wyszukaj nazwę. Zobaczysz nazwę po polsku i po łacinie oraz szczegóły tej części (wyrostki, łuki, kłykcie) podświetlone na modelu.
           </p>
         )}

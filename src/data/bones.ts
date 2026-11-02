@@ -9,41 +9,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
-  "image": null
- },
- {
-  "id": "p-narzad-ruchu-i-szkielet-1",
-  "latin": "Systema skeletale",
-  "polish": "Układ szkieletowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
-  "image": null
- },
- {
-  "id": "p-narzad-ruchu-i-szkielet-2",
-  "latin": "Skeleton axiale",
-  "polish": "Szkielet osiowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
-  "image": null
- },
- {
-  "id": "p-narzad-ruchu-i-szkielet-3",
-  "latin": "Skeleton appendiculare",
-  "polish": "Szkielet kończyn",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -53,8 +20,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -64,8 +31,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -75,8 +42,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -86,8 +53,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -97,8 +64,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -108,8 +75,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -119,8 +86,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -130,8 +97,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
@@ -141,173 +108,41 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Narząd ruchu i szkielet",
-  "subgroupSlug": "narzad-ruchu-i-szkielet",
+  "subgroup": "1. Narząd ruchu - wprowadzenie, klasyfikacja i budowa",
+  "subgroupSlug": "rozdzial-1",
   "image": null
  },
  {
-  "id": "p-budowa-kosci-i-unaczynienie-0",
-  "latin": "Diaphysis",
-  "polish": "Trzon kości",
+  "id": "p-narzad-ruchu-i-szkielet-1",
+  "latin": "Systema skeletale",
+  "polish": "Układ szkieletowy",
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
+  "subgroup": "2. Szkielet ludzki",
+  "subgroupSlug": "rozdzial-2",
   "image": null
  },
  {
-  "id": "p-budowa-kosci-i-unaczynienie-1",
-  "latin": "Epiphysis",
-  "polish": "Nasada",
+  "id": "p-narzad-ruchu-i-szkielet-2",
+  "latin": "Skeleton axiale",
+  "polish": "Szkielet osiowy",
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
+  "subgroup": "2. Szkielet ludzki",
+  "subgroupSlug": "rozdzial-2",
   "image": null
  },
  {
-  "id": "p-budowa-kosci-i-unaczynienie-2",
-  "latin": "Metaphysis",
-  "polish": "Przynasada",
+  "id": "p-narzad-ruchu-i-szkielet-3",
+  "latin": "Skeleton appendiculare",
+  "polish": "Szkielet kończyn",
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-3",
-  "latin": "Periosteum",
-  "polish": "Okostna",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-4",
-  "latin": "Endosteum",
-  "polish": "Śródkostna",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-5",
-  "latin": "Cavitas medullaris",
-  "polish": "Jama szpikowa",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-6",
-  "latin": "Medulla ossium rubra",
-  "polish": "Szpik kostny czerwony",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-7",
-  "latin": "Medulla ossium flava",
-  "polish": "Szpik kostny żółty",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-8",
-  "latin": "Substantia compacta",
-  "polish": "Istota zbita",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-9",
-  "latin": "Substantia spongiosa",
-  "polish": "Istota gąbczasta",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-10",
-  "latin": "Cartilago articularis",
-  "polish": "Chrząstka stawowa",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-11",
-  "latin": "Lamina epiphysialis",
-  "polish": "Chrząstka nasadowa (płytka wzrostowa)",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-12",
-  "latin": "Foramen nutricium",
-  "polish": "Otwór odżywczy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-13",
-  "latin": "Canalis nutricius",
-  "polish": "Kanał odżywczy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
-  "image": null
- },
- {
-  "id": "p-budowa-kosci-i-unaczynienie-14",
-  "latin": "Arteria nutricia",
-  "polish": "Tętnica odżywcza",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Budowa kości i unaczynienie",
-  "subgroupSlug": "budowa-kosci-i-unaczynienie",
+  "subgroup": "2. Szkielet ludzki",
+  "subgroupSlug": "rozdzial-2",
   "image": null
  },
  {
@@ -317,8 +152,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -328,8 +163,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -339,8 +174,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -350,8 +185,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -361,8 +196,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -372,8 +207,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -383,8 +218,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -394,8 +229,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -405,8 +240,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -416,8 +251,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -427,8 +262,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -438,8 +273,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -449,8 +284,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -460,8 +295,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -471,8 +306,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -482,8 +317,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -493,8 +328,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -504,8 +339,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -515,8 +350,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
   "image": null
  },
  {
@@ -526,8 +361,173 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Elementy budowy zewnętrznej kości",
-  "subgroupSlug": "elementy-budowy-zewnetrznej-kosci",
+  "subgroup": "3. Elementy budowy zewnętrznej kości",
+  "subgroupSlug": "rozdzial-3",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-12",
+  "latin": "Foramen nutricium",
+  "polish": "Otwór odżywczy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "4. Unaczynienie kości",
+  "subgroupSlug": "rozdzial-4",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-13",
+  "latin": "Canalis nutricius",
+  "polish": "Kanał odżywczy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "4. Unaczynienie kości",
+  "subgroupSlug": "rozdzial-4",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-14",
+  "latin": "Arteria nutricia",
+  "polish": "Tętnica odżywcza",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "4. Unaczynienie kości",
+  "subgroupSlug": "rozdzial-4",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-0",
+  "latin": "Diaphysis",
+  "polish": "Trzon kości",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-1",
+  "latin": "Epiphysis",
+  "polish": "Nasada",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-2",
+  "latin": "Metaphysis",
+  "polish": "Przynasada",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-3",
+  "latin": "Periosteum",
+  "polish": "Okostna",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-4",
+  "latin": "Endosteum",
+  "polish": "Śródkostna",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-5",
+  "latin": "Cavitas medullaris",
+  "polish": "Jama szpikowa",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-6",
+  "latin": "Medulla ossium rubra",
+  "polish": "Szpik kostny czerwony",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-7",
+  "latin": "Medulla ossium flava",
+  "polish": "Szpik kostny żółty",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-8",
+  "latin": "Substantia compacta",
+  "polish": "Istota zbita",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-9",
+  "latin": "Substantia spongiosa",
+  "polish": "Istota gąbczasta",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-10",
+  "latin": "Cartilago articularis",
+  "polish": "Chrząstka stawowa",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
+  "image": null
+ },
+ {
+  "id": "p-budowa-kosci-i-unaczynienie-11",
+  "latin": "Lamina epiphysialis",
+  "polish": "Chrząstka nasadowa (płytka wzrostowa)",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "5. Budowa kości długiej",
+  "subgroupSlug": "rozdzial-5",
   "image": null
  },
  {
@@ -537,8 +537,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -548,8 +548,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -559,8 +559,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -570,8 +570,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -581,8 +581,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -592,8 +592,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -603,8 +603,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -614,8 +614,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -625,8 +625,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -636,8 +636,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -647,8 +647,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -658,8 +658,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -669,8 +669,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -680,8 +680,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -691,8 +691,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -702,8 +702,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -713,8 +713,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -724,8 +724,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -735,129 +735,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Połączenia kości",
-  "subgroupSlug": "polaczenia-kosci",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-0",
-  "latin": "Articulatio simplex",
-  "polish": "Staw prosty",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-1",
-  "latin": "Articulatio composita",
-  "polish": "Staw złożony",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-2",
-  "latin": "Articulatio spheroidea",
-  "polish": "Staw kulisty",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-3",
-  "latin": "Articulatio cotylica",
-  "polish": "Staw kulisty panewkowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-4",
-  "latin": "Ginglymus",
-  "polish": "Staw zawiasowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-5",
-  "latin": "Articulatio trochoidea",
-  "polish": "Staw obrotowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-6",
-  "latin": "Articulatio ellipsoidea",
-  "polish": "Staw eliptyczny",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-7",
-  "latin": "Articulatio sellaris",
-  "polish": "Staw siodełkowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-8",
-  "latin": "Articulatio plana",
-  "polish": "Staw płaski",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-9",
-  "latin": "Articulatio bicondylaris",
-  "polish": "Staw dwukłykciowy",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
-  "image": null
- },
- {
-  "id": "p-podzial-stawow-10",
-  "latin": "Amphiarthrosis",
-  "polish": "Staw półścisły",
-  "system": "kostno-stawowy",
-  "group": "Podstawy",
-  "groupSlug": "podstawy",
-  "subgroup": "Podział stawów",
-  "subgroupSlug": "podzial-stawow",
+  "subgroup": "6. Układ kostno-stawowy - podział morfologiczny i czynnościowy",
+  "subgroupSlug": "rozdzial-6",
   "image": null
  },
  {
@@ -867,8 +746,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -878,8 +757,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -889,8 +768,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -900,8 +779,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -911,8 +790,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -922,8 +801,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -933,8 +812,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
   "image": null
  },
  {
@@ -944,8 +823,129 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Staw biodrowy - budowa",
-  "subgroupSlug": "staw-biodrowy-budowa",
+  "subgroup": "7. Budowa stawu biodrowego - przykład stawu kulistego panewkowego",
+  "subgroupSlug": "rozdzial-7",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-0",
+  "latin": "Articulatio simplex",
+  "polish": "Staw prosty",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-1",
+  "latin": "Articulatio composita",
+  "polish": "Staw złożony",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-2",
+  "latin": "Articulatio spheroidea",
+  "polish": "Staw kulisty",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-3",
+  "latin": "Articulatio cotylica",
+  "polish": "Staw kulisty panewkowy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-4",
+  "latin": "Ginglymus",
+  "polish": "Staw zawiasowy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-5",
+  "latin": "Articulatio trochoidea",
+  "polish": "Staw obrotowy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-6",
+  "latin": "Articulatio ellipsoidea",
+  "polish": "Staw eliptyczny",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-7",
+  "latin": "Articulatio sellaris",
+  "polish": "Staw siodełkowy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-8",
+  "latin": "Articulatio plana",
+  "polish": "Staw płaski",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-9",
+  "latin": "Articulatio bicondylaris",
+  "polish": "Staw dwukłykciowy",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
+  "image": null
+ },
+ {
+  "id": "p-podzial-stawow-10",
+  "latin": "Amphiarthrosis",
+  "polish": "Staw półścisły",
+  "system": "kostno-stawowy",
+  "group": "Podstawy",
+  "groupSlug": "podstawy",
+  "subgroup": "8. Podział stawów",
+  "subgroupSlug": "rozdzial-8",
   "image": null
  },
  {
@@ -955,8 +955,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -966,8 +966,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -977,8 +977,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -988,8 +988,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -999,8 +999,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1010,8 +1010,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1021,8 +1021,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1032,8 +1032,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1043,8 +1043,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1054,8 +1054,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1065,8 +1065,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1076,8 +1076,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1087,8 +1087,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1098,8 +1098,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1109,8 +1109,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1120,8 +1120,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
  },
  {
@@ -1131,295 +1131,9 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Podstawy",
   "groupSlug": "podstawy",
-  "subgroup": "Ruchy w stawach",
-  "subgroupSlug": "ruchy-w-stawach",
+  "subgroup": "9-10. Ruchy i stawy, przykłady ruchów w stawach",
+  "subgroupSlug": "rozdzial-9-10",
   "image": null
- },
- {
-  "id": "b-frontal-bone",
-  "latin": "Os frontale",
-  "polish": "Kość czołowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-frontal-bone.webp"
- },
- {
-  "id": "b-occipital-bone",
-  "latin": "Os occipitale",
-  "polish": "Kość potyliczna",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-occipital-bone.webp"
- },
- {
-  "id": "b-sphenoid-bone",
-  "latin": "Os sphenoidale",
-  "polish": "Kość klinowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-sphenoid-bone.webp"
- },
- {
-  "id": "b-temporal-bone",
-  "latin": "Os temporale",
-  "polish": "Kość skroniowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-temporal-bone.webp"
- },
- {
-  "id": "b-parietal-bone",
-  "latin": "Os parietale",
-  "polish": "Kość ciemieniowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-parietal-bone.webp"
- },
- {
-  "id": "b-ethmoid",
-  "latin": "Os ethmoidale",
-  "polish": "Kość sitowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-ethmoid.webp"
- },
- {
-  "id": "b-maxilla",
-  "latin": "Maxilla",
-  "polish": "Szczęka",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-maxilla.webp"
- },
- {
-  "id": "b-mandible",
-  "latin": "Mandibula",
-  "polish": "Żuchwa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-mandible.webp"
- },
- {
-  "id": "b-zygomatic-bone",
-  "latin": "Os zygomaticum",
-  "polish": "Kość jarzmowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-zygomatic-bone.webp"
- },
- {
-  "id": "b-nasal-bone",
-  "latin": "Os nasale",
-  "polish": "Kość nosowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-nasal-bone.webp"
- },
- {
-  "id": "b-lacrimal-bone",
-  "latin": "Os lacrimale",
-  "polish": "Kość łzowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-lacrimal-bone.webp"
- },
- {
-  "id": "b-palatine-bone",
-  "latin": "Os palatinum",
-  "polish": "Kość podniebienna",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-palatine-bone.webp"
- },
- {
-  "id": "b-vomer",
-  "latin": "Vomer",
-  "polish": "Lemiesz",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-vomer.webp"
- },
- {
-  "id": "b-inferior-nasal-concha",
-  "latin": "Concha nasalis inferior",
-  "polish": "Małżowina nosowa dolna",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Kości czaszki",
-  "subgroupSlug": "kosci-czaszki",
-  "image": "/anat/b-inferior-nasal-concha.webp"
- },
- {
-  "id": "sk-orbita",
-  "latin": "Orbita",
-  "polish": "Oczodół",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-orbita.webp"
- },
- {
-  "id": "sk-mast",
-  "latin": "Processus mastoideus",
-  "polish": "Wyrostek sutkowaty",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-mast.webp"
- },
- {
-  "id": "sk-meat",
-  "latin": "Porus acusticus externus",
-  "polish": "Otwór słuchowy zewnętrzny",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-meat.webp"
- },
- {
-  "id": "sk-zygarc",
-  "latin": "Arcus zygomaticus",
-  "polish": "Łuk jarzmowy",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-zygarc.webp"
- },
- {
-  "id": "sk-ftemp",
-  "latin": "Fossa temporalis",
-  "polish": "Dół skroniowy",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-ftemp.webp"
- },
- {
-  "id": "sk-condocc",
-  "latin": "Condyli occipitales",
-  "polish": "Kłykcie potyliczne",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-condocc.webp"
- },
- {
-  "id": "sk-fcant",
-  "latin": "Fossa cranii anterior",
-  "polish": "Dół przedni czaszki",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-fcant.webp"
- },
- {
-  "id": "sk-fcmed",
-  "latin": "Fossa cranii media",
-  "polish": "Dół środkowy czaszki",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-fcmed.webp"
- },
- {
-  "id": "sk-fcpost",
-  "latin": "Fossa cranii posterior",
-  "polish": "Dół tylny czaszki",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-fcpost.webp"
- },
- {
-  "id": "sk-sella",
-  "latin": "Sella turcica",
-  "polish": "Siodło tureckie",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-sella.webp"
- },
- {
-  "id": "sk-cribr",
-  "latin": "Lamina cribrosa",
-  "polish": "Blaszka sitowa",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-cribr.webp"
- },
- {
-  "id": "sk-fmagin",
-  "latin": "Foramen magnum",
-  "polish": "Otwór wielki",
-  "system": "kostno-stawowy",
-  "group": "Czaszka",
-  "groupSlug": "czaszka",
-  "subgroup": "Czaszka - szczegóły",
-  "subgroupSlug": "czaszka-szczegoly",
-  "image": "/anat/sk-fmagin.webp"
  },
  {
   "id": "ma-condyl",
@@ -1428,8 +1142,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Żuchwa",
-  "subgroupSlug": "zuchwa",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
   "image": "/anat/ma-condyl.webp"
  },
  {
@@ -1439,8 +1153,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Żuchwa",
-  "subgroupSlug": "zuchwa",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
   "image": "/anat/ma-coron.webp"
  },
  {
@@ -1450,8 +1164,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Żuchwa",
-  "subgroupSlug": "zuchwa",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
   "image": "/anat/ma-ramus.webp"
  },
  {
@@ -1461,8 +1175,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Żuchwa",
-  "subgroupSlug": "zuchwa",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
   "image": "/anat/ma-corpus.webp"
  },
  {
@@ -1472,9 +1186,295 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Żuchwa",
-  "subgroupSlug": "zuchwa",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
   "image": "/anat/ma-fment.webp"
+ },
+ {
+  "id": "b-frontal-bone",
+  "latin": "Os frontale",
+  "polish": "Kość czołowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-frontal-bone.webp"
+ },
+ {
+  "id": "b-occipital-bone",
+  "latin": "Os occipitale",
+  "polish": "Kość potyliczna",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-occipital-bone.webp"
+ },
+ {
+  "id": "b-sphenoid-bone",
+  "latin": "Os sphenoidale",
+  "polish": "Kość klinowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-sphenoid-bone.webp"
+ },
+ {
+  "id": "b-temporal-bone",
+  "latin": "Os temporale",
+  "polish": "Kość skroniowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-temporal-bone.webp"
+ },
+ {
+  "id": "b-parietal-bone",
+  "latin": "Os parietale",
+  "polish": "Kość ciemieniowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-parietal-bone.webp"
+ },
+ {
+  "id": "b-ethmoid",
+  "latin": "Os ethmoidale",
+  "polish": "Kość sitowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-ethmoid.webp"
+ },
+ {
+  "id": "b-maxilla",
+  "latin": "Maxilla",
+  "polish": "Szczęka",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-maxilla.webp"
+ },
+ {
+  "id": "b-mandible",
+  "latin": "Mandibula",
+  "polish": "Żuchwa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-mandible.webp"
+ },
+ {
+  "id": "b-zygomatic-bone",
+  "latin": "Os zygomaticum",
+  "polish": "Kość jarzmowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-zygomatic-bone.webp"
+ },
+ {
+  "id": "b-nasal-bone",
+  "latin": "Os nasale",
+  "polish": "Kość nosowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-nasal-bone.webp"
+ },
+ {
+  "id": "b-lacrimal-bone",
+  "latin": "Os lacrimale",
+  "polish": "Kość łzowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-lacrimal-bone.webp"
+ },
+ {
+  "id": "b-palatine-bone",
+  "latin": "Os palatinum",
+  "polish": "Kość podniebienna",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-palatine-bone.webp"
+ },
+ {
+  "id": "b-vomer",
+  "latin": "Vomer",
+  "polish": "Lemiesz",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-vomer.webp"
+ },
+ {
+  "id": "b-inferior-nasal-concha",
+  "latin": "Concha nasalis inferior",
+  "polish": "Małżowina nosowa dolna",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "11. Kości czaszki",
+  "subgroupSlug": "rozdzial-11",
+  "image": "/anat/b-inferior-nasal-concha.webp"
+ },
+ {
+  "id": "sk-orbita",
+  "latin": "Orbita",
+  "polish": "Oczodół",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "12. Kości czaszki - widok z przodu i z tyłu",
+  "subgroupSlug": "rozdzial-12",
+  "image": "/anat/sk-orbita.webp"
+ },
+ {
+  "id": "sk-mast",
+  "latin": "Processus mastoideus",
+  "polish": "Wyrostek sutkowaty",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "12. Kości czaszki - widok z przodu i z tyłu",
+  "subgroupSlug": "rozdzial-12",
+  "image": "/anat/sk-mast.webp"
+ },
+ {
+  "id": "sk-meat",
+  "latin": "Porus acusticus externus",
+  "polish": "Otwór słuchowy zewnętrzny",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "12. Kości czaszki - widok z przodu i z tyłu",
+  "subgroupSlug": "rozdzial-12",
+  "image": "/anat/sk-meat.webp"
+ },
+ {
+  "id": "sk-zygarc",
+  "latin": "Arcus zygomaticus",
+  "polish": "Łuk jarzmowy",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "12. Kości czaszki - widok z przodu i z tyłu",
+  "subgroupSlug": "rozdzial-12",
+  "image": "/anat/sk-zygarc.webp"
+ },
+ {
+  "id": "sk-ftemp",
+  "latin": "Fossa temporalis",
+  "polish": "Dół skroniowy",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "12. Kości czaszki - widok z przodu i z tyłu",
+  "subgroupSlug": "rozdzial-12",
+  "image": "/anat/sk-ftemp.webp"
+ },
+ {
+  "id": "sk-condocc",
+  "latin": "Condyli occipitales",
+  "polish": "Kłykcie potyliczne",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "14. Podstawa czaszki widziana od dołu",
+  "subgroupSlug": "rozdzial-14",
+  "image": "/anat/sk-condocc.webp"
+ },
+ {
+  "id": "sk-fmagin",
+  "latin": "Foramen magnum",
+  "polish": "Otwór wielki",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "14. Podstawa czaszki widziana od dołu",
+  "subgroupSlug": "rozdzial-14",
+  "image": "/anat/sk-fmagin.webp"
+ },
+ {
+  "id": "sk-fcant",
+  "latin": "Fossa cranii anterior",
+  "polish": "Dół przedni czaszki",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "15. Wnętrze czaszki - widok z góry",
+  "subgroupSlug": "rozdzial-15",
+  "image": "/anat/sk-fcant.webp"
+ },
+ {
+  "id": "sk-fcmed",
+  "latin": "Fossa cranii media",
+  "polish": "Dół środkowy czaszki",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "15. Wnętrze czaszki - widok z góry",
+  "subgroupSlug": "rozdzial-15",
+  "image": "/anat/sk-fcmed.webp"
+ },
+ {
+  "id": "sk-fcpost",
+  "latin": "Fossa cranii posterior",
+  "polish": "Dół tylny czaszki",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "15. Wnętrze czaszki - widok z góry",
+  "subgroupSlug": "rozdzial-15",
+  "image": "/anat/sk-fcpost.webp"
+ },
+ {
+  "id": "sk-sella",
+  "latin": "Sella turcica",
+  "polish": "Siodło tureckie",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "15. Wnętrze czaszki - widok z góry",
+  "subgroupSlug": "rozdzial-15",
+  "image": "/anat/sk-sella.webp"
+ },
+ {
+  "id": "sk-cribr",
+  "latin": "Lamina cribrosa",
+  "polish": "Blaszka sitowa",
+  "system": "kostno-stawowy",
+  "group": "Czaszka",
+  "groupSlug": "czaszka",
+  "subgroup": "15. Wnętrze czaszki - widok z góry",
+  "subgroupSlug": "rozdzial-15",
+  "image": "/anat/sk-cribr.webp"
  },
  {
   "id": "sk-sutcor",
@@ -1483,8 +1483,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Połączenia czaszki",
-  "subgroupSlug": "polaczenia-czaszki",
+  "subgroup": "16. Połączenia kości czaszki",
+  "subgroupSlug": "rozdzial-16",
   "image": "/anat/sk-sutcor.webp"
  },
  {
@@ -1494,8 +1494,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Połączenia czaszki",
-  "subgroupSlug": "polaczenia-czaszki",
+  "subgroup": "16. Połączenia kości czaszki",
+  "subgroupSlug": "rozdzial-16",
   "image": "/anat/sk-sutsag.webp"
  },
  {
@@ -1505,8 +1505,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Połączenia czaszki",
-  "subgroupSlug": "polaczenia-czaszki",
+  "subgroup": "16. Połączenia kości czaszki",
+  "subgroupSlug": "rozdzial-16",
   "image": "/anat/sk-sutlam.webp"
  },
  {
@@ -1516,8 +1516,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Połączenia czaszki",
-  "subgroupSlug": "polaczenia-czaszki",
+  "subgroup": "16. Połączenia kości czaszki",
+  "subgroupSlug": "rozdzial-16",
   "image": "/anat/sk-sutsq.webp"
  },
  {
@@ -1527,8 +1527,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Czaszka",
   "groupSlug": "czaszka",
-  "subgroup": "Połączenia czaszki",
-  "subgroupSlug": "polaczenia-czaszki",
+  "subgroup": "16. Połączenia kości czaszki",
+  "subgroupSlug": "rozdzial-16",
   "image": "/anat/j-tmj.webp"
  },
  {
@@ -1538,8 +1538,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-atlas.webp"
  },
  {
@@ -1549,8 +1549,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-axis.webp"
  },
  {
@@ -1560,8 +1560,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-third-cervical-vertebra.webp"
  },
  {
@@ -1571,8 +1571,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-fourth-cervical-vertebra.webp"
  },
  {
@@ -1582,8 +1582,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-fifth-cervical-vertebra.webp"
  },
  {
@@ -1593,8 +1593,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-sixth-cervical-vertebra.webp"
  },
  {
@@ -1604,8 +1604,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-seventh-cervical-vertebra.webp"
  },
  {
@@ -1615,8 +1615,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-first-thoracic-vertebra.webp"
  },
  {
@@ -1626,8 +1626,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-second-thoracic-vertebra.webp"
  },
  {
@@ -1637,8 +1637,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-third-thoracic-vertebra.webp"
  },
  {
@@ -1648,8 +1648,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-fourth-thoracic-vertebra.webp"
  },
  {
@@ -1659,8 +1659,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-fifth-thoracic-vertebra.webp"
  },
  {
@@ -1670,8 +1670,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-sixth-thoracic-vertebra.webp"
  },
  {
@@ -1681,8 +1681,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-seventh-thoracic-vertebra.webp"
  },
  {
@@ -1692,8 +1692,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-eighth-thoracic-vertebra.webp"
  },
  {
@@ -1703,8 +1703,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-ninth-thoracic-vertebra.webp"
  },
  {
@@ -1714,8 +1714,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-tenth-thoracic-vertebra.webp"
  },
  {
@@ -1725,8 +1725,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-eleventh-thoracic-vertebra.webp"
  },
  {
@@ -1736,8 +1736,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-twelfth-thoracic-vertebra.webp"
  },
  {
@@ -1747,8 +1747,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-first-lumbar-vertebra.webp"
  },
  {
@@ -1758,8 +1758,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-second-lumbar-vertebra.webp"
  },
  {
@@ -1769,8 +1769,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-third-lumbar-vertebra.webp"
  },
  {
@@ -1780,8 +1780,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-fourth-lumbar-vertebra.webp"
  },
  {
@@ -1791,8 +1791,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-fifth-lumbar-vertebra.webp"
  },
  {
@@ -1802,8 +1802,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręgi - przegląd",
-  "subgroupSlug": "kregi-przeglad",
+  "subgroup": "17-18. Kręgosłup",
+  "subgroupSlug": "rozdzial-17-18",
   "image": "/anat/b-sacrum.webp"
  },
  {
@@ -1813,8 +1813,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-corpus.webp"
  },
  {
@@ -1824,8 +1824,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-fvert.webp"
  },
  {
@@ -1835,8 +1835,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-pedic.webp"
  },
  {
@@ -1846,8 +1846,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-lamina.webp"
  },
  {
@@ -1857,8 +1857,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-arcus.webp"
  },
  {
@@ -1868,8 +1868,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-spin.webp"
  },
  {
@@ -1879,8 +1879,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-transv.webp"
  },
  {
@@ -1890,42 +1890,9 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
+  "subgroup": "19-20. Budowa kręgu, zasadnicze części kręgu",
+  "subgroupSlug": "rozdzial-19-20",
   "image": "/anat/t-artsup.webp"
- },
- {
-  "id": "t-fovtransv",
-  "latin": "Fovea costalis processus transversi",
-  "polish": "Dołek żebrowy wyrostka poprzecznego",
-  "system": "kostno-stawowy",
-  "group": "Kręgosłup",
-  "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
-  "image": "/anat/t-fovtransv.webp"
- },
- {
-  "id": "t-fovsup",
-  "latin": "Fovea costalis superior",
-  "polish": "Dołek żebrowy górny",
-  "system": "kostno-stawowy",
-  "group": "Kręgosłup",
-  "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
-  "image": "/anat/t-fovsup.webp"
- },
- {
-  "id": "t-fovinf",
-  "latin": "Fovea costalis inferior",
-  "polish": "Dołek żebrowy dolny",
-  "system": "kostno-stawowy",
-  "group": "Kręgosłup",
-  "groupSlug": "kregoslup",
-  "subgroup": "Budowa kręgu (kręg piersiowy)",
-  "subgroupSlug": "budowa-kregu-kreg-piersiowy",
-  "image": "/anat/t-fovinf.webp"
  },
  {
   "id": "c-corpus",
@@ -1934,8 +1901,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szyjny",
-  "subgroupSlug": "kreg-szyjny",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/c-corpus.webp"
  },
  {
@@ -1945,8 +1912,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szyjny",
-  "subgroupSlug": "kreg-szyjny",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/c-spin.webp"
  },
  {
@@ -1956,8 +1923,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szyjny",
-  "subgroupSlug": "kreg-szyjny",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/c-transv.webp"
  },
  {
@@ -1967,8 +1934,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szyjny",
-  "subgroupSlug": "kreg-szyjny",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/c-ftransv.webp"
  },
  {
@@ -1978,8 +1945,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szyjny",
-  "subgroupSlug": "kreg-szyjny",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/c-fvert.webp"
  },
  {
@@ -1989,8 +1956,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/ax-dens.webp"
  },
  {
@@ -2000,8 +1967,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/ax-corpus.webp"
  },
  {
@@ -2011,8 +1978,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/ax-fas.webp"
  },
  {
@@ -2022,8 +1989,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/ax-transv.webp"
  },
  {
@@ -2033,8 +2000,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-arcant.webp"
  },
  {
@@ -2044,8 +2011,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-tubant.webp"
  },
  {
@@ -2055,8 +2022,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-arcpost.webp"
  },
  {
@@ -2066,8 +2033,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-tubpost.webp"
  },
  {
@@ -2077,8 +2044,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-massa.webp"
  },
  {
@@ -2088,8 +2055,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-ftransv.webp"
  },
  {
@@ -2099,8 +2066,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-fvert.webp"
  },
  {
@@ -2110,9 +2077,42 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg szczytowy i obrotowy",
-  "subgroupSlug": "kreg-szczytowy-i-obrotowy",
+  "subgroup": "21-22. Kręgi szyjne",
+  "subgroupSlug": "rozdzial-21-22",
   "image": "/anat/at-transv.webp"
+ },
+ {
+  "id": "t-fovtransv",
+  "latin": "Fovea costalis processus transversi",
+  "polish": "Dołek żebrowy wyrostka poprzecznego",
+  "system": "kostno-stawowy",
+  "group": "Kręgosłup",
+  "groupSlug": "kregoslup",
+  "subgroup": "23. Kręgi piersiowe",
+  "subgroupSlug": "rozdzial-23",
+  "image": "/anat/t-fovtransv.webp"
+ },
+ {
+  "id": "t-fovsup",
+  "latin": "Fovea costalis superior",
+  "polish": "Dołek żebrowy górny",
+  "system": "kostno-stawowy",
+  "group": "Kręgosłup",
+  "groupSlug": "kregoslup",
+  "subgroup": "23. Kręgi piersiowe",
+  "subgroupSlug": "rozdzial-23",
+  "image": "/anat/t-fovsup.webp"
+ },
+ {
+  "id": "t-fovinf",
+  "latin": "Fovea costalis inferior",
+  "polish": "Dołek żebrowy dolny",
+  "system": "kostno-stawowy",
+  "group": "Kręgosłup",
+  "groupSlug": "kregoslup",
+  "subgroup": "23. Kręgi piersiowe",
+  "subgroupSlug": "rozdzial-23",
+  "image": "/anat/t-fovinf.webp"
  },
  {
   "id": "l-corpus",
@@ -2121,8 +2121,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-corpus.webp"
  },
  {
@@ -2132,8 +2132,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-fvert.webp"
  },
  {
@@ -2143,8 +2143,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-costal.webp"
  },
  {
@@ -2154,8 +2154,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-spin.webp"
  },
  {
@@ -2165,8 +2165,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-pedic.webp"
  },
  {
@@ -2176,8 +2176,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-lamina.webp"
  },
  {
@@ -2187,8 +2187,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kręg lędźwiowy",
-  "subgroupSlug": "kreg-ledzwiowy",
+  "subgroup": "24. Kręg szyjny, kręg piersiowy, kręg lędźwiowy",
+  "subgroupSlug": "rozdzial-24",
   "image": "/anat/l-artsup.webp"
  },
  {
@@ -2198,8 +2198,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-basis.webp"
  },
  {
@@ -2209,8 +2209,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-promont.webp"
  },
  {
@@ -2220,8 +2220,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-ala.webp"
  },
  {
@@ -2231,8 +2231,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-fsant.webp"
  },
  {
@@ -2242,8 +2242,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-apex.webp"
  },
  {
@@ -2253,8 +2253,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-lintr.webp"
  },
  {
@@ -2264,8 +2264,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-crmed.webp"
  },
  {
@@ -2275,8 +2275,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-fspost.webp"
  },
  {
@@ -2286,8 +2286,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-hiatus.webp"
  },
  {
@@ -2297,8 +2297,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Kość krzyżowa",
-  "subgroupSlug": "kosc-krzyzowa",
+  "subgroup": "25-26. Kość krzyżowa i guziczna",
+  "subgroupSlug": "rozdzial-25-26",
   "image": "/anat/sa-auric.webp"
  },
  {
@@ -2308,8 +2308,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Połączenia kręgosłupa",
-  "subgroupSlug": "polaczenia-kregoslupa",
+  "subgroup": "27-28. Połączenia kręgosłupa",
+  "subgroupSlug": "rozdzial-27-28",
   "image": "/anat/j-intervert.webp"
  },
  {
@@ -2319,8 +2319,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kręgosłup",
   "groupSlug": "kregoslup",
-  "subgroup": "Połączenia kręgosłupa",
-  "subgroupSlug": "polaczenia-kregoslupa",
+  "subgroup": "27-28. Połączenia kręgosłupa",
+  "subgroupSlug": "rozdzial-27-28",
   "image": "/anat/j-atlantoax.webp"
  },
  {
@@ -2330,8 +2330,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-manub.webp"
  },
  {
@@ -2341,8 +2341,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-corpus.webp"
  },
  {
@@ -2352,8 +2352,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-xiph.webp"
  },
  {
@@ -2363,8 +2363,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-incjug.webp"
  },
  {
@@ -2374,8 +2374,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-incclav.webp"
  },
  {
@@ -2385,8 +2385,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-angul.webp"
  },
  {
@@ -2396,207 +2396,9 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/st-synxiph.webp"
- },
- {
-  "id": "g-sternum",
-  "latin": "Sternum",
-  "polish": "Mostek",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Mostek",
-  "subgroupSlug": "mostek",
-  "image": "/anat/g-sternum.webp"
- },
- {
-  "id": "co-caput",
-  "latin": "Caput costae",
-  "polish": "Głowa żebra",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/co-caput.webp"
- },
- {
-  "id": "co-tuberc",
-  "latin": "Tuberculum costae",
-  "polish": "Guzek żebra",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/co-tuberc.webp"
- },
- {
-  "id": "co-collum",
-  "latin": "Collum costae",
-  "polish": "Szyjka żebra",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/co-collum.webp"
- },
- {
-  "id": "co-angul",
-  "latin": "Angulus costae",
-  "polish": "Kąt żebra",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/co-angul.webp"
- },
- {
-  "id": "co-corpus",
-  "latin": "Corpus costae",
-  "polish": "Trzon żebra",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/co-corpus.webp"
- },
- {
-  "id": "b-first-rib",
-  "latin": "Costa I",
-  "polish": "Żebro I",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-first-rib.webp"
- },
- {
-  "id": "b-second-rib",
-  "latin": "Costa II",
-  "polish": "Żebro II",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-second-rib.webp"
- },
- {
-  "id": "b-third-rib",
-  "latin": "Costa III",
-  "polish": "Żebro III",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-third-rib.webp"
- },
- {
-  "id": "b-fourth-rib",
-  "latin": "Costa IV",
-  "polish": "Żebro IV",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-fourth-rib.webp"
- },
- {
-  "id": "b-fifth-rib",
-  "latin": "Costa V",
-  "polish": "Żebro V",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-fifth-rib.webp"
- },
- {
-  "id": "b-sixth-rib",
-  "latin": "Costa VI",
-  "polish": "Żebro VI",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-sixth-rib.webp"
- },
- {
-  "id": "b-seventh-rib",
-  "latin": "Costa VII",
-  "polish": "Żebro VII",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-seventh-rib.webp"
- },
- {
-  "id": "b-eighth-rib",
-  "latin": "Costa VIII",
-  "polish": "Żebro VIII",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-eighth-rib.webp"
- },
- {
-  "id": "b-ninth-rib",
-  "latin": "Costa IX",
-  "polish": "Żebro IX",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-ninth-rib.webp"
- },
- {
-  "id": "b-tenth-rib",
-  "latin": "Costa X",
-  "polish": "Żebro X",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-tenth-rib.webp"
- },
- {
-  "id": "b-eleventh-rib",
-  "latin": "Costa XI",
-  "polish": "Żebro XI",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-eleventh-rib.webp"
- },
- {
-  "id": "b-twelfth-rib",
-  "latin": "Costa XII",
-  "polish": "Żebro XII",
-  "system": "kostno-stawowy",
-  "group": "Klatka piersiowa",
-  "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
-  "image": "/anat/b-twelfth-rib.webp"
  },
  {
   "id": "g-verae",
@@ -2605,8 +2407,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/g-verae.webp"
  },
  {
@@ -2616,8 +2418,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/g-spuriae.webp"
  },
  {
@@ -2627,8 +2429,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/g-fluct.webp"
  },
  {
@@ -2638,9 +2440,207 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Żebra",
-  "subgroupSlug": "zebra",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
   "image": "/anat/g-arcus.webp"
+ },
+ {
+  "id": "g-sternum",
+  "latin": "Sternum",
+  "polish": "Mostek",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "31-32. Szkielet klatki piersiowej",
+  "subgroupSlug": "rozdzial-31-32",
+  "image": "/anat/g-sternum.webp"
+ },
+ {
+  "id": "co-caput",
+  "latin": "Caput costae",
+  "polish": "Głowa żebra",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/co-caput.webp"
+ },
+ {
+  "id": "co-tuberc",
+  "latin": "Tuberculum costae",
+  "polish": "Guzek żebra",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/co-tuberc.webp"
+ },
+ {
+  "id": "co-collum",
+  "latin": "Collum costae",
+  "polish": "Szyjka żebra",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/co-collum.webp"
+ },
+ {
+  "id": "co-angul",
+  "latin": "Angulus costae",
+  "polish": "Kąt żebra",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/co-angul.webp"
+ },
+ {
+  "id": "co-corpus",
+  "latin": "Corpus costae",
+  "polish": "Trzon żebra",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/co-corpus.webp"
+ },
+ {
+  "id": "b-first-rib",
+  "latin": "Costa I",
+  "polish": "Żebro I",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-first-rib.webp"
+ },
+ {
+  "id": "b-second-rib",
+  "latin": "Costa II",
+  "polish": "Żebro II",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-second-rib.webp"
+ },
+ {
+  "id": "b-third-rib",
+  "latin": "Costa III",
+  "polish": "Żebro III",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-third-rib.webp"
+ },
+ {
+  "id": "b-fourth-rib",
+  "latin": "Costa IV",
+  "polish": "Żebro IV",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-fourth-rib.webp"
+ },
+ {
+  "id": "b-fifth-rib",
+  "latin": "Costa V",
+  "polish": "Żebro V",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-fifth-rib.webp"
+ },
+ {
+  "id": "b-sixth-rib",
+  "latin": "Costa VI",
+  "polish": "Żebro VI",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-sixth-rib.webp"
+ },
+ {
+  "id": "b-seventh-rib",
+  "latin": "Costa VII",
+  "polish": "Żebro VII",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-seventh-rib.webp"
+ },
+ {
+  "id": "b-eighth-rib",
+  "latin": "Costa VIII",
+  "polish": "Żebro VIII",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-eighth-rib.webp"
+ },
+ {
+  "id": "b-ninth-rib",
+  "latin": "Costa IX",
+  "polish": "Żebro IX",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-ninth-rib.webp"
+ },
+ {
+  "id": "b-tenth-rib",
+  "latin": "Costa X",
+  "polish": "Żebro X",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-tenth-rib.webp"
+ },
+ {
+  "id": "b-eleventh-rib",
+  "latin": "Costa XI",
+  "polish": "Żebro XI",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-eleventh-rib.webp"
+ },
+ {
+  "id": "b-twelfth-rib",
+  "latin": "Costa XII",
+  "polish": "Żebro XII",
+  "system": "kostno-stawowy",
+  "group": "Klatka piersiowa",
+  "groupSlug": "klatka-piersiowa",
+  "subgroup": "33. Żebra",
+  "subgroupSlug": "rozdzial-33",
+  "image": "/anat/b-twelfth-rib.webp"
  },
  {
   "id": "j-costovert",
@@ -2649,8 +2649,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Połączenia klatki piersiowej",
-  "subgroupSlug": "polaczenia-klatki-piersiowej",
+  "subgroup": "34. Połączenia stawowe klatki piersiowej",
+  "subgroupSlug": "rozdzial-34",
   "image": "/anat/j-costovert.webp"
  },
  {
@@ -2660,8 +2660,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Klatka piersiowa",
   "groupSlug": "klatka-piersiowa",
-  "subgroup": "Połączenia klatki piersiowej",
-  "subgroupSlug": "polaczenia-klatki-piersiowej",
+  "subgroup": "34. Połączenia stawowe klatki piersiowej",
+  "subgroupSlug": "rozdzial-34",
   "image": "/anat/j-sternocost.webp"
  },
  {
@@ -2671,8 +2671,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości kończyny górnej",
-  "subgroupSlug": "kosci-konczyny-gornej",
+  "subgroup": "35. Kości kończyny górnej",
+  "subgroupSlug": "rozdzial-35",
   "image": "/anat/b-clavicle.webp"
  },
  {
@@ -2682,20 +2682,9 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości kończyny górnej",
-  "subgroupSlug": "kosci-konczyny-gornej",
+  "subgroup": "35. Kości kończyny górnej",
+  "subgroupSlug": "rozdzial-35",
   "image": "/anat/b-scapula.webp"
- },
- {
-  "id": "b-humerus",
-  "latin": "Humerus",
-  "polish": "Kość ramienna",
-  "system": "kostno-stawowy",
-  "group": "Kończyna górna",
-  "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości kończyny górnej",
-  "subgroupSlug": "kosci-konczyny-gornej",
-  "image": "/anat/b-humerus.webp"
  },
  {
   "id": "b-radius",
@@ -2704,8 +2693,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości kończyny górnej",
-  "subgroupSlug": "kosci-konczyny-gornej",
+  "subgroup": "35. Kości kończyny górnej",
+  "subgroupSlug": "rozdzial-35",
   "image": "/anat/b-radius.webp"
  },
  {
@@ -2715,8 +2704,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości kończyny górnej",
-  "subgroupSlug": "kosci-konczyny-gornej",
+  "subgroup": "35. Kości kończyny górnej",
+  "subgroupSlug": "rozdzial-35",
   "image": "/anat/b-ulna.webp"
  },
  {
@@ -2726,8 +2715,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Obojczyk",
-  "subgroupSlug": "obojczyk",
+  "subgroup": "36. Obojczyk",
+  "subgroupSlug": "rozdzial-36",
   "image": "/anat/cl-acrom.webp"
  },
  {
@@ -2737,8 +2726,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Obojczyk",
-  "subgroupSlug": "obojczyk",
+  "subgroup": "36. Obojczyk",
+  "subgroupSlug": "rozdzial-36",
   "image": "/anat/cl-stern.webp"
  },
  {
@@ -2748,8 +2737,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Obojczyk",
-  "subgroupSlug": "obojczyk",
+  "subgroup": "36. Obojczyk",
+  "subgroupSlug": "rozdzial-36",
   "image": "/anat/cl-corpus.webp"
  },
  {
@@ -2759,8 +2748,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-acrom.webp"
  },
  {
@@ -2770,8 +2759,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-spina.webp"
  },
  {
@@ -2781,8 +2770,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-fsupra.webp"
  },
  {
@@ -2792,8 +2781,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-finfra.webp"
  },
  {
@@ -2803,8 +2792,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-anginf.webp"
  },
  {
@@ -2814,8 +2803,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-angsup.webp"
  },
  {
@@ -2825,8 +2814,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-margmed.webp"
  },
  {
@@ -2836,8 +2825,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-marglat.webp"
  },
  {
@@ -2847,8 +2836,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-coracoid.webp"
  },
  {
@@ -2858,8 +2847,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-glen.webp"
  },
  {
@@ -2869,8 +2858,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Łopatka",
-  "subgroupSlug": "lopatka",
+  "subgroup": "37-38. Łopatka",
+  "subgroupSlug": "rozdzial-37-38",
   "image": "/anat/sc-fsubsc.webp"
  },
  {
@@ -2880,8 +2869,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-caput.webp"
  },
  {
@@ -2891,8 +2880,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-tubmaj.webp"
  },
  {
@@ -2902,8 +2891,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-sulc.webp"
  },
  {
@@ -2913,8 +2902,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-collchir.webp"
  },
  {
@@ -2924,8 +2913,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-epilat.webp"
  },
  {
@@ -2935,8 +2924,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-epimed.webp"
  },
  {
@@ -2946,8 +2935,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-capit.webp"
  },
  {
@@ -2957,8 +2946,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-trochl.webp"
  },
  {
@@ -2968,8 +2957,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-fcoron.webp"
  },
  {
@@ -2979,8 +2968,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-fossol.webp"
  },
  {
@@ -2990,9 +2979,20 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kość ramienna",
-  "subgroupSlug": "kosc-ramienna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
   "image": "/anat/hu-sulculn.webp"
+ },
+ {
+  "id": "b-humerus",
+  "latin": "Humerus",
+  "polish": "Kość ramienna",
+  "system": "kostno-stawowy",
+  "group": "Kończyna górna",
+  "groupSlug": "konczyna-gorna",
+  "subgroup": "29-30, 39-40. Kość ramienna",
+  "subgroupSlug": "rozdzial-29-30-39-40",
+  "image": "/anat/b-humerus.webp"
  },
  {
   "id": "ra-caput",
@@ -3001,8 +3001,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ra-caput.webp"
  },
  {
@@ -3012,8 +3012,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ra-collum.webp"
  },
  {
@@ -3023,8 +3023,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ra-tuber.webp"
  },
  {
@@ -3034,8 +3034,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ul-olecr.webp"
  },
  {
@@ -3045,8 +3045,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ul-coron.webp"
  },
  {
@@ -3056,8 +3056,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ul-tuber.webp"
  },
  {
@@ -3067,8 +3067,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ra-styl.webp"
  },
  {
@@ -3078,8 +3078,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ul-caput.webp"
  },
  {
@@ -3089,8 +3089,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ul-styl.webp"
  },
  {
@@ -3100,8 +3100,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości przedramienia",
-  "subgroupSlug": "kosci-przedramienia",
+  "subgroup": "41-43. Kości przedramienia: kość łokciowa i promieniowa",
+  "subgroupSlug": "rozdzial-41-43",
   "image": "/anat/ra-carp.webp"
  },
  {
@@ -3111,8 +3111,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-scaphoid.webp"
  },
  {
@@ -3122,8 +3122,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-lunate.webp"
  },
  {
@@ -3133,8 +3133,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-triquetral.webp"
  },
  {
@@ -3144,8 +3144,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-pisiform.webp"
  },
  {
@@ -3155,8 +3155,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-trapezium.webp"
  },
  {
@@ -3166,8 +3166,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-trapezoid.webp"
  },
  {
@@ -3177,8 +3177,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-capitate.webp"
  },
  {
@@ -3188,8 +3188,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-hamate.webp"
  },
  {
@@ -3199,8 +3199,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-first-metacarpal-bone.webp"
  },
  {
@@ -3210,8 +3210,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-second-metacarpal-bone.webp"
  },
  {
@@ -3221,8 +3221,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-third-metacarpal-bone.webp"
  },
  {
@@ -3232,8 +3232,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-fourth-metacarpal-bone.webp"
  },
  {
@@ -3243,8 +3243,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/b-fifth-metacarpal-bone.webp"
  },
  {
@@ -3254,8 +3254,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/g-hprox.webp"
  },
  {
@@ -3265,8 +3265,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/g-hmid.webp"
  },
  {
@@ -3276,8 +3276,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/g-hdist.webp"
  },
  {
@@ -3287,8 +3287,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/g-carpus.webp"
  },
  {
@@ -3298,20 +3298,9 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Kości ręki",
-  "subgroupSlug": "kosci-reki",
+  "subgroup": "44-45. Kości ręki",
+  "subgroupSlug": "rozdzial-44-45",
   "image": "/anat/g-metacarp.webp"
- },
- {
-  "id": "j-humeri",
-  "latin": "Articulatio humeri",
-  "polish": "Staw ramienny",
-  "system": "kostno-stawowy",
-  "group": "Kończyna górna",
-  "groupSlug": "konczyna-gorna",
-  "subgroup": "Stawy kończyny górnej",
-  "subgroupSlug": "stawy-konczyny-gornej",
-  "image": "/anat/j-humeri.webp"
  },
  {
   "id": "j-acromiocl",
@@ -3320,9 +3309,20 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Stawy kończyny górnej",
-  "subgroupSlug": "stawy-konczyny-gornej",
+  "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
+  "subgroupSlug": "rozdzial-46",
   "image": "/anat/j-acromiocl.webp"
+ },
+ {
+  "id": "j-humeri",
+  "latin": "Articulatio humeri",
+  "polish": "Staw ramienny",
+  "system": "kostno-stawowy",
+  "group": "Kończyna górna",
+  "groupSlug": "konczyna-gorna",
+  "subgroup": "47. Staw ramienny",
+  "subgroupSlug": "rozdzial-47",
+  "image": "/anat/j-humeri.webp"
  },
  {
   "id": "j-cubiti",
@@ -3331,8 +3331,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Stawy kończyny górnej",
-  "subgroupSlug": "stawy-konczyny-gornej",
+  "subgroup": "48-49. Staw łokciowy",
+  "subgroupSlug": "rozdzial-48-49",
   "image": "/anat/j-cubiti.webp"
  },
  {
@@ -3342,8 +3342,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Stawy kończyny górnej",
-  "subgroupSlug": "stawy-konczyny-gornej",
+  "subgroup": "48-49. Staw łokciowy",
+  "subgroupSlug": "rozdzial-48-49",
   "image": "/anat/j-humeroul.webp"
  },
  {
@@ -3353,8 +3353,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Stawy kończyny górnej",
-  "subgroupSlug": "stawy-konczyny-gornej",
+  "subgroup": "48-49. Staw łokciowy",
+  "subgroupSlug": "rozdzial-48-49",
   "image": "/anat/j-humerorad.webp"
  },
  {
@@ -3364,8 +3364,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna górna",
   "groupSlug": "konczyna-gorna",
-  "subgroup": "Stawy kończyny górnej",
-  "subgroupSlug": "stawy-konczyny-gornej",
+  "subgroup": "48-49. Staw łokciowy",
+  "subgroupSlug": "rozdzial-48-49",
   "image": "/anat/j-radioulprox.webp"
  },
  {
@@ -3375,8 +3375,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości kończyny dolnej",
-  "subgroupSlug": "kosci-konczyny-dolnej",
+  "subgroup": "51. Kościec kończyny dolnej",
+  "subgroupSlug": "rozdzial-51",
   "image": "/anat/b-hip-bone.webp"
  },
  {
@@ -3386,8 +3386,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości kończyny dolnej",
-  "subgroupSlug": "kosci-konczyny-dolnej",
+  "subgroup": "51. Kościec kończyny dolnej",
+  "subgroupSlug": "rozdzial-51",
   "image": "/anat/b-femur.webp"
  },
  {
@@ -3397,8 +3397,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości kończyny dolnej",
-  "subgroupSlug": "kosci-konczyny-dolnej",
+  "subgroup": "51. Kościec kończyny dolnej",
+  "subgroupSlug": "rozdzial-51",
   "image": "/anat/b-patella.webp"
  },
  {
@@ -3408,8 +3408,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości kończyny dolnej",
-  "subgroupSlug": "kosci-konczyny-dolnej",
+  "subgroup": "51. Kościec kończyny dolnej",
+  "subgroupSlug": "rozdzial-51",
   "image": "/anat/b-tibia.webp"
  },
  {
@@ -3419,8 +3419,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości kończyny dolnej",
-  "subgroupSlug": "kosci-konczyny-dolnej",
+  "subgroup": "51. Kościec kończyny dolnej",
+  "subgroupSlug": "rozdzial-51",
   "image": "/anat/b-fibula.webp"
  },
  {
@@ -3430,8 +3430,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-acet.webp"
  },
  {
@@ -3441,8 +3441,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-fobt.webp"
  },
  {
@@ -3452,8 +3452,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-crista.webp"
  },
  {
@@ -3463,8 +3463,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-sias.webp"
  },
  {
@@ -3474,8 +3474,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-sips.webp"
  },
  {
@@ -3485,8 +3485,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-tubisch.webp"
  },
  {
@@ -3496,8 +3496,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-tubpub.webp"
  },
  {
@@ -3507,8 +3507,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-ala.webp"
  },
  {
@@ -3518,8 +3518,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-fossil.webp"
  },
  {
@@ -3529,8 +3529,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-auric.webp"
  },
  {
@@ -3540,8 +3540,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość miedniczna",
-  "subgroupSlug": "kosc-miedniczna",
+  "subgroup": "52-53. Kość miednicy, kość biodrowa",
+  "subgroupSlug": "rozdzial-52-53",
   "image": "/anat/hb-symph.webp"
  },
  {
@@ -3551,8 +3551,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Połączenia miednicy",
-  "subgroupSlug": "polaczenia-miednicy",
+  "subgroup": "54. Połączenia miednicy",
+  "subgroupSlug": "rozdzial-54",
   "image": "/anat/pv-symph.webp"
  },
  {
@@ -3562,163 +3562,9 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Połączenia miednicy",
-  "subgroupSlug": "polaczenia-miednicy",
+  "subgroup": "54. Połączenia miednicy",
+  "subgroupSlug": "rozdzial-54",
   "image": "/anat/pv-sacroil.webp"
- },
- {
-  "id": "fe-caput",
-  "latin": "Caput femoris",
-  "polish": "Głowa kości udowej",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-caput.webp"
- },
- {
-  "id": "fe-collum",
-  "latin": "Collum femoris",
-  "polish": "Szyjka kości udowej",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-collum.webp"
- },
- {
-  "id": "fe-trmaj",
-  "latin": "Trochanter major",
-  "polish": "Krętarz większy",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-trmaj.webp"
- },
- {
-  "id": "fe-trmin",
-  "latin": "Trochanter minor",
-  "polish": "Krętarz mniejszy",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-trmin.webp"
- },
- {
-  "id": "fe-lintertr",
-  "latin": "Linea intertrochanterica",
-  "polish": "Kresa międzykrętarzowa",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-lintertr.webp"
- },
- {
-  "id": "fe-crintertr",
-  "latin": "Crista intertrochanterica",
-  "polish": "Grzebień międzykrętarzowy",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-crintertr.webp"
- },
- {
-  "id": "fe-fosstr",
-  "latin": "Fossa trochanterica",
-  "polish": "Dół krętarzowy",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-fosstr.webp"
- },
- {
-  "id": "fe-condmed",
-  "latin": "Condylus medialis femoris",
-  "polish": "Kłykieć przyśrodkowy kości udowej",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-condmed.webp"
- },
- {
-  "id": "fe-condlat",
-  "latin": "Condylus lateralis femoris",
-  "polish": "Kłykieć boczny kości udowej",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-condlat.webp"
- },
- {
-  "id": "fe-fossic",
-  "latin": "Fossa intercondylaris",
-  "polish": "Dół międzykłykciowy",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-fossic.webp"
- },
- {
-  "id": "fe-epimed",
-  "latin": "Epicondylus medialis",
-  "polish": "Nadkłykieć przyśrodkowy",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-epimed.webp"
- },
- {
-  "id": "fe-epilat",
-  "latin": "Epicondylus lateralis",
-  "polish": "Nadkłykieć boczny",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-epilat.webp"
- },
- {
-  "id": "fe-patell",
-  "latin": "Facies patellaris",
-  "polish": "Powierzchnia rzepkowa",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-patell.webp"
- },
- {
-  "id": "fe-popl",
-  "latin": "Facies poplitea",
-  "polish": "Powierzchnia podkolanowa",
-  "system": "kostno-stawowy",
-  "group": "Kończyna dolna",
-  "groupSlug": "konczyna-dolna",
-  "subgroup": "Kość udowa",
-  "subgroupSlug": "kosc-udowa",
-  "image": "/anat/fe-popl.webp"
  },
  {
   "id": "ti-condlat",
@@ -3727,8 +3573,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/ti-condlat.webp"
  },
  {
@@ -3738,8 +3584,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/ti-condmed.webp"
  },
  {
@@ -3749,8 +3595,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/ti-tuber.webp"
  },
  {
@@ -3760,8 +3606,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/ti-solei.webp"
  },
  {
@@ -3771,8 +3617,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/ti-mallmed.webp"
  },
  {
@@ -3782,8 +3628,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/fi-caput.webp"
  },
  {
@@ -3793,8 +3639,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości podudzia",
-  "subgroupSlug": "kosci-podudzia",
+  "subgroup": "55. Kości podudzia",
+  "subgroupSlug": "rozdzial-55",
   "image": "/anat/fi-malllat.webp"
  },
  {
@@ -3804,8 +3650,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-talus.webp"
  },
  {
@@ -3815,8 +3661,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-calcaneus.webp"
  },
  {
@@ -3826,8 +3672,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-navicular-bone.webp"
  },
  {
@@ -3837,8 +3683,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-cuboid-bone.webp"
  },
  {
@@ -3848,8 +3694,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-medial-cuneiform-bone.webp"
  },
  {
@@ -3859,8 +3705,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-intermediate-cuneiform-bone.webp"
  },
  {
@@ -3870,8 +3716,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-lateral-cuneiform-bone.webp"
  },
  {
@@ -3881,8 +3727,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-first-metatarsal-bone.webp"
  },
  {
@@ -3892,8 +3738,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-second-metatarsal-bone.webp"
  },
  {
@@ -3903,8 +3749,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-third-metatarsal-bone.webp"
  },
  {
@@ -3914,8 +3760,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-fourth-metatarsal-bone.webp"
  },
  {
@@ -3925,8 +3771,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/b-fifth-metatarsal-bone.webp"
  },
  {
@@ -3936,8 +3782,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/g-fprox.webp"
  },
  {
@@ -3947,8 +3793,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/g-fmid.webp"
  },
  {
@@ -3958,8 +3804,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/g-fdist.webp"
  },
  {
@@ -3969,8 +3815,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/g-tarsus.webp"
  },
  {
@@ -3980,8 +3826,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Kości stopy",
-  "subgroupSlug": "kosci-stopy",
+  "subgroup": "56-57. Kościec stopy",
+  "subgroupSlug": "rozdzial-56-57",
   "image": "/anat/g-metatars.webp"
  },
  {
@@ -3991,8 +3837,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "58-59. Staw biodrowy",
+  "subgroupSlug": "rozdzial-58-59",
   "image": "/anat/j-coxae.webp"
  },
  {
@@ -4002,8 +3848,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "60-61. Staw kolanowy",
+  "subgroupSlug": "rozdzial-60-61",
   "image": "/anat/j-genus.webp"
  },
  {
@@ -4013,8 +3859,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "60-61. Staw kolanowy",
+  "subgroupSlug": "rozdzial-60-61",
   "image": "/anat/j-femoropat.webp"
  },
  {
@@ -4024,8 +3870,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "60-61. Staw kolanowy",
+  "subgroupSlug": "rozdzial-60-61",
   "image": "/anat/j-tibiofib.webp"
  },
  {
@@ -4035,8 +3881,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "62. Stawy stopy",
+  "subgroupSlug": "rozdzial-62",
   "image": "/anat/j-talocrur.webp"
  },
  {
@@ -4046,8 +3892,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "62. Stawy stopy",
+  "subgroupSlug": "rozdzial-62",
   "image": "/anat/j-subtal.webp"
  },
  {
@@ -4057,8 +3903,8 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "62. Stawy stopy",
+  "subgroupSlug": "rozdzial-62",
   "image": "/anat/j-chopart.webp"
  },
  {
@@ -4068,8 +3914,162 @@ export const BONE_CARDS: Card[] = [
   "system": "kostno-stawowy",
   "group": "Kończyna dolna",
   "groupSlug": "konczyna-dolna",
-  "subgroup": "Stawy kończyny dolnej",
-  "subgroupSlug": "stawy-konczyny-dolnej",
+  "subgroup": "62. Stawy stopy",
+  "subgroupSlug": "rozdzial-62",
   "image": "/anat/j-lisfranc.webp"
+ },
+ {
+  "id": "fe-caput",
+  "latin": "Caput femoris",
+  "polish": "Głowa kości udowej",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-caput.webp"
+ },
+ {
+  "id": "fe-collum",
+  "latin": "Collum femoris",
+  "polish": "Szyjka kości udowej",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-collum.webp"
+ },
+ {
+  "id": "fe-trmaj",
+  "latin": "Trochanter major",
+  "polish": "Krętarz większy",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-trmaj.webp"
+ },
+ {
+  "id": "fe-trmin",
+  "latin": "Trochanter minor",
+  "polish": "Krętarz mniejszy",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-trmin.webp"
+ },
+ {
+  "id": "fe-lintertr",
+  "latin": "Linea intertrochanterica",
+  "polish": "Kresa międzykrętarzowa",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-lintertr.webp"
+ },
+ {
+  "id": "fe-crintertr",
+  "latin": "Crista intertrochanterica",
+  "polish": "Grzebień międzykrętarzowy",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-crintertr.webp"
+ },
+ {
+  "id": "fe-fosstr",
+  "latin": "Fossa trochanterica",
+  "polish": "Dół krętarzowy",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-fosstr.webp"
+ },
+ {
+  "id": "fe-condmed",
+  "latin": "Condylus medialis femoris",
+  "polish": "Kłykieć przyśrodkowy kości udowej",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-condmed.webp"
+ },
+ {
+  "id": "fe-condlat",
+  "latin": "Condylus lateralis femoris",
+  "polish": "Kłykieć boczny kości udowej",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-condlat.webp"
+ },
+ {
+  "id": "fe-fossic",
+  "latin": "Fossa intercondylaris",
+  "polish": "Dół międzykłykciowy",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-fossic.webp"
+ },
+ {
+  "id": "fe-epimed",
+  "latin": "Epicondylus medialis",
+  "polish": "Nadkłykieć przyśrodkowy",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-epimed.webp"
+ },
+ {
+  "id": "fe-epilat",
+  "latin": "Epicondylus lateralis",
+  "polish": "Nadkłykieć boczny",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-epilat.webp"
+ },
+ {
+  "id": "fe-patell",
+  "latin": "Facies patellaris",
+  "polish": "Powierzchnia rzepkowa",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-patell.webp"
+ },
+ {
+  "id": "fe-popl",
+  "latin": "Facies poplitea",
+  "polish": "Powierzchnia podkolanowa",
+  "system": "kostno-stawowy",
+  "group": "Kończyna dolna",
+  "groupSlug": "konczyna-dolna",
+  "subgroup": "63. Kość udowa: okolica kolana i biodra",
+  "subgroupSlug": "rozdzial-63",
+  "image": "/anat/fe-popl.webp"
  }
 ];

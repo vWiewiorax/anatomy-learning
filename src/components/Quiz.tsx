@@ -88,14 +88,14 @@ export default function Quiz({ cards, pool, title }: { cards: Card[]; pool: Card
       <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
         <div>
           <h1 className="text-2xl font-bold tracking-tight">Quiz: {title}</h1>
-          <p className="text-sm text-stone-500">{cards.length} struktur w zestawie. Błędne odpowiedzi trafiają do powtórki &quot;Nie umiem&quot;.</p>
+          <p className="text-sm text-slate-500">{cards.length} struktur w zestawie. Błędne odpowiedzi trafiają do powtórki &quot;Nie umiem&quot;.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <select value={ask} onChange={(e) => setAsk(e.target.value as Ask)} className={`${btn} border-stone-200 bg-white`} aria-label="Rodzaj pytań">
+          <select value={ask} onChange={(e) => setAsk(e.target.value as Ask)} className={`${btn} border-slate-200 bg-white`} aria-label="Rodzaj pytań">
             <option value="pl">Wybierz nazwę polską</option>
             <option value="la">Wybierz nazwę łacińską</option>
           </select>
-          <select value={count} onChange={(e) => setCount(Number(e.target.value))} className={`${btn} border-stone-200 bg-white`} aria-label="Liczba pytań">
+          <select value={count} onChange={(e) => setCount(Number(e.target.value))} className={`${btn} border-slate-200 bg-white`} aria-label="Liczba pytań">
             {[10, 20, 30].map((n) => (
               <option key={n} value={n}>
                 {n} pytań
@@ -103,18 +103,18 @@ export default function Quiz({ cards, pool, title }: { cards: Card[]; pool: Card
             ))}
             <option value={9999}>Wszystkie</option>
           </select>
-          <button onClick={() => start()} className={`${btn} border-teal-700 bg-teal-700 text-white hover:bg-teal-800`}>
+          <button onClick={() => start()} className={`${btn} border-blue-700 bg-blue-700 text-white hover:bg-blue-800`}>
             Nowy quiz
           </button>
         </div>
       </div>
 
       {done ? (
-        <div className="mx-auto max-w-2xl rounded-2xl border border-stone-200 bg-white p-6 text-center">
+        <div className="mx-auto max-w-2xl rounded-2xl border border-slate-200 bg-white p-6 text-center">
           <p className="text-3xl font-bold">
             {score} / {questions.length}
           </p>
-          <p className="text-stone-500">poprawnych odpowiedzi</p>
+          <p className="text-slate-500">poprawnych odpowiedzi</p>
           {wrong.length > 0 && (
             <>
               <ul className="mt-5 space-y-1 text-left text-sm">
@@ -132,34 +132,34 @@ export default function Quiz({ cards, pool, title }: { cards: Card[]; pool: Card
         </div>
       ) : q ? (
         <div className="mx-auto max-w-2xl">
-          <div className="h-1.5 w-full rounded-full bg-stone-200 overflow-hidden mb-4">
-            <div className="h-full bg-teal-600 transition-all" style={{ width: `${(i / questions.length) * 100}%` }} />
+          <div className="h-1.5 w-full rounded-full bg-slate-200 overflow-hidden mb-4">
+            <div className="h-full bg-blue-600 transition-all" style={{ width: `${(i / questions.length) * 100}%` }} />
           </div>
-          <div className="rounded-2xl border border-stone-200 bg-white shadow-sm overflow-hidden">
+          <div className="rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
             {q.card.image ? (
               <div className="relative h-72 sm:h-96">
                 <Image src={q.card.image} alt="Zaznaczona struktura" fill sizes="672px" className="object-contain p-3" priority />
               </div>
             ) : (
               <div className="px-6 py-10 text-center">
-                <p className="text-xs uppercase tracking-wider text-stone-400">{ask === "pl" ? "Łacina" : "Polski"}</p>
+                <p className="text-xs uppercase tracking-wider text-slate-400">{ask === "pl" ? "Łacina" : "Polski"}</p>
                 <p className={`text-3xl font-bold ${ask === "pl" ? "italic" : ""}`}>{prompt}</p>
               </div>
             )}
-            <p className="border-t border-stone-100 px-5 py-3 text-center text-sm text-stone-600">
+            <p className="border-t border-slate-100 px-5 py-3 text-center text-sm text-slate-600">
               Pytanie {i + 1} z {questions.length}: {q.card.image ? "co jest zaznaczone na czerwono?" : ask === "pl" ? "jak to jest po polsku?" : "jak to jest po łacinie?"}
             </p>
           </div>
           <div className="mt-4 grid gap-2 sm:grid-cols-2">
             {q.options.map((o, k) => {
-              const state = !chosen ? "" : o.id === q.card.id ? "border-teal-600 bg-teal-50 text-teal-900" : o.id === chosen ? "border-red-400 bg-red-50 text-red-800" : "opacity-60";
+              const state = !chosen ? "" : o.id === q.card.id ? "border-blue-600 bg-blue-50 text-blue-900" : o.id === chosen ? "border-red-400 bg-red-50 text-red-800" : "opacity-60";
               return (
                 <button
                   key={o.id}
                   onClick={() => answer(o)}
-                  className={`rounded-xl border border-stone-200 bg-white px-4 py-3 text-left hover:border-teal-600 ${state} ${ask === "la" ? "italic" : ""}`}
+                  className={`rounded-xl border border-slate-200 bg-white px-4 py-3 text-left hover:border-blue-600 ${state} ${ask === "la" ? "italic" : ""}`}
                 >
-                  <span className="mr-2 text-xs text-stone-400 not-italic">{k + 1}</span>
+                  <span className="mr-2 text-xs text-slate-400 not-italic">{k + 1}</span>
                   {name(o)}
                 </button>
               );
@@ -167,7 +167,7 @@ export default function Quiz({ cards, pool, title }: { cards: Card[]; pool: Card
           </div>
           {chosen && (
             <div className="mt-4 text-center">
-              <p className="mb-3 text-sm text-stone-600">
+              <p className="mb-3 text-sm text-slate-600">
                 <span className="italic">{q.card.latin}</span> - {q.card.polish}
               </p>
               <button
@@ -175,7 +175,7 @@ export default function Quiz({ cards, pool, title }: { cards: Card[]; pool: Card
                   setI((x) => x + 1);
                   setChosen(null);
                 }}
-                className={`${btn} border-teal-700 bg-teal-700 px-6 py-2 text-white hover:bg-teal-800`}
+                className={`${btn} border-blue-700 bg-blue-700 px-6 py-2 text-white hover:bg-blue-800`}
               >
                 Dalej
               </button>

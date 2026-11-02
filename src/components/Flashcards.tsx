@@ -123,16 +123,16 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
       <div className="flex flex-wrap items-end justify-between gap-3 mb-4">
         <div>
           <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
-          <p className="text-sm text-stone-500">
+          <p className="text-sm text-slate-500">
             Umiem: {knownCount} / {cards.length} · Do powtórki: {unknownCount}
           </p>
         </div>
         <div className="flex flex-wrap gap-2 text-sm">
-          <button onClick={toggleDirection} className="inline-flex items-center gap-1.5 rounded-lg border border-stone-200 bg-white px-3 py-1.5 hover:border-teal-600">
+          <button onClick={toggleDirection} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 hover:border-blue-600">
             <Icon d={ICONS.swap} />
             {direction === "la-pl" ? "Łacina → polski" : "Polski → łacina"}
           </button>
-          <button onClick={shuffle} className="inline-flex items-center gap-1.5 rounded-lg border border-stone-200 bg-white px-3 py-1.5 hover:border-teal-600">
+          <button onClick={shuffle} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 hover:border-blue-600">
             <Icon d={ICONS.shuffle} />
             Tasuj
           </button>
@@ -143,26 +143,26 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
               setPos(0);
               setFlipped(false);
             }}
-            className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 hover:border-teal-600"
+            className="rounded-lg border border-slate-200 bg-white px-3 py-1.5 hover:border-blue-600"
             aria-label="Które fiszki pokazać"
           >
             <option value="all">Wszystkie fiszki</option>
             <option value="notKnown">Bez oznaczonych jako Umiem</option>
             <option value="unknown">Tylko oznaczone Nie umiem</option>
           </select>
-          <button onClick={resetProgress} className="inline-flex items-center gap-1.5 rounded-lg border border-stone-200 bg-white px-3 py-1.5 text-stone-600 hover:border-red-400 hover:text-red-700">
+          <button onClick={resetProgress} className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-slate-600 hover:border-red-400 hover:text-red-700">
             <Icon d={ICONS.reset} />
             Wyzeruj postęp
           </button>
         </div>
       </div>
 
-      <div className="h-1.5 w-full rounded-full bg-stone-200 overflow-hidden mb-6" aria-label={`Opanowane ${pct}%`}>
-        <div className="h-full bg-teal-600 transition-all" style={{ width: `${pct}%` }} />
+      <div className="h-1.5 w-full rounded-full bg-slate-200 overflow-hidden mb-6" aria-label={`Opanowane ${pct}%`}>
+        <div className="h-full bg-blue-600 transition-all" style={{ width: `${pct}%` }} />
       </div>
 
       {!card ? (
-        <div className="rounded-2xl border border-dashed border-stone-300 bg-white p-10 text-center text-stone-600">
+        <div className="rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-600">
           <p className="text-lg font-medium">{filter === "unknown" ? "Brak fiszek oznaczonych jako Nie umiem." : "Wszystko opanowane w tym zestawie."}</p>
           <p className="text-sm mt-1">Zmień wybór na &quot;Wszystkie fiszki&quot; albo wyzeruj postęp, żeby powtórzyć całość.</p>
         </div>
@@ -175,43 +175,43 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
               className={`flip-card block w-full h-[460px] sm:h-[520px] text-left ${flipped ? "is-flipped" : ""}`}
               aria-label={flipped ? `${backLang}: ${backName}. Kliknij, aby odwrócić` : `${frontLang}: ${frontName}. Kliknij, aby odwrócić`}
             >
-              <div className="flip-face rounded-2xl border border-stone-200 bg-white shadow-md flex flex-col overflow-hidden">
+              <div className="flip-face rounded-2xl border border-slate-200 bg-white shadow-md flex flex-col overflow-hidden">
                 <div className="relative flex-1 bg-white">
                   {card.image ? (
                     <Image src={card.image} alt={`Ilustracja: ${card.latin}`} fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-3" priority />
                   ) : (
                     <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 p-6 text-center">
-                      <span className="rounded-full bg-stone-100 px-3 py-1 text-xs text-stone-500">Pojęcie: {card.subgroup}</span>
-                      <span className={`text-4xl font-bold text-stone-800 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</span>
+                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-500">Pojęcie: {card.subgroup}</span>
+                      <span className={`text-4xl font-bold text-slate-800 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</span>
                     </div>
                   )}
                 </div>
-                <div className="border-t border-stone-100 px-5 py-4 text-center">
-                  <p className="text-xs uppercase tracking-wider text-stone-400">{frontLang}</p>
+                <div className="border-t border-slate-100 px-5 py-4 text-center">
+                  <p className="text-xs uppercase tracking-wider text-slate-400">{frontLang}</p>
                   <p className={`text-2xl font-semibold ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</p>
                 </div>
               </div>
-              <div className="flip-face flip-back rounded-2xl border border-teal-200 bg-teal-50 shadow-md flex flex-col overflow-hidden">
+              <div className="flip-face flip-back rounded-2xl border border-blue-200 bg-blue-50 shadow-md flex flex-col overflow-hidden">
                 {card.image && (
-                  <div className="relative h-44 sm:h-56 bg-white border-b border-teal-100">
+                  <div className="relative h-44 sm:h-56 bg-white border-b border-blue-100">
                     <Image src={card.image} alt="" fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-2" />
                   </div>
                 )}
                 <div className="flex-1 flex flex-col items-center justify-center px-6 text-center gap-2">
-                  <p className="text-xs uppercase tracking-wider text-teal-700/70">{backLang}</p>
-                  <p className={`text-3xl font-bold text-teal-950 ${direction === "pl-la" ? "italic" : ""}`}>{backName}</p>
-                  <p className={`text-stone-500 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</p>
-                  <p className="mt-2 rounded-full bg-white px-3 py-1 text-xs text-stone-500 border border-teal-100">{card.group === card.subgroup ? card.group : `${card.group} - ${card.subgroup}`}</p>
+                  <p className="text-xs uppercase tracking-wider text-blue-700/70">{backLang}</p>
+                  <p className={`text-3xl font-bold text-blue-950 ${direction === "pl-la" ? "italic" : ""}`}>{backName}</p>
+                  <p className={`text-slate-500 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</p>
+                  <p className="mt-2 rounded-full bg-white px-3 py-1 text-xs text-slate-500 border border-blue-100">{card.group === card.subgroup ? card.group : `${card.group} - ${card.subgroup}`}</p>
                 </div>
               </div>
             </button>
-            <p className="mt-2 text-center text-xs text-stone-400">
+            <p className="mt-2 text-center text-xs text-slate-400">
               Kliknij kartę lub naciśnij spację, aby ją odwrócić. Strzałki: poprzednia / następna. Klawisze 1 i 2: nie umiem / umiem.
             </p>
           </div>
 
-          <div className="mx-auto max-w-2xl mt-5 flex items-center justify-between gap-3">
-            <button onClick={() => go(-1)} className="rounded-full border border-stone-200 bg-white p-3 hover:border-teal-600" aria-label="Poprzednia">
+          <div className="mx-auto max-w-2xl mt-5 flex items-center justify-between gap-2 sm:gap-3">
+            <button onClick={() => go(-1)} className="rounded-full border border-slate-200 bg-white p-2.5 hover:border-blue-600 sm:p-3" aria-label="Poprzednia">
               <Icon d={ICONS.prev} className="h-5 w-5" />
             </button>
             <div className="flex flex-1 gap-2 sm:gap-3">
@@ -223,22 +223,22 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
               </button>
               <button
                 onClick={() => mark("known")}
-                className="flex-1 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl border border-teal-700 bg-teal-700 px-3 sm:px-4 py-3 font-medium text-white hover:bg-teal-800"
+                className="flex-1 inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl border border-blue-700 bg-blue-700 px-3 sm:px-4 py-3 font-medium text-white hover:bg-blue-800"
               >
                 <Icon d={ICONS.check} /> Umiem
               </button>
             </div>
-            <button onClick={() => go(1)} className="rounded-full border border-stone-200 bg-white p-3 hover:border-teal-600" aria-label="Następna">
+            <button onClick={() => go(1)} className="rounded-full border border-slate-200 bg-white p-2.5 hover:border-blue-600 sm:p-3" aria-label="Następna">
               <Icon d={ICONS.next} className="h-5 w-5" />
             </button>
           </div>
-          <p className="mt-3 text-center text-sm text-stone-500">
+          <p className="mt-3 text-center text-sm text-slate-500">
             Karta {index + 1} z {deck.length}
-            {progress[card.id] === "known" && <span className="ml-2 text-teal-700">(umiem)</span>}
+            {progress[card.id] === "known" && <span className="ml-2 text-blue-700">(umiem)</span>}
             {progress[card.id] === "unknown" && <span className="ml-2 text-red-700">(do powtórki)</span>}
           </p>
           {card.credit && (
-            <p className="mt-6 text-center text-[11px] text-stone-400">
+            <p className="mt-6 text-center text-[11px] text-slate-400">
               Ilustracja:{" "}
               <a href={card.credit.page} target="_blank" rel="noreferrer" className="underline">
                 {card.credit.file}
