@@ -193,7 +193,7 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
               </div>
               <div className="flip-face flip-back rounded-2xl border border-blue-200 bg-blue-50 shadow-md flex flex-col overflow-hidden">
                 {card.image && (
-                  <div className="relative h-44 sm:h-56 bg-white border-b border-blue-100">
+                  <div className={`relative bg-white border-b border-blue-100 ${card.info ? "h-36 sm:h-48" : "h-44 sm:h-56"}`}>
                     <Image src={card.image} alt="" fill sizes="(max-width: 672px) 100vw, 672px" className="object-contain p-2" />
                   </div>
                 )}
@@ -201,6 +201,7 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
                   <p className="text-xs uppercase tracking-wider text-blue-700/70">{backLang}</p>
                   <p className={`text-3xl font-bold text-blue-950 ${direction === "pl-la" ? "italic" : ""}`}>{backName}</p>
                   <p className={`text-slate-500 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</p>
+                  {card.info && <p className="max-w-lg text-sm leading-relaxed text-slate-700">{card.info}</p>}
                   <p className="mt-2 rounded-full bg-white px-3 py-1 text-xs text-slate-500 border border-blue-100">{card.group === card.subgroup ? card.group : `${card.group} - ${card.subgroup}`}</p>
                 </div>
               </div>

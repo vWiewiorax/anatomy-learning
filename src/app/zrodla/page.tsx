@@ -8,9 +8,9 @@ export default function Sources() {
     <div className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-2xl font-bold">Źródła ilustracji</h1>
       <p className="mt-2 text-sm text-slate-600 max-w-3xl">
-        Wszystkie ilustracje to modele 3D z bazy BodyParts3D 4.0 (The Database Center for Life Science, licencja CC BY-SA 2.1 JP). Większość
+        Wszystkie ilustracje to modele 3D z bazy BodyParts3D 4.0 (The Database Center for Life Science, licencja CC BY-SA 2.1 JP). Część
         pochodzi z Wikimedia Commons (projekt Anatomography, lista poniżej). Dla struktur, których nie ma tam w wersji 3D, ilustracje oraz szkielet
-        wyrenderowano z tej samej bazy BodyParts3D i zaznaczono na nich strukturę. Obrazy zostały przeskalowane i zapisane w formacie WebP.
+        wyrenderowano z tej samej bazy BodyParts3D i zaznaczono na nich strukturę. Ilustracje stawów i więzadeł też wyrenderowano z BodyParts3D. Model nie zawiera większości więzadeł, łąkotek i obrąbków, dlatego dorysowano je schematycznie na modelu kości (krążek międzykręgowy, błona międzykostna przedramienia i więzadło podeszwowe długie pochodzą z modelu). Obrazy zostały przeskalowane i zapisane w formacie WebP.
       </p>
       <div className="mt-6 overflow-x-auto rounded-xl border border-slate-200 bg-white">
         <table className="w-full text-sm">

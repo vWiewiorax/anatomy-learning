@@ -1,5 +1,6 @@
 import { BONE_CARDS } from "./bones";
 import { IMAGE_3D } from "./images3d";
+import { JOINT_EXTRA_CARDS, JOINT_INFO } from "./joints";
 
 export type SystemId = "kostno-stawowy" | "miesniowy";
 
@@ -16,6 +17,7 @@ export type Card = {
   subgroupSlug: string;
   image: string | null;
   credit?: Credit;
+  info?: string;
 };
 
 type LegacyCard = Omit<Card, "subgroup" | "subgroupSlug" | "image"> & { image: string; credit: Credit };
@@ -2170,8 +2172,20 @@ function with3d(c: Card): Card {
   return { ...c, image: o.image, credit: o.credit === "BP3D" ? BP3D_CREDIT : (o.credit ?? undefined) };
 }
 
+function withJoints(cards: Card[]): Card[] {
+  const out = cards.map((c) => {
+    const j = JOINT_INFO[c.id];
+    return j ? { ...c, image: j.image ?? c.image, info: j.info, credit: j.image ? BP3D_CREDIT : c.credit } : c;
+  });
+  for (const { after, card } of JOINT_EXTRA_CARDS) {
+    const i = out.findIndex((c) => c.id === after);
+    out.splice(i < 0 ? out.length : i + 1, 0, { ...card, credit: card.image ? BP3D_CREDIT : undefined });
+  }
+  return out;
+}
+
 export const CARDS: Card[] = [
-  ...BONE_CARDS.map(with3d),
+  ...withJoints(BONE_CARDS.map(with3d)),
   ...LEGACY.filter((c) => c.system === "miesniowy").map((c) => with3d({ ...c, subgroup: c.group, subgroupSlug: c.groupSlug })),
 ];
 

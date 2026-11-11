@@ -14,6 +14,7 @@ const NAV = [
   { href: "/nauka?uklad=kostno-stawowy", label: "Kości i stawy" },
   { href: "/nauka?uklad=miesniowy", label: "Mięśnie" },
   { href: "/szkielet", label: "Szkielet" },
+  { href: "/stawy", label: "Stawy" },
   { href: "/quiz?uklad=kostno-stawowy", label: "Quiz" },
   { href: "/powtorka", label: "Powtórka" },
 ];
