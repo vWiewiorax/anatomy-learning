@@ -45,7 +45,8 @@ export const JOINTS: Joint[] = [
         "items": [
           "Więzadło boczne stawu skroniowo-żuchwowego",
           "Więzadło rylcowo-żuchwowe",
-          "Więzadło klinowo-żuchwowe"
+          "Więzadło klinowo-żuchwowe",
+          "Krążek stawowy stawu skroniowo-żuchwowego"
         ]
       },
       {
@@ -67,7 +68,8 @@ export const JOINTS: Joint[] = [
         "image": "/stawy/j-tmj__tmj_right.webp",
         "ligaments": [
           "lig-laterale-tmj",
-          "lig-stylomandibulare"
+          "lig-stylomandibulare",
+          "discus-articularis-tmj"
         ],
         "hotspots": {
           "lig-laterale-tmj": [
@@ -77,6 +79,10 @@ export const JOINTS: Joint[] = [
           "lig-stylomandibulare": [
             54.7,
             78.3
+          ],
+          "discus-articularis-tmj": [
+            52.1,
+            61.0
           ]
         }
       },
@@ -96,7 +102,8 @@ export const JOINTS: Joint[] = [
     "ligaments": [
       "lig-laterale-tmj",
       "lig-stylomandibulare",
-      "lig-sphenomandibulare"
+      "lig-sphenomandibulare",
+      "discus-articularis-tmj"
     ]
   },
   {
@@ -125,7 +132,9 @@ export const JOINTS: Joint[] = [
           "Więzadła skrzydłowate",
           "Więzadło wierzchołka zęba",
           "Więzadło krzyżowe kręgu szczytowego",
-          "Błona szczytowo-potyliczna tylna"
+          "Błona szczytowo-potyliczna tylna",
+          "Błona pokrywająca",
+          "Błona szczytowo-potyliczna przednia"
         ]
       },
       {
@@ -158,7 +167,8 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "ligg-alaria",
           "lig-apicis-dentis",
-          "lig-cruciforme-atlantis"
+          "lig-cruciforme-atlantis",
+          "membrana-tectoria"
         ],
         "hotspots": {
           "ligg-alaria": [
@@ -172,6 +182,10 @@ export const JOINTS: Joint[] = [
           "lig-cruciforme-atlantis": [
             50.9,
             57.4
+          ],
+          "membrana-tectoria": [
+            50.6,
+            55.0
           ]
         }
       },
@@ -186,6 +200,18 @@ export const JOINTS: Joint[] = [
             71.0
           ]
         }
+      },
+      {
+        "image": "/stawy/j-atlantoax__occatlas_front.webp",
+        "ligaments": [
+          "membrana-atlantooccipitalis-anterior"
+        ],
+        "hotspots": {
+          "membrana-atlantooccipitalis-anterior": [
+            50.0,
+            65.6
+          ]
+        }
       }
     ],
     "ligaments": [
@@ -193,7 +219,9 @@ export const JOINTS: Joint[] = [
       "ligg-alaria",
       "lig-apicis-dentis",
       "lig-cruciforme-atlantis",
-      "membrana-atlantooccipitalis-posterior"
+      "membrana-atlantooccipitalis-posterior",
+      "membrana-tectoria",
+      "membrana-atlantooccipitalis-anterior"
     ]
   },
   {
@@ -225,7 +253,8 @@ export const JOINTS: Joint[] = [
           "Więzadła międzykolcowe",
           "Więzadło nadkolcowe",
           "Krążek międzykręgowy",
-          "Więzadła międzypoprzeczne"
+          "Więzadła międzypoprzeczne",
+          "Więzadło karkowe"
         ]
       },
       {
@@ -291,6 +320,18 @@ export const JOINTS: Joint[] = [
             45.2
           ]
         }
+      },
+      {
+        "image": "/stawy/j-intervert__neck_right.webp",
+        "ligaments": [
+          "lig-nuchae"
+        ],
+        "hotspots": {
+          "lig-nuchae": [
+            32.3,
+            66.7
+          ]
+        }
       }
     ],
     "ligaments": [
@@ -300,7 +341,8 @@ export const JOINTS: Joint[] = [
       "ligg-interspinalia",
       "lig-supraspinale",
       "discus-intervertebralis",
-      "ligg-intertransversaria"
+      "ligg-intertransversaria",
+      "lig-nuchae"
     ]
   },
   {
@@ -400,7 +442,8 @@ export const JOINTS: Joint[] = [
       {
         "title": "Więzadła",
         "items": [
-          "Więzadła mostkowo-żebrowe promieniste"
+          "Więzadła mostkowo-żebrowe promieniste",
+          "Więzadła żebrowo-mieczykowe"
         ]
       },
       {
@@ -419,18 +462,24 @@ export const JOINTS: Joint[] = [
       {
         "image": "/stawy/j-sternocost__sternum_front.webp",
         "ligaments": [
-          "ligg-sternocostalia-radiata"
+          "ligg-sternocostalia-radiata",
+          "ligg-costoxiphoidea"
         ],
         "hotspots": {
           "ligg-sternocostalia-radiata": [
             50.0,
             35.7
+          ],
+          "ligg-costoxiphoidea": [
+            50.0,
+            62.4
           ]
         }
       }
     ],
     "ligaments": [
-      "ligg-sternocostalia-radiata"
+      "ligg-sternocostalia-radiata",
+      "ligg-costoxiphoidea"
     ]
   },
   {
@@ -459,7 +508,8 @@ export const JOINTS: Joint[] = [
           "Więzadło mostkowo-obojczykowe przednie",
           "Więzadło międzyobojczykowe",
           "Więzadło żebrowo-obojczykowe",
-          "Więzadło mostkowo-obojczykowe tylne"
+          "Więzadło mostkowo-obojczykowe tylne",
+          "Krążek stawowy stawu mostkowo-obojczykowego"
         ]
       },
       {
@@ -482,7 +532,8 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-sternoclaviculare-anterius",
           "lig-interclaviculare",
-          "lig-costoclaviculare"
+          "lig-costoclaviculare",
+          "discus-articularis-sternocl"
         ],
         "hotspots": {
           "lig-sternoclaviculare-anterius": [
@@ -496,6 +547,10 @@ export const JOINTS: Joint[] = [
           "lig-costoclaviculare": [
             31.9,
             38.3
+          ],
+          "discus-articularis-sternocl": [
+            42.1,
+            33.4
           ]
         }
       },
@@ -516,7 +571,8 @@ export const JOINTS: Joint[] = [
       "lig-sternoclaviculare-anterius",
       "lig-interclaviculare",
       "lig-costoclaviculare",
-      "lig-sternoclaviculare-posterius"
+      "lig-sternoclaviculare-posterius",
+      "discus-articularis-sternocl"
     ]
   },
   {
@@ -627,7 +683,8 @@ export const JOINTS: Joint[] = [
           "Więzadło kruczo-barkowe",
           "Więzadło kruczo-ramienne",
           "Więzadła obrąbkowo-ramienne",
-          "Obrąbek panewki łopatki"
+          "Obrąbek panewki łopatki",
+          "Więzadło poprzeczne kości ramiennej"
         ]
       },
       {
@@ -651,7 +708,8 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-coracoacromiale",
           "lig-coracohumerale",
-          "ligg-glenohumeralia"
+          "ligg-glenohumeralia",
+          "lig-transversum-humeri"
         ],
         "hotspots": {
           "lig-coracoacromiale": [
@@ -665,6 +723,10 @@ export const JOINTS: Joint[] = [
           "ligg-glenohumeralia": [
             39.4,
             30.0
+          ],
+          "lig-transversum-humeri": [
+            29.2,
+            27.0
           ]
         }
       },
@@ -685,7 +747,8 @@ export const JOINTS: Joint[] = [
       "lig-coracoacromiale",
       "lig-coracohumerale",
       "ligg-glenohumeralia",
-      "labrum-glenoidale"
+      "labrum-glenoidale",
+      "lig-transversum-humeri"
     ]
   },
   {
@@ -917,7 +980,14 @@ export const JOINTS: Joint[] = [
           "Więzadło poboczne łokciowe nadgarstka",
           "Więzadło promieniowo-nadgarstkowe dłoniowe",
           "Więzadło promieniowo-nadgarstkowe grzbietowe",
-          "Troczek zginaczy (więzadło poprzeczne nadgarstka)"
+          "Troczek zginaczy (więzadło poprzeczne nadgarstka)",
+          "Więzadło łokciowo-nadgarstkowe dłoniowe",
+          "Więzadło promieniste nadgarstka",
+          "Więzadło grochowato-haczykowe",
+          "Więzadło grochowato-śródręczne",
+          "Więzadła międzynadgarstkowe grzbietowe",
+          "Więzadła nadgarstkowo-śródręczne grzbietowe",
+          "Więzadła nadgarstkowo-śródręczne dłoniowe"
         ]
       },
       {
@@ -941,7 +1011,12 @@ export const JOINTS: Joint[] = [
           "lig-collaterale-carpi-radiale",
           "lig-collaterale-carpi-ulnare",
           "lig-radiocarpale-palmare",
-          "retinaculum-flexorum"
+          "retinaculum-flexorum",
+          "lig-ulnocarpale-palmare",
+          "lig-carpi-radiatum",
+          "lig-pisohamatum",
+          "lig-pisometacarpale",
+          "ligg-carpometacarpalia-palmaria"
         ],
         "hotspots": {
           "lig-collaterale-carpi-radiale": [
@@ -959,18 +1034,48 @@ export const JOINTS: Joint[] = [
           "retinaculum-flexorum": [
             52.5,
             64.3
+          ],
+          "lig-ulnocarpale-palmare": [
+            62.4,
+            57.8
+          ],
+          "lig-carpi-radiatum": [
+            54.5,
+            65.6
+          ],
+          "lig-pisohamatum": [
+            65.2,
+            66.7
+          ],
+          "lig-pisometacarpale": [
+            68.3,
+            69.9
+          ],
+          "ligg-carpometacarpalia-palmaria": [
+            50.3,
+            74.6
           ]
         }
       },
       {
         "image": "/stawy/j-radiocarp__wrist_back.webp",
         "ligaments": [
-          "lig-radiocarpale-dorsale"
+          "lig-radiocarpale-dorsale",
+          "ligg-intercarpalia-dorsalia",
+          "ligg-carpometacarpalia-dorsalia"
         ],
         "hotspots": {
           "lig-radiocarpale-dorsale": [
             47.5,
             59.6
+          ],
+          "ligg-intercarpalia-dorsalia": [
+            44.7,
+            65.9
+          ],
+          "ligg-carpometacarpalia-dorsalia": [
+            45.5,
+            74.5
           ]
         }
       }
@@ -980,7 +1085,202 @@ export const JOINTS: Joint[] = [
       "lig-collaterale-carpi-ulnare",
       "lig-radiocarpale-palmare",
       "lig-radiocarpale-dorsale",
-      "retinaculum-flexorum"
+      "retinaculum-flexorum",
+      "lig-ulnocarpale-palmare",
+      "lig-carpi-radiatum",
+      "lig-pisohamatum",
+      "lig-pisometacarpale",
+      "ligg-intercarpalia-dorsalia",
+      "ligg-carpometacarpalia-dorsalia",
+      "ligg-carpometacarpalia-palmaria"
+    ]
+  },
+  {
+    "id": "j-radioulndist",
+    "latin": "Articulatio radioulnaris distalis",
+    "polish": "Staw promieniowo-łokciowy dalszy",
+    "info": "Staw obrotowy. Kość promieniowa obraca się wokół głowy kości łokciowej przy nawracaniu i odwracaniu przedramienia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw obrotowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "obwód stawowy głowy kości łokciowej",
+          "wcięcie łokciowe kości promieniowej",
+          "krążek stawowy oddziela głowę kości łokciowej od nadgarstka"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło promieniowo-łokciowe dłoniowe",
+          "Krążek stawowy (trójkątny)"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "nawracanie i odwracanie (razem ze stawem promieniowo-łokciowym bliższym)"
+        ]
+      }
+    ],
+    "group": "Kończyna górna",
+    "groupSlug": "konczyna-gorna",
+    "subgroup": "50. Stawy ręki",
+    "subgroupSlug": "rozdzial-50",
+    "image": "/stawy/j-radioulndist__hand_front.webp",
+    "views": [
+      {
+        "image": "/stawy/j-radioulndist__hand_front.webp",
+        "ligaments": [
+          "lig-radioulnare-palmare",
+          "discus-articularis-radioulnaris"
+        ],
+        "hotspots": {
+          "lig-radioulnare-palmare": [
+            62.7,
+            15.6
+          ],
+          "discus-articularis-radioulnaris": [
+            66.3,
+            18.1
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "lig-radioulnare-palmare",
+      "discus-articularis-radioulnaris"
+    ]
+  },
+  {
+    "id": "j-mcp",
+    "latin": "Articulationes metacarpophalangeae",
+    "polish": "Stawy śródręczno-paliczkowe",
+    "info": "Stawy kuliste o ruchach ograniczonych przez więzadła. Zgięcie i prostowanie oraz odwodzenie i przywodzenie palców.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy kuliste, czynnościowo dwuosiowe (kciuk: zawiasowy)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowy kości śródręcza",
+          "podstawy paliczków bliższych"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła poboczne stawów śródręczno-paliczkowych",
+          "Więzadła dłoniowe (płytki dłoniowe)",
+          "Więzadło poprzeczne głębokie śródręcza"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i prostowanie palców",
+          "odwodzenie i przywodzenie palców"
+        ]
+      }
+    ],
+    "group": "Kończyna górna",
+    "groupSlug": "konczyna-gorna",
+    "subgroup": "50. Stawy ręki",
+    "subgroupSlug": "rozdzial-50",
+    "image": "/stawy/j-mcp__hand_front.webp",
+    "views": [
+      {
+        "image": "/stawy/j-mcp__hand_front.webp",
+        "ligaments": [
+          "ligg-collateralia-mcp",
+          "ligg-palmaria-mcp",
+          "lig-metacarpale-transversum-profundum"
+        ],
+        "hotspots": {
+          "ligg-collateralia-mcp": [
+            47.5,
+            60.4
+          ],
+          "ligg-palmaria-mcp": [
+            57.3,
+            58.7
+          ],
+          "lig-metacarpale-transversum-profundum": [
+            57.3,
+            58.6
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "ligg-collateralia-mcp",
+      "ligg-palmaria-mcp",
+      "lig-metacarpale-transversum-profundum"
+    ]
+  },
+  {
+    "id": "j-ipm",
+    "latin": "Articulationes interphalangeae manus",
+    "polish": "Stawy międzypaliczkowe ręki",
+    "info": "Stawy zawiasowe. Zgięcie i prostowanie paliczków.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy zawiasowe, jednoosiowe"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa paliczka bliższego lub środkowego",
+          "podstawa paliczka położonego dalej"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła poboczne stawów międzypaliczkowych"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i prostowanie"
+        ]
+      }
+    ],
+    "group": "Kończyna górna",
+    "groupSlug": "konczyna-gorna",
+    "subgroup": "50. Stawy ręki",
+    "subgroupSlug": "rozdzial-50",
+    "image": "/stawy/j-ipm__hand_front.webp",
+    "views": [
+      {
+        "image": "/stawy/j-ipm__hand_front.webp",
+        "ligaments": [
+          "ligg-collateralia-ipm"
+        ],
+        "hotspots": {
+          "ligg-collateralia-ipm": [
+            43.1,
+            78.1
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "ligg-collateralia-ipm"
     ]
   },
   {
@@ -1097,7 +1397,9 @@ export const JOINTS: Joint[] = [
         "items": [
           "Więzadło łonowe górne",
           "Więzadło pachwinowe",
-          "Więzadło łonowe dolne (łukowate)"
+          "Więzadło łonowe dolne (łukowate)",
+          "Błona zasłonowa",
+          "Krążek międzyłonowy"
         ]
       },
       {
@@ -1118,7 +1420,9 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-pubicum-superius",
           "lig-inguinale",
-          "lig-pubicum-inferius"
+          "lig-pubicum-inferius",
+          "membrana-obturatoria",
+          "discus-interpubicus"
         ],
         "hotspots": {
           "lig-pubicum-superius": [
@@ -1132,6 +1436,14 @@ export const JOINTS: Joint[] = [
           "lig-pubicum-inferius": [
             50.0,
             76.5
+          ],
+          "membrana-obturatoria": [
+            38.0,
+            77.3
+          ],
+          "discus-interpubicus": [
+            50.0,
+            73.3
           ]
         }
       }
@@ -1139,7 +1451,9 @@ export const JOINTS: Joint[] = [
     "ligaments": [
       "lig-pubicum-superius",
       "lig-inguinale",
-      "lig-pubicum-inferius"
+      "lig-pubicum-inferius",
+      "membrana-obturatoria",
+      "discus-interpubicus"
     ]
   },
   {
@@ -1295,7 +1609,9 @@ export const JOINTS: Joint[] = [
           "Więzadło podkolanowe skośne",
           "Troczek przyśrodkowy rzepki",
           "Troczek boczny rzepki",
-          "Więzadło poprzeczne kolana"
+          "Więzadło poprzeczne kolana",
+          "Więzadło podkolanowe łukowate",
+          "Więzadło łąkotkowo-udowe tylne"
         ]
       },
       {
@@ -1349,7 +1665,9 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-cruciatum-anterius",
           "lig-cruciatum-posterius",
-          "lig-popliteum-obliquum"
+          "lig-popliteum-obliquum",
+          "lig-popliteum-arcuatum",
+          "lig-meniscofemorale-posterius"
         ],
         "hotspots": {
           "lig-cruciatum-anterius": [
@@ -1363,6 +1681,14 @@ export const JOINTS: Joint[] = [
           "lig-popliteum-obliquum": [
             50.0,
             47.5
+          ],
+          "lig-popliteum-arcuatum": [
+            59.6,
+            53.1
+          ],
+          "lig-meniscofemorale-posterius": [
+            50.7,
+            46.0
           ]
         }
       },
@@ -1400,7 +1726,9 @@ export const JOINTS: Joint[] = [
       "lig-popliteum-obliquum",
       "retinaculum-patellae-mediale",
       "retinaculum-patellae-laterale",
-      "lig-transversum-genus"
+      "lig-transversum-genus",
+      "lig-popliteum-arcuatum",
+      "lig-meniscofemorale-posterius"
     ]
   },
   {
@@ -1457,6 +1785,13 @@ export const JOINTS: Joint[] = [
         ]
       },
       {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło głowy strzałki przednie",
+          "Błona międzykostna goleni"
+        ]
+      },
+      {
         "title": "Ruchy",
         "items": [
           "niewielkie ruchy ślizgowe strzałki"
@@ -1467,9 +1802,37 @@ export const JOINTS: Joint[] = [
     "groupSlug": "konczyna-dolna",
     "subgroup": "60-61. Staw kolanowy",
     "subgroupSlug": "rozdzial-60-61",
-    "image": "/anat/j-tibiofib.webp",
-    "views": [],
-    "ligaments": []
+    "image": "/stawy/j-tibiofib__knee_front.webp",
+    "views": [
+      {
+        "image": "/stawy/j-tibiofib__knee_front.webp",
+        "ligaments": [
+          "lig-capitis-fibulae-anterius"
+        ],
+        "hotspots": {
+          "lig-capitis-fibulae-anterius": [
+            36.3,
+            55.3
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-tibiofib__leg_front.webp",
+        "ligaments": [
+          "membrana-interossea-cruris"
+        ],
+        "hotspots": {
+          "membrana-interossea-cruris": [
+            46.3,
+            52.9
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "lig-capitis-fibulae-anterius",
+      "membrana-interossea-cruris"
+    ]
   },
   {
     "id": "j-talocrur",
@@ -1497,7 +1860,8 @@ export const JOINTS: Joint[] = [
           "Więzadło skokowo-strzałkowe tylne",
           "Więzadło piętowo-strzałkowe",
           "Więzadło trójgraniaste (przyśrodkowe)",
-          "Więzadło piszczelowo-strzałkowe przednie"
+          "Więzadło piszczelowo-strzałkowe przednie",
+          "Więzadło piszczelowo-strzałkowe tylne"
         ]
       },
       {
@@ -1519,7 +1883,8 @@ export const JOINTS: Joint[] = [
           "lig-talofibulare-anterius",
           "lig-talofibulare-posterius",
           "lig-calcaneofibulare",
-          "lig-tibiofibulare-anterius"
+          "lig-tibiofibulare-anterius",
+          "lig-tibiofibulare-posterius"
         ],
         "hotspots": {
           "lig-talofibulare-anterius": [
@@ -1537,6 +1902,10 @@ export const JOINTS: Joint[] = [
           "lig-tibiofibulare-anterius": [
             33.3,
             52.5
+          ],
+          "lig-tibiofibulare-posterius": [
+            23.0,
+            51.9
           ]
         }
       },
@@ -1558,7 +1927,8 @@ export const JOINTS: Joint[] = [
       "lig-talofibulare-posterius",
       "lig-calcaneofibulare",
       "lig-deltoideum",
-      "lig-tibiofibulare-anterius"
+      "lig-tibiofibulare-anterius",
+      "lig-tibiofibulare-posterius"
     ]
   },
   {
@@ -1583,7 +1953,8 @@ export const JOINTS: Joint[] = [
       {
         "title": "Więzadła",
         "items": [
-          "Więzadło skokowo-piętowe międzykostne"
+          "Więzadło skokowo-piętowe międzykostne",
+          "Więzadło skokowo-piętowe boczne"
         ]
       },
       {
@@ -1602,18 +1973,24 @@ export const JOINTS: Joint[] = [
       {
         "image": "/stawy/j-subtal__ankle_right.webp",
         "ligaments": [
-          "lig-talocalcaneum-interosseum"
+          "lig-talocalcaneum-interosseum",
+          "lig-talocalcaneum-laterale"
         ],
         "hotspots": {
           "lig-talocalcaneum-interosseum": [
             33.3,
             68.3
+          ],
+          "lig-talocalcaneum-laterale": [
+            29.5,
+            70.7
           ]
         }
       }
     ],
     "ligaments": [
-      "lig-talocalcaneum-interosseum"
+      "lig-talocalcaneum-interosseum",
+      "lig-talocalcaneum-laterale"
     ]
   },
   {
@@ -1640,6 +2017,10 @@ export const JOINTS: Joint[] = [
         "items": [
           "Więzadło rozdwojone",
           "Więzadło piętowo-łódkowe podeszwowe (sprężynowe)",
+          "Więzadło skokowo-łódkowe",
+          "Więzadło piętowo-sześcienne podeszwowe (krótkie podeszwowe)",
+          "Więzadło piętowo-sześcienne grzbietowe",
+          "Więzadła klinowo-łódkowe grzbietowe",
           "Więzadło podeszwowe długie"
         ]
       },
@@ -1659,24 +2040,58 @@ export const JOINTS: Joint[] = [
       {
         "image": "/stawy/j-chopart__ankle_right.webp",
         "ligaments": [
-          "lig-bifurcatum"
+          "lig-bifurcatum",
+          "lig-calcaneocuboideum-dorsale"
         ],
         "hotspots": {
           "lig-bifurcatum": [
             39.5,
             70.0
+          ],
+          "lig-calcaneocuboideum-dorsale": [
+            42.9,
+            73.3
           ]
         }
       },
       {
         "image": "/stawy/j-chopart__ankle_left.webp",
         "ligaments": [
-          "lig-calcaneonaviculare-plantare"
+          "lig-calcaneonaviculare-plantare",
+          "lig-talonaviculare"
         ],
         "hotspots": {
           "lig-calcaneonaviculare-plantare": [
             59.1,
             69.2
+          ],
+          "lig-talonaviculare": [
+            55.0,
+            61.8
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-chopart__forefoot_bottom.webp",
+        "ligaments": [
+          "lig-calcaneocuboideum-plantare"
+        ],
+        "hotspots": {
+          "lig-calcaneocuboideum-plantare": [
+            56.2,
+            68.6
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-chopart__forefoot_top.webp",
+        "ligaments": [
+          "ligg-cuneonavicularia-dorsalia"
+        ],
+        "hotspots": {
+          "ligg-cuneonavicularia-dorsalia": [
+            37.3,
+            56.5
           ]
         }
       },
@@ -1696,7 +2111,81 @@ export const JOINTS: Joint[] = [
     "ligaments": [
       "lig-bifurcatum",
       "lig-calcaneonaviculare-plantare",
+      "lig-talonaviculare",
+      "lig-calcaneocuboideum-plantare",
+      "lig-calcaneocuboideum-dorsale",
+      "ligg-cuneonavicularia-dorsalia",
       "lig-plantare-longum"
+    ]
+  },
+  {
+    "id": "j-mtp",
+    "latin": "Articulationes metatarsophalangeae",
+    "polish": "Stawy śródstopno-paliczkowe",
+    "info": "Stawy kuliste o ograniczonych ruchach. Zgięcie podeszwowe i grzbietowe palców oraz niewielkie odwodzenie i przywodzenie.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy kuliste, czynnościowo dwuosiowe"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowy kości śródstopia",
+          "podstawy paliczków bliższych"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła poboczne stawów śródstopno-paliczkowych",
+          "Więzadło poprzeczne głębokie śródstopia"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie podeszwowe i grzbietowe palców",
+          "niewielkie odwodzenie i przywodzenie"
+        ]
+      }
+    ],
+    "group": "Kończyna dolna",
+    "groupSlug": "konczyna-dolna",
+    "subgroup": "62. Stawy stopy",
+    "subgroupSlug": "rozdzial-62",
+    "image": "/stawy/j-mtp__forefoot_top.webp",
+    "views": [
+      {
+        "image": "/stawy/j-mtp__forefoot_top.webp",
+        "ligaments": [
+          "ligg-collateralia-mtp"
+        ],
+        "hotspots": {
+          "ligg-collateralia-mtp": [
+            44.2,
+            25.0
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-mtp__forefoot_bottom.webp",
+        "ligaments": [
+          "lig-metatarsale-transversum-profundum"
+        ],
+        "hotspots": {
+          "lig-metatarsale-transversum-profundum": [
+            41.6,
+            33.5
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "ligg-collateralia-mtp",
+      "lig-metatarsale-transversum-profundum"
     ]
   },
   {
@@ -1720,7 +2209,9 @@ export const JOINTS: Joint[] = [
       {
         "title": "Więzadła",
         "items": [
-          "Więzadła stępowo-śródstopne grzbietowe"
+          "Więzadła stępowo-śródstopne grzbietowe",
+          "Więzadło Lisfranca (klinowo-śródstopne międzykostne)",
+          "Więzadła stępowo-śródstopne podeszwowe"
         ]
       },
       {
@@ -1747,10 +2238,36 @@ export const JOINTS: Joint[] = [
             37.3
           ]
         }
+      },
+      {
+        "image": "/stawy/j-lisfranc__forefoot_top.webp",
+        "ligaments": [
+          "lig-lisfranci"
+        ],
+        "hotspots": {
+          "lig-lisfranci": [
+            39.5,
+            53.1
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-lisfranc__forefoot_bottom.webp",
+        "ligaments": [
+          "ligg-tarsometatarsalia-plantaria"
+        ],
+        "hotspots": {
+          "ligg-tarsometatarsalia-plantaria": [
+            55.6,
+            57.4
+          ]
+        }
       }
     ],
     "ligaments": [
-      "ligg-tarsometatarsalia-dorsalia"
+      "ligg-tarsometatarsalia-dorsalia",
+      "lig-lisfranci",
+      "ligg-tarsometatarsalia-plantaria"
     ]
   }
 ];
@@ -1779,6 +2296,14 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Więzadło klinowo-żuchwowe",
     "info": "Biegnie po stronie przyśrodkowej od kolca kości klinowej do języczka żuchwy. Podtrzymuje żuchwę i ogranicza jej nadmierne opuszczanie.",
     "image": "/stawy/lig-sphenomandibulare.webp"
+  },
+  {
+    "id": "discus-articularis-tmj",
+    "jointId": "j-tmj",
+    "latin": "Discus articularis",
+    "polish": "Krążek stawowy stawu skroniowo-żuchwowego",
+    "info": "Chrząstka włóknista między głową żuchwy a dołem żuchwowym. Dzieli staw na dwa piętra, wyrównuje niezgodność powierzchni i przesuwa się do przodu przy otwieraniu ust.",
+    "image": "/stawy/discus-articularis-tmj.webp"
   },
   {
     "id": "lig-transversum-atlantis",
@@ -1819,6 +2344,22 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Błona szczytowo-potyliczna tylna",
     "info": "Łączy łuk tylny kręgu szczytowego z tylnym brzegiem otworu wielkiego i zamyka od tyłu przestrzeń między czaszką a kręgiem szczytowym. Przebija ją tętnica kręgowa.",
     "image": "/stawy/membrana-atlantooccipitalis-posterior.webp"
+  },
+  {
+    "id": "membrana-tectoria",
+    "jointId": "j-atlantoax",
+    "latin": "Membrana tectoria",
+    "polish": "Błona pokrywająca",
+    "info": "Przedłużenie więzadła podłużnego tylnego od trzonu kręgu obrotowego do kości potylicznej. Pokrywa od tyłu ząb i jego więzadła, ogranicza zginanie głowy.",
+    "image": "/stawy/membrana-tectoria.webp"
+  },
+  {
+    "id": "membrana-atlantooccipitalis-anterior",
+    "jointId": "j-atlantoax",
+    "latin": "Membrana atlantooccipitalis anterior",
+    "polish": "Błona szczytowo-potyliczna przednia",
+    "info": "Łączy łuk przedni kręgu szczytowego z przednim brzegiem otworu wielkiego. Ogranicza odginanie głowy do tyłu.",
+    "image": "/stawy/membrana-atlantooccipitalis-anterior.webp"
   },
   {
     "id": "lig-longitudinale-anterius",
@@ -1877,6 +2418,14 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/ligg-intertransversaria.webp"
   },
   {
+    "id": "lig-nuchae",
+    "jointId": "j-intervert",
+    "latin": "Ligamentum nuchae",
+    "polish": "Więzadło karkowe",
+    "info": "Przedłużenie więzadła nadkolcowego w odcinku szyjnym, od guzowatości potylicznej zewnętrznej do wyrostka kolczystego C7. Ogranicza zginanie szyi i jest miejscem przyczepu mięśni karku.",
+    "image": "/stawy/lig-nuchae.webp"
+  },
+  {
     "id": "lig-capitis-costae-radiatum",
     "jointId": "j-costovert",
     "latin": "Ligamentum capitis costae radiatum",
@@ -1909,6 +2458,14 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/ligg-sternocostalia-radiata.webp"
   },
   {
+    "id": "ligg-costoxiphoidea",
+    "jointId": "j-sternocost",
+    "latin": "Ligamenta costoxiphoidea",
+    "polish": "Więzadła żebrowo-mieczykowe",
+    "info": "Łączą chrząstkę żebra VII z wyrostkiem mieczykowatym. Stabilizują wyrostek mieczykowaty.",
+    "image": "/stawy/ligg-costoxiphoidea.webp"
+  },
+  {
     "id": "lig-sternoclaviculare-anterius",
     "jointId": "j-sternocl",
     "latin": "Ligamentum sternoclaviculare anterius",
@@ -1939,6 +2496,14 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Więzadło mostkowo-obojczykowe tylne",
     "info": "Wzmacnia torebkę stawu od tyłu i ogranicza przesunięcie obojczyka do tyłu.",
     "image": "/stawy/lig-sternoclaviculare-posterius.webp"
+  },
+  {
+    "id": "discus-articularis-sternocl",
+    "jointId": "j-sternocl",
+    "latin": "Discus articularis",
+    "polish": "Krążek stawowy stawu mostkowo-obojczykowego",
+    "info": "Dzieli staw na dwie komory i wyrównuje niezgodność powierzchni stawowych. Amortyzuje siły przenoszone z kończyny górnej na mostek.",
+    "image": "/stawy/discus-articularis-sternocl.webp"
   },
   {
     "id": "lig-acromioclaviculare",
@@ -2003,6 +2568,14 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Obrąbek panewki łopatki",
     "info": "Pierścień włóknisto-chrzęstny na brzegu panewki. Pogłębia i powiększa panewkę, zwiększa stabilność stawu.",
     "image": "/stawy/labrum-glenoidale.webp"
+  },
+  {
+    "id": "lig-transversum-humeri",
+    "jointId": "j-humeri",
+    "latin": "Ligamentum transversum humeri",
+    "polish": "Więzadło poprzeczne kości ramiennej",
+    "info": "Przechodzi nad bruzdą międzyguzkową między guzkiem większym a mniejszym. Utrzymuje w bruździe ścięgno głowy długiej mięśnia dwugłowego ramienia.",
+    "image": "/stawy/lig-transversum-humeri.webp"
   },
   {
     "id": "lig-collaterale-ulnare",
@@ -2085,6 +2658,110 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/retinaculum-flexorum.webp"
   },
   {
+    "id": "lig-ulnocarpale-palmare",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamentum ulnocarpale palmare",
+    "polish": "Więzadło łokciowo-nadgarstkowe dłoniowe",
+    "info": "Biegnie od krążka stawowego i wyrostka rylcowatego kości łokciowej do kości księżycowatej i trójgraniastej. Wzmacnia staw od strony dłoniowej i łokciowej.",
+    "image": "/stawy/lig-ulnocarpale-palmare.webp"
+  },
+  {
+    "id": "lig-carpi-radiatum",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamentum carpi radiatum",
+    "polish": "Więzadło promieniste nadgarstka",
+    "info": "Rozchodzi się promieniście od kości główkowatej do sąsiednich kości nadgarstka po stronie dłoniowej. Wzmacnia staw śródnadgarstkowy.",
+    "image": "/stawy/lig-carpi-radiatum.webp"
+  },
+  {
+    "id": "lig-pisohamatum",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamentum pisohamatum",
+    "polish": "Więzadło grochowato-haczykowe",
+    "info": "Łączy kość grochowatą z haczykiem kości haczykowatej. Jest przedłużeniem ścięgna mięśnia zginacza łokciowego nadgarstka.",
+    "image": "/stawy/lig-pisohamatum.webp"
+  },
+  {
+    "id": "lig-pisometacarpale",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamentum pisometacarpale",
+    "polish": "Więzadło grochowato-śródręczne",
+    "info": "Łączy kość grochowatą z podstawą kości śródręcza V. Przenosi siłę mięśnia zginacza łokciowego nadgarstka na śródręcze.",
+    "image": "/stawy/lig-pisometacarpale.webp"
+  },
+  {
+    "id": "ligg-intercarpalia-dorsalia",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamenta intercarpalia dorsalia",
+    "polish": "Więzadła międzynadgarstkowe grzbietowe",
+    "info": "Łączą sąsiednie kości nadgarstka od strony grzbietowej. Wzmacniają stawy między kośćmi nadgarstka.",
+    "image": "/stawy/ligg-intercarpalia-dorsalia.webp"
+  },
+  {
+    "id": "ligg-carpometacarpalia-dorsalia",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamenta carpometacarpalia dorsalia",
+    "polish": "Więzadła nadgarstkowo-śródręczne grzbietowe",
+    "info": "Łączą kości szeregu dalszego nadgarstka z podstawami kości śródręcza II-V od strony grzbietowej. Wzmacniają mało ruchome stawy nadgarstkowo-śródręczne.",
+    "image": "/stawy/ligg-carpometacarpalia-dorsalia.webp"
+  },
+  {
+    "id": "ligg-carpometacarpalia-palmaria",
+    "jointId": "j-radiocarp",
+    "latin": "Ligamenta carpometacarpalia palmaria",
+    "polish": "Więzadła nadgarstkowo-śródręczne dłoniowe",
+    "info": "Łączą kości szeregu dalszego nadgarstka z podstawami kości śródręcza II-V od strony dłoniowej. Wzmacniają stawy nadgarstkowo-śródręczne.",
+    "image": "/stawy/ligg-carpometacarpalia-palmaria.webp"
+  },
+  {
+    "id": "lig-radioulnare-palmare",
+    "jointId": "j-radioulndist",
+    "latin": "Ligamentum radioulnare palmare",
+    "polish": "Więzadło promieniowo-łokciowe dłoniowe",
+    "info": "Wzmacnia od strony dłoniowej staw promieniowo-łokciowy dalszy i stabilizuje kość promieniową względem łokciowej.",
+    "image": "/stawy/lig-radioulnare-palmare.webp"
+  },
+  {
+    "id": "discus-articularis-radioulnaris",
+    "jointId": "j-radioulndist",
+    "latin": "Discus articularis",
+    "polish": "Krążek stawowy (trójkątny)",
+    "info": "Chrząstka włóknista między głową kości łokciowej a kośćmi nadgarstka. Łączy dalsze końce kości przedramienia i przenosi część obciążeń z ręki na kość łokciową.",
+    "image": "/stawy/discus-articularis-radioulnaris.webp"
+  },
+  {
+    "id": "ligg-collateralia-mcp",
+    "jointId": "j-mcp",
+    "latin": "Ligamenta collateralia",
+    "polish": "Więzadła poboczne stawów śródręczno-paliczkowych",
+    "info": "Biegną po bokach stawów od głów kości śródręcza do podstaw paliczków bliższych. Napinają się przy zgięciu i ograniczają ruchy na boki.",
+    "image": "/stawy/ligg-collateralia-mcp.webp"
+  },
+  {
+    "id": "ligg-palmaria-mcp",
+    "jointId": "j-mcp",
+    "latin": "Ligamenta palmaria",
+    "polish": "Więzadła dłoniowe (płytki dłoniowe)",
+    "info": "Wzmacniają torebki stawów od strony dłoniowej. Ograniczają przeprost palców.",
+    "image": "/stawy/ligg-palmaria-mcp.webp"
+  },
+  {
+    "id": "lig-metacarpale-transversum-profundum",
+    "jointId": "j-mcp",
+    "latin": "Ligamentum metacarpale transversum profundum",
+    "polish": "Więzadło poprzeczne głębokie śródręcza",
+    "info": "Łączy więzadła dłoniowe stawów śródręczno-paliczkowych II-V. Utrzymuje głowy kości śródręcza razem.",
+    "image": "/stawy/lig-metacarpale-transversum-profundum.webp"
+  },
+  {
+    "id": "ligg-collateralia-ipm",
+    "jointId": "j-ipm",
+    "latin": "Ligamenta collateralia",
+    "polish": "Więzadła poboczne stawów międzypaliczkowych",
+    "info": "Biegną po bokach stawów międzypaliczkowych. Ograniczają ruchy na boki i stabilizują stawy przy zginaniu.",
+    "image": "/stawy/ligg-collateralia-ipm.webp"
+  },
+  {
     "id": "ligg-sacroiliaca-anteriora",
     "jointId": "pv-sacroil",
     "latin": "Ligamenta sacroiliaca anteriora",
@@ -2147,6 +2824,22 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Więzadło łonowe dolne (łukowate)",
     "info": "Biegnie łukiem pod dolnym brzegiem spojenia łonowego. Najsilniejsze więzadło spojenia, wzmacnia je od dołu.",
     "image": "/stawy/lig-pubicum-inferius.webp"
+  },
+  {
+    "id": "membrana-obturatoria",
+    "jointId": "pv-symph",
+    "latin": "Membrana obturatoria",
+    "polish": "Błona zasłonowa",
+    "info": "Zamyka otwór zasłonowy, pozostawiając kanał zasłonowy dla naczyń i nerwu zasłonowego. Jest miejscem przyczepu mięśni zasłaniaczy.",
+    "image": "/stawy/membrana-obturatoria.webp"
+  },
+  {
+    "id": "discus-interpubicus",
+    "jointId": "pv-symph",
+    "latin": "Discus interpubicus",
+    "polish": "Krążek międzyłonowy",
+    "info": "Chrząstka włóknista łącząca powierzchnie spojeniowe kości łonowych. Amortyzuje obciążenia i umożliwia minimalne ruchy spojenia.",
+    "image": "/stawy/discus-interpubicus.webp"
   },
   {
     "id": "lig-iliofemorale",
@@ -2293,6 +2986,38 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-transversum-genus.webp"
   },
   {
+    "id": "lig-popliteum-arcuatum",
+    "jointId": "j-genus",
+    "latin": "Ligamentum popliteum arcuatum",
+    "polish": "Więzadło podkolanowe łukowate",
+    "info": "Biegnie łukiem od głowy strzałki do tylnej części torebki stawowej. Wzmacnia tylno-boczną część torebki.",
+    "image": "/stawy/lig-popliteum-arcuatum.webp"
+  },
+  {
+    "id": "lig-meniscofemorale-posterius",
+    "jointId": "j-genus",
+    "latin": "Ligamentum meniscofemorale posterius",
+    "polish": "Więzadło łąkotkowo-udowe tylne",
+    "info": "Biegnie od rogu tylnego łąkotki bocznej, za więzadłem krzyżowym tylnym, do kłykcia przyśrodkowego kości udowej. Stabilizuje róg tylny łąkotki bocznej.",
+    "image": "/stawy/lig-meniscofemorale-posterius.webp"
+  },
+  {
+    "id": "lig-capitis-fibulae-anterius",
+    "jointId": "j-tibiofib",
+    "latin": "Ligamentum capitis fibulae anterius",
+    "polish": "Więzadło głowy strzałki przednie",
+    "info": "Łączy głowę strzałki z kłykciem bocznym kości piszczelowej od przodu. Wzmacnia staw piszczelowo-strzałkowy.",
+    "image": "/stawy/lig-capitis-fibulae-anterius.webp"
+  },
+  {
+    "id": "membrana-interossea-cruris",
+    "jointId": "j-tibiofib",
+    "latin": "Membrana interossea cruris",
+    "polish": "Błona międzykostna goleni",
+    "info": "Łączy trzony kości piszczelowej i strzałkowej. Jest miejscem przyczepu mięśni goleni i oddziela przednią grupę mięśni od tylnej.",
+    "image": "/stawy/membrana-interossea-cruris.webp"
+  },
+  {
     "id": "lig-talofibulare-anterius",
     "jointId": "j-talocrur",
     "latin": "Ligamentum talofibulare anterius",
@@ -2333,12 +3058,28 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-tibiofibulare-anterius.webp"
   },
   {
+    "id": "lig-tibiofibulare-posterius",
+    "jointId": "j-talocrur",
+    "latin": "Ligamentum tibiofibulare posterius",
+    "polish": "Więzadło piszczelowo-strzałkowe tylne",
+    "info": "Łączy z tyłu dolne końce kości piszczelowej i strzałkowej. Razem z więzadłem przednim utrzymuje widełki stawu skokowego.",
+    "image": "/stawy/lig-tibiofibulare-posterius.webp"
+  },
+  {
     "id": "lig-talocalcaneum-interosseum",
     "jointId": "j-subtal",
     "latin": "Ligamentum talocalcaneum interosseum",
     "polish": "Więzadło skokowo-piętowe międzykostne",
     "info": "Leży w zatoce stępu między kością skokową a piętową. Najsilniejsze więzadło stawu skokowego dolnego, ogranicza nadmierne odwracanie stopy.",
     "image": "/stawy/lig-talocalcaneum-interosseum.webp"
+  },
+  {
+    "id": "lig-talocalcaneum-laterale",
+    "jointId": "j-subtal",
+    "latin": "Ligamentum talocalcaneum laterale",
+    "polish": "Więzadło skokowo-piętowe boczne",
+    "info": "Łączy kość skokową z kością piętową po stronie bocznej. Wzmacnia staw skokowy dolny.",
+    "image": "/stawy/lig-talocalcaneum-laterale.webp"
   },
   {
     "id": "lig-bifurcatum",
@@ -2357,6 +3098,38 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-calcaneonaviculare-plantare.webp"
   },
   {
+    "id": "lig-talonaviculare",
+    "jointId": "j-chopart",
+    "latin": "Ligamentum talonaviculare",
+    "polish": "Więzadło skokowo-łódkowe",
+    "info": "Łączy szyjkę kości skokowej z kością łódkowatą od strony grzbietowej. Wzmacnia staw skokowo-łódkowy.",
+    "image": "/stawy/lig-talonaviculare.webp"
+  },
+  {
+    "id": "lig-calcaneocuboideum-plantare",
+    "jointId": "j-chopart",
+    "latin": "Ligamentum calcaneocuboideum plantare",
+    "polish": "Więzadło piętowo-sześcienne podeszwowe (krótkie podeszwowe)",
+    "info": "Leży głębiej niż więzadło podeszwowe długie i łączy kość piętową z kością sześcienną. Podtrzymuje łuk podłużny boczny stopy.",
+    "image": "/stawy/lig-calcaneocuboideum-plantare.webp"
+  },
+  {
+    "id": "lig-calcaneocuboideum-dorsale",
+    "jointId": "j-chopart",
+    "latin": "Ligamentum calcaneocuboideum dorsale",
+    "polish": "Więzadło piętowo-sześcienne grzbietowe",
+    "info": "Łączy kość piętową z kością sześcienną od strony grzbietowej. Wzmacnia staw piętowo-sześcienny.",
+    "image": "/stawy/lig-calcaneocuboideum-dorsale.webp"
+  },
+  {
+    "id": "ligg-cuneonavicularia-dorsalia",
+    "jointId": "j-chopart",
+    "latin": "Ligamenta cuneonavicularia dorsalia",
+    "polish": "Więzadła klinowo-łódkowe grzbietowe",
+    "info": "Łączą kość łódkowatą z trzema kośćmi klinowatymi od strony grzbietowej. Wzmacniają staw klinowo-łódkowy.",
+    "image": "/stawy/ligg-cuneonavicularia-dorsalia.webp"
+  },
+  {
     "id": "lig-plantare-longum",
     "jointId": "j-chopart",
     "latin": "Ligamentum plantare longum",
@@ -2365,12 +3138,44 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-plantare-longum.webp"
   },
   {
+    "id": "ligg-collateralia-mtp",
+    "jointId": "j-mtp",
+    "latin": "Ligamenta collateralia",
+    "polish": "Więzadła poboczne stawów śródstopno-paliczkowych",
+    "info": "Biegną po bokach stawów od głów kości śródstopia do podstaw paliczków bliższych. Ograniczają ruchy na boki.",
+    "image": "/stawy/ligg-collateralia-mtp.webp"
+  },
+  {
+    "id": "lig-metatarsale-transversum-profundum",
+    "jointId": "j-mtp",
+    "latin": "Ligamentum metatarsale transversum profundum",
+    "polish": "Więzadło poprzeczne głębokie śródstopia",
+    "info": "Łączy głowy kości śródstopia I-V od strony podeszwowej. Utrzymuje je razem i stabilizuje łuk poprzeczny przedstopia.",
+    "image": "/stawy/lig-metatarsale-transversum-profundum.webp"
+  },
+  {
     "id": "ligg-tarsometatarsalia-dorsalia",
     "jointId": "j-lisfranc",
     "latin": "Ligamenta tarsometatarsalia dorsalia",
     "polish": "Więzadła stępowo-śródstopne grzbietowe",
     "info": "Łączą kości klinowate i sześcienną z podstawami kości śródstopia od strony grzbietowej. Wzmacniają stawy stępowo-śródstopne.",
     "image": "/stawy/ligg-tarsometatarsalia-dorsalia.webp"
+  },
+  {
+    "id": "lig-lisfranci",
+    "jointId": "j-lisfranc",
+    "latin": "Ligamentum cuneometatarsale interosseum",
+    "polish": "Więzadło Lisfranca (klinowo-śródstopne międzykostne)",
+    "info": "Łączy kość klinowatą przyśrodkową z podstawą kości śródstopia II. Najważniejsze więzadło stabilizujące stawy stępowo-śródstopne.",
+    "image": "/stawy/lig-lisfranci.webp"
+  },
+  {
+    "id": "ligg-tarsometatarsalia-plantaria",
+    "jointId": "j-lisfranc",
+    "latin": "Ligamenta tarsometatarsalia plantaria",
+    "polish": "Więzadła stępowo-śródstopne podeszwowe",
+    "info": "Łączą kości stępu z podstawami kości śródstopia od strony podeszwowej. Wzmacniają stawy stępowo-śródstopne.",
+    "image": "/stawy/ligg-tarsometatarsalia-plantaria.webp"
   }
 ];
 
@@ -2418,6 +3223,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-16",
       "image": "/stawy/lig-sphenomandibulare.webp",
       "info": "Biegnie po stronie przyśrodkowej od kolca kości klinowej do języczka żuchwy. Podtrzymuje żuchwę i ogranicza jej nadmierne opuszczanie."
+    }
+  },
+  {
+    "after": "lig-sphenomandibulare",
+    "card": {
+      "id": "discus-articularis-tmj",
+      "latin": "Discus articularis",
+      "polish": "Krążek stawowy stawu skroniowo-żuchwowego",
+      "system": "kostno-stawowy",
+      "group": "Czaszka",
+      "groupSlug": "czaszka",
+      "subgroup": "16. Połączenia kości czaszki",
+      "subgroupSlug": "rozdzial-16",
+      "image": "/stawy/discus-articularis-tmj.webp",
+      "info": "Chrząstka włóknista między głową żuchwy a dołem żuchwowym. Dzieli staw na dwa piętra, wyrównuje niezgodność powierzchni i przesuwa się do przodu przy otwieraniu ust."
     }
   },
   {
@@ -2493,6 +3313,36 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-27-28",
       "image": "/stawy/membrana-atlantooccipitalis-posterior.webp",
       "info": "Łączy łuk tylny kręgu szczytowego z tylnym brzegiem otworu wielkiego i zamyka od tyłu przestrzeń między czaszką a kręgiem szczytowym. Przebija ją tętnica kręgowa."
+    }
+  },
+  {
+    "after": "membrana-atlantooccipitalis-posterior",
+    "card": {
+      "id": "membrana-tectoria",
+      "latin": "Membrana tectoria",
+      "polish": "Błona pokrywająca",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/membrana-tectoria.webp",
+      "info": "Przedłużenie więzadła podłużnego tylnego od trzonu kręgu obrotowego do kości potylicznej. Pokrywa od tyłu ząb i jego więzadła, ogranicza zginanie głowy."
+    }
+  },
+  {
+    "after": "membrana-tectoria",
+    "card": {
+      "id": "membrana-atlantooccipitalis-anterior",
+      "latin": "Membrana atlantooccipitalis anterior",
+      "polish": "Błona szczytowo-potyliczna przednia",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/membrana-atlantooccipitalis-anterior.webp",
+      "info": "Łączy łuk przedni kręgu szczytowego z przednim brzegiem otworu wielkiego. Ogranicza odginanie głowy do tyłu."
     }
   },
   {
@@ -2601,6 +3451,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "ligg-intertransversaria",
+    "card": {
+      "id": "lig-nuchae",
+      "latin": "Ligamentum nuchae",
+      "polish": "Więzadło karkowe",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/lig-nuchae.webp",
+      "info": "Przedłużenie więzadła nadkolcowego w odcinku szyjnym, od guzowatości potylicznej zewnętrznej do wyrostka kolczystego C7. Ogranicza zginanie szyi i jest miejscem przyczepu mięśni karku."
+    }
+  },
+  {
     "after": "j-costovert",
     "card": {
       "id": "lig-capitis-costae-radiatum",
@@ -2661,6 +3526,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "ligg-sternocostalia-radiata",
+    "card": {
+      "id": "ligg-costoxiphoidea",
+      "latin": "Ligamenta costoxiphoidea",
+      "polish": "Więzadła żebrowo-mieczykowe",
+      "system": "kostno-stawowy",
+      "group": "Klatka piersiowa",
+      "groupSlug": "klatka-piersiowa",
+      "subgroup": "34. Połączenia stawowe klatki piersiowej",
+      "subgroupSlug": "rozdzial-34",
+      "image": "/stawy/ligg-costoxiphoidea.webp",
+      "info": "Łączą chrząstkę żebra VII z wyrostkiem mieczykowatym. Stabilizują wyrostek mieczykowaty."
+    }
+  },
+  {
     "after": "j-acromiocl",
     "card": {
       "id": "j-sternocl",
@@ -2694,7 +3574,8 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
             "Więzadło mostkowo-obojczykowe przednie",
             "Więzadło międzyobojczykowe",
             "Więzadło żebrowo-obojczykowe",
-            "Więzadło mostkowo-obojczykowe tylne"
+            "Więzadło mostkowo-obojczykowe tylne",
+            "Krążek stawowy stawu mostkowo-obojczykowego"
           ]
         },
         {
@@ -2766,6 +3647,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-46",
       "image": "/stawy/lig-sternoclaviculare-posterius.webp",
       "info": "Wzmacnia torebkę stawu od tyłu i ogranicza przesunięcie obojczyka do tyłu."
+    }
+  },
+  {
+    "after": "lig-sternoclaviculare-posterius",
+    "card": {
+      "id": "discus-articularis-sternocl",
+      "latin": "Discus articularis",
+      "polish": "Krążek stawowy stawu mostkowo-obojczykowego",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
+      "subgroupSlug": "rozdzial-46",
+      "image": "/stawy/discus-articularis-sternocl.webp",
+      "info": "Dzieli staw na dwie komory i wyrównuje niezgodność powierzchni stawowych. Amortyzuje siły przenoszone z kończyny górnej na mostek."
     }
   },
   {
@@ -2889,6 +3785,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "labrum-glenoidale",
+    "card": {
+      "id": "lig-transversum-humeri",
+      "latin": "Ligamentum transversum humeri",
+      "polish": "Więzadło poprzeczne kości ramiennej",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "47. Staw ramienny",
+      "subgroupSlug": "rozdzial-47",
+      "image": "/stawy/lig-transversum-humeri.webp",
+      "info": "Przechodzi nad bruzdą międzyguzkową między guzkiem większym a mniejszym. Utrzymuje w bruździe ścięgno głowy długiej mięśnia dwugłowego ramienia."
+    }
+  },
+  {
     "after": "j-cubiti",
     "card": {
       "id": "lig-collaterale-ulnare",
@@ -2997,7 +3908,14 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
             "Więzadło poboczne łokciowe nadgarstka",
             "Więzadło promieniowo-nadgarstkowe dłoniowe",
             "Więzadło promieniowo-nadgarstkowe grzbietowe",
-            "Troczek zginaczy (więzadło poprzeczne nadgarstka)"
+            "Troczek zginaczy (więzadło poprzeczne nadgarstka)",
+            "Więzadło łokciowo-nadgarstkowe dłoniowe",
+            "Więzadło promieniste nadgarstka",
+            "Więzadło grochowato-haczykowe",
+            "Więzadło grochowato-śródręczne",
+            "Więzadła międzynadgarstkowe grzbietowe",
+            "Więzadła nadgarstkowo-śródręczne grzbietowe",
+            "Więzadła nadgarstkowo-śródręczne dłoniowe"
           ]
         },
         {
@@ -3084,6 +4002,332 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-50",
       "image": "/stawy/retinaculum-flexorum.webp",
       "info": "Rozpięty między wyniosłościami promieniową i łokciową nadgarstka. Zamyka od przodu kanał nadgarstka, w którym biegną ścięgna zginaczy i nerw pośrodkowy."
+    }
+  },
+  {
+    "after": "retinaculum-flexorum",
+    "card": {
+      "id": "lig-ulnocarpale-palmare",
+      "latin": "Ligamentum ulnocarpale palmare",
+      "polish": "Więzadło łokciowo-nadgarstkowe dłoniowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/lig-ulnocarpale-palmare.webp",
+      "info": "Biegnie od krążka stawowego i wyrostka rylcowatego kości łokciowej do kości księżycowatej i trójgraniastej. Wzmacnia staw od strony dłoniowej i łokciowej."
+    }
+  },
+  {
+    "after": "lig-ulnocarpale-palmare",
+    "card": {
+      "id": "lig-carpi-radiatum",
+      "latin": "Ligamentum carpi radiatum",
+      "polish": "Więzadło promieniste nadgarstka",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/lig-carpi-radiatum.webp",
+      "info": "Rozchodzi się promieniście od kości główkowatej do sąsiednich kości nadgarstka po stronie dłoniowej. Wzmacnia staw śródnadgarstkowy."
+    }
+  },
+  {
+    "after": "lig-carpi-radiatum",
+    "card": {
+      "id": "lig-pisohamatum",
+      "latin": "Ligamentum pisohamatum",
+      "polish": "Więzadło grochowato-haczykowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/lig-pisohamatum.webp",
+      "info": "Łączy kość grochowatą z haczykiem kości haczykowatej. Jest przedłużeniem ścięgna mięśnia zginacza łokciowego nadgarstka."
+    }
+  },
+  {
+    "after": "lig-pisohamatum",
+    "card": {
+      "id": "lig-pisometacarpale",
+      "latin": "Ligamentum pisometacarpale",
+      "polish": "Więzadło grochowato-śródręczne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/lig-pisometacarpale.webp",
+      "info": "Łączy kość grochowatą z podstawą kości śródręcza V. Przenosi siłę mięśnia zginacza łokciowego nadgarstka na śródręcze."
+    }
+  },
+  {
+    "after": "lig-pisometacarpale",
+    "card": {
+      "id": "ligg-intercarpalia-dorsalia",
+      "latin": "Ligamenta intercarpalia dorsalia",
+      "polish": "Więzadła międzynadgarstkowe grzbietowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/ligg-intercarpalia-dorsalia.webp",
+      "info": "Łączą sąsiednie kości nadgarstka od strony grzbietowej. Wzmacniają stawy między kośćmi nadgarstka."
+    }
+  },
+  {
+    "after": "ligg-intercarpalia-dorsalia",
+    "card": {
+      "id": "ligg-carpometacarpalia-dorsalia",
+      "latin": "Ligamenta carpometacarpalia dorsalia",
+      "polish": "Więzadła nadgarstkowo-śródręczne grzbietowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/ligg-carpometacarpalia-dorsalia.webp",
+      "info": "Łączą kości szeregu dalszego nadgarstka z podstawami kości śródręcza II-V od strony grzbietowej. Wzmacniają mało ruchome stawy nadgarstkowo-śródręczne."
+    }
+  },
+  {
+    "after": "ligg-carpometacarpalia-dorsalia",
+    "card": {
+      "id": "ligg-carpometacarpalia-palmaria",
+      "latin": "Ligamenta carpometacarpalia palmaria",
+      "polish": "Więzadła nadgarstkowo-śródręczne dłoniowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/ligg-carpometacarpalia-palmaria.webp",
+      "info": "Łączą kości szeregu dalszego nadgarstka z podstawami kości śródręcza II-V od strony dłoniowej. Wzmacniają stawy nadgarstkowo-śródręczne."
+    }
+  },
+  {
+    "after": "ligg-carpometacarpalia-palmaria",
+    "card": {
+      "id": "j-radioulndist",
+      "latin": "Articulatio radioulnaris distalis",
+      "polish": "Staw promieniowo-łokciowy dalszy",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/j-radioulndist__hand_front.webp",
+      "info": "Staw obrotowy. Kość promieniowa obraca się wokół głowy kości łokciowej przy nawracaniu i odwracaniu przedramienia.",
+      "details": [
+        {
+          "title": "Rodzaj",
+          "items": [
+            "staw obrotowy, jednoosiowy"
+          ]
+        },
+        {
+          "title": "Budowa",
+          "items": [
+            "obwód stawowy głowy kości łokciowej",
+            "wcięcie łokciowe kości promieniowej",
+            "krążek stawowy oddziela głowę kości łokciowej od nadgarstka"
+          ]
+        },
+        {
+          "title": "Więzadła",
+          "items": [
+            "Więzadło promieniowo-łokciowe dłoniowe",
+            "Krążek stawowy (trójkątny)"
+          ]
+        },
+        {
+          "title": "Ruchy",
+          "items": [
+            "nawracanie i odwracanie (razem ze stawem promieniowo-łokciowym bliższym)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "after": "j-radioulndist",
+    "card": {
+      "id": "lig-radioulnare-palmare",
+      "latin": "Ligamentum radioulnare palmare",
+      "polish": "Więzadło promieniowo-łokciowe dłoniowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/lig-radioulnare-palmare.webp",
+      "info": "Wzmacnia od strony dłoniowej staw promieniowo-łokciowy dalszy i stabilizuje kość promieniową względem łokciowej."
+    }
+  },
+  {
+    "after": "lig-radioulnare-palmare",
+    "card": {
+      "id": "discus-articularis-radioulnaris",
+      "latin": "Discus articularis",
+      "polish": "Krążek stawowy (trójkątny)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/discus-articularis-radioulnaris.webp",
+      "info": "Chrząstka włóknista między głową kości łokciowej a kośćmi nadgarstka. Łączy dalsze końce kości przedramienia i przenosi część obciążeń z ręki na kość łokciową."
+    }
+  },
+  {
+    "after": "discus-articularis-radioulnaris",
+    "card": {
+      "id": "j-mcp",
+      "latin": "Articulationes metacarpophalangeae",
+      "polish": "Stawy śródręczno-paliczkowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/j-mcp__hand_front.webp",
+      "info": "Stawy kuliste o ruchach ograniczonych przez więzadła. Zgięcie i prostowanie oraz odwodzenie i przywodzenie palców.",
+      "details": [
+        {
+          "title": "Rodzaj",
+          "items": [
+            "stawy kuliste, czynnościowo dwuosiowe (kciuk: zawiasowy)"
+          ]
+        },
+        {
+          "title": "Budowa",
+          "items": [
+            "głowy kości śródręcza",
+            "podstawy paliczków bliższych"
+          ]
+        },
+        {
+          "title": "Więzadła",
+          "items": [
+            "Więzadła poboczne stawów śródręczno-paliczkowych",
+            "Więzadła dłoniowe (płytki dłoniowe)",
+            "Więzadło poprzeczne głębokie śródręcza"
+          ]
+        },
+        {
+          "title": "Ruchy",
+          "items": [
+            "zgięcie i prostowanie palców",
+            "odwodzenie i przywodzenie palców"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "after": "j-mcp",
+    "card": {
+      "id": "ligg-collateralia-mcp",
+      "latin": "Ligamenta collateralia",
+      "polish": "Więzadła poboczne stawów śródręczno-paliczkowych",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/ligg-collateralia-mcp.webp",
+      "info": "Biegną po bokach stawów od głów kości śródręcza do podstaw paliczków bliższych. Napinają się przy zgięciu i ograniczają ruchy na boki."
+    }
+  },
+  {
+    "after": "ligg-collateralia-mcp",
+    "card": {
+      "id": "ligg-palmaria-mcp",
+      "latin": "Ligamenta palmaria",
+      "polish": "Więzadła dłoniowe (płytki dłoniowe)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/ligg-palmaria-mcp.webp",
+      "info": "Wzmacniają torebki stawów od strony dłoniowej. Ograniczają przeprost palców."
+    }
+  },
+  {
+    "after": "ligg-palmaria-mcp",
+    "card": {
+      "id": "lig-metacarpale-transversum-profundum",
+      "latin": "Ligamentum metacarpale transversum profundum",
+      "polish": "Więzadło poprzeczne głębokie śródręcza",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/lig-metacarpale-transversum-profundum.webp",
+      "info": "Łączy więzadła dłoniowe stawów śródręczno-paliczkowych II-V. Utrzymuje głowy kości śródręcza razem."
+    }
+  },
+  {
+    "after": "lig-metacarpale-transversum-profundum",
+    "card": {
+      "id": "j-ipm",
+      "latin": "Articulationes interphalangeae manus",
+      "polish": "Stawy międzypaliczkowe ręki",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/j-ipm__hand_front.webp",
+      "info": "Stawy zawiasowe. Zgięcie i prostowanie paliczków.",
+      "details": [
+        {
+          "title": "Rodzaj",
+          "items": [
+            "stawy zawiasowe, jednoosiowe"
+          ]
+        },
+        {
+          "title": "Budowa",
+          "items": [
+            "głowa paliczka bliższego lub środkowego",
+            "podstawa paliczka położonego dalej"
+          ]
+        },
+        {
+          "title": "Więzadła",
+          "items": [
+            "Więzadła poboczne stawów międzypaliczkowych"
+          ]
+        },
+        {
+          "title": "Ruchy",
+          "items": [
+            "zgięcie i prostowanie"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "after": "j-ipm",
+    "card": {
+      "id": "ligg-collateralia-ipm",
+      "latin": "Ligamenta collateralia",
+      "polish": "Więzadła poboczne stawów międzypaliczkowych",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/ligg-collateralia-ipm.webp",
+      "info": "Biegną po bokach stawów międzypaliczkowych. Ograniczają ruchy na boki i stabilizują stawy przy zginaniu."
     }
   },
   {
@@ -3204,6 +4448,36 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-54",
       "image": "/stawy/lig-pubicum-inferius.webp",
       "info": "Biegnie łukiem pod dolnym brzegiem spojenia łonowego. Najsilniejsze więzadło spojenia, wzmacnia je od dołu."
+    }
+  },
+  {
+    "after": "lig-pubicum-inferius",
+    "card": {
+      "id": "membrana-obturatoria",
+      "latin": "Membrana obturatoria",
+      "polish": "Błona zasłonowa",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "54. Połączenia miednicy",
+      "subgroupSlug": "rozdzial-54",
+      "image": "/stawy/membrana-obturatoria.webp",
+      "info": "Zamyka otwór zasłonowy, pozostawiając kanał zasłonowy dla naczyń i nerwu zasłonowego. Jest miejscem przyczepu mięśni zasłaniaczy."
+    }
+  },
+  {
+    "after": "membrana-obturatoria",
+    "card": {
+      "id": "discus-interpubicus",
+      "latin": "Discus interpubicus",
+      "polish": "Krążek międzyłonowy",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "54. Połączenia miednicy",
+      "subgroupSlug": "rozdzial-54",
+      "image": "/stawy/discus-interpubicus.webp",
+      "info": "Chrząstka włóknista łącząca powierzchnie spojeniowe kości łonowych. Amortyzuje obciążenia i umożliwia minimalne ruchy spojenia."
     }
   },
   {
@@ -3477,6 +4751,66 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-transversum-genus",
+    "card": {
+      "id": "lig-popliteum-arcuatum",
+      "latin": "Ligamentum popliteum arcuatum",
+      "polish": "Więzadło podkolanowe łukowate",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/lig-popliteum-arcuatum.webp",
+      "info": "Biegnie łukiem od głowy strzałki do tylnej części torebki stawowej. Wzmacnia tylno-boczną część torebki."
+    }
+  },
+  {
+    "after": "lig-popliteum-arcuatum",
+    "card": {
+      "id": "lig-meniscofemorale-posterius",
+      "latin": "Ligamentum meniscofemorale posterius",
+      "polish": "Więzadło łąkotkowo-udowe tylne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/lig-meniscofemorale-posterius.webp",
+      "info": "Biegnie od rogu tylnego łąkotki bocznej, za więzadłem krzyżowym tylnym, do kłykcia przyśrodkowego kości udowej. Stabilizuje róg tylny łąkotki bocznej."
+    }
+  },
+  {
+    "after": "j-tibiofib",
+    "card": {
+      "id": "lig-capitis-fibulae-anterius",
+      "latin": "Ligamentum capitis fibulae anterius",
+      "polish": "Więzadło głowy strzałki przednie",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/lig-capitis-fibulae-anterius.webp",
+      "info": "Łączy głowę strzałki z kłykciem bocznym kości piszczelowej od przodu. Wzmacnia staw piszczelowo-strzałkowy."
+    }
+  },
+  {
+    "after": "lig-capitis-fibulae-anterius",
+    "card": {
+      "id": "membrana-interossea-cruris",
+      "latin": "Membrana interossea cruris",
+      "polish": "Błona międzykostna goleni",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/membrana-interossea-cruris.webp",
+      "info": "Łączy trzony kości piszczelowej i strzałkowej. Jest miejscem przyczepu mięśni goleni i oddziela przednią grupę mięśni od tylnej."
+    }
+  },
+  {
     "after": "j-talocrur",
     "card": {
       "id": "lig-talofibulare-anterius",
@@ -3552,6 +4886,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-tibiofibulare-anterius",
+    "card": {
+      "id": "lig-tibiofibulare-posterius",
+      "latin": "Ligamentum tibiofibulare posterius",
+      "polish": "Więzadło piszczelowo-strzałkowe tylne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-tibiofibulare-posterius.webp",
+      "info": "Łączy z tyłu dolne końce kości piszczelowej i strzałkowej. Razem z więzadłem przednim utrzymuje widełki stawu skokowego."
+    }
+  },
+  {
     "after": "j-subtal",
     "card": {
       "id": "lig-talocalcaneum-interosseum",
@@ -3564,6 +4913,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-62",
       "image": "/stawy/lig-talocalcaneum-interosseum.webp",
       "info": "Leży w zatoce stępu między kością skokową a piętową. Najsilniejsze więzadło stawu skokowego dolnego, ogranicza nadmierne odwracanie stopy."
+    }
+  },
+  {
+    "after": "lig-talocalcaneum-interosseum",
+    "card": {
+      "id": "lig-talocalcaneum-laterale",
+      "latin": "Ligamentum talocalcaneum laterale",
+      "polish": "Więzadło skokowo-piętowe boczne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-talocalcaneum-laterale.webp",
+      "info": "Łączy kość skokową z kością piętową po stronie bocznej. Wzmacnia staw skokowy dolny."
     }
   },
   {
@@ -3599,6 +4963,66 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
   {
     "after": "lig-calcaneonaviculare-plantare",
     "card": {
+      "id": "lig-talonaviculare",
+      "latin": "Ligamentum talonaviculare",
+      "polish": "Więzadło skokowo-łódkowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-talonaviculare.webp",
+      "info": "Łączy szyjkę kości skokowej z kością łódkowatą od strony grzbietowej. Wzmacnia staw skokowo-łódkowy."
+    }
+  },
+  {
+    "after": "lig-talonaviculare",
+    "card": {
+      "id": "lig-calcaneocuboideum-plantare",
+      "latin": "Ligamentum calcaneocuboideum plantare",
+      "polish": "Więzadło piętowo-sześcienne podeszwowe (krótkie podeszwowe)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-calcaneocuboideum-plantare.webp",
+      "info": "Leży głębiej niż więzadło podeszwowe długie i łączy kość piętową z kością sześcienną. Podtrzymuje łuk podłużny boczny stopy."
+    }
+  },
+  {
+    "after": "lig-calcaneocuboideum-plantare",
+    "card": {
+      "id": "lig-calcaneocuboideum-dorsale",
+      "latin": "Ligamentum calcaneocuboideum dorsale",
+      "polish": "Więzadło piętowo-sześcienne grzbietowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-calcaneocuboideum-dorsale.webp",
+      "info": "Łączy kość piętową z kością sześcienną od strony grzbietowej. Wzmacnia staw piętowo-sześcienny."
+    }
+  },
+  {
+    "after": "lig-calcaneocuboideum-dorsale",
+    "card": {
+      "id": "ligg-cuneonavicularia-dorsalia",
+      "latin": "Ligamenta cuneonavicularia dorsalia",
+      "polish": "Więzadła klinowo-łódkowe grzbietowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/ligg-cuneonavicularia-dorsalia.webp",
+      "info": "Łączą kość łódkowatą z trzema kośćmi klinowatymi od strony grzbietowej. Wzmacniają staw klinowo-łódkowy."
+    }
+  },
+  {
+    "after": "ligg-cuneonavicularia-dorsalia",
+    "card": {
       "id": "lig-plantare-longum",
       "latin": "Ligamentum plantare longum",
       "polish": "Więzadło podeszwowe długie",
@@ -3609,6 +5033,80 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-62",
       "image": "/stawy/lig-plantare-longum.webp",
       "info": "Biegnie od kości piętowej do kości sześciennej i podstaw kości śródstopia. Podtrzymuje łuk podłużny boczny stopy."
+    }
+  },
+  {
+    "after": "lig-plantare-longum",
+    "card": {
+      "id": "j-mtp",
+      "latin": "Articulationes metatarsophalangeae",
+      "polish": "Stawy śródstopno-paliczkowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/j-mtp__forefoot_top.webp",
+      "info": "Stawy kuliste o ograniczonych ruchach. Zgięcie podeszwowe i grzbietowe palców oraz niewielkie odwodzenie i przywodzenie.",
+      "details": [
+        {
+          "title": "Rodzaj",
+          "items": [
+            "stawy kuliste, czynnościowo dwuosiowe"
+          ]
+        },
+        {
+          "title": "Budowa",
+          "items": [
+            "głowy kości śródstopia",
+            "podstawy paliczków bliższych"
+          ]
+        },
+        {
+          "title": "Więzadła",
+          "items": [
+            "Więzadła poboczne stawów śródstopno-paliczkowych",
+            "Więzadło poprzeczne głębokie śródstopia"
+          ]
+        },
+        {
+          "title": "Ruchy",
+          "items": [
+            "zgięcie podeszwowe i grzbietowe palców",
+            "niewielkie odwodzenie i przywodzenie"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "after": "j-mtp",
+    "card": {
+      "id": "ligg-collateralia-mtp",
+      "latin": "Ligamenta collateralia",
+      "polish": "Więzadła poboczne stawów śródstopno-paliczkowych",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/ligg-collateralia-mtp.webp",
+      "info": "Biegną po bokach stawów od głów kości śródstopia do podstaw paliczków bliższych. Ograniczają ruchy na boki."
+    }
+  },
+  {
+    "after": "ligg-collateralia-mtp",
+    "card": {
+      "id": "lig-metatarsale-transversum-profundum",
+      "latin": "Ligamentum metatarsale transversum profundum",
+      "polish": "Więzadło poprzeczne głębokie śródstopia",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-metatarsale-transversum-profundum.webp",
+      "info": "Łączy głowy kości śródstopia I-V od strony podeszwowej. Utrzymuje je razem i stabilizuje łuk poprzeczny przedstopia."
     }
   },
   {
@@ -3624,6 +5122,36 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-62",
       "image": "/stawy/ligg-tarsometatarsalia-dorsalia.webp",
       "info": "Łączą kości klinowate i sześcienną z podstawami kości śródstopia od strony grzbietowej. Wzmacniają stawy stępowo-śródstopne."
+    }
+  },
+  {
+    "after": "ligg-tarsometatarsalia-dorsalia",
+    "card": {
+      "id": "lig-lisfranci",
+      "latin": "Ligamentum cuneometatarsale interosseum",
+      "polish": "Więzadło Lisfranca (klinowo-śródstopne międzykostne)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-lisfranci.webp",
+      "info": "Łączy kość klinowatą przyśrodkową z podstawą kości śródstopia II. Najważniejsze więzadło stabilizujące stawy stępowo-śródstopne."
+    }
+  },
+  {
+    "after": "lig-lisfranci",
+    "card": {
+      "id": "ligg-tarsometatarsalia-plantaria",
+      "latin": "Ligamenta tarsometatarsalia plantaria",
+      "polish": "Więzadła stępowo-śródstopne podeszwowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/ligg-tarsometatarsalia-plantaria.webp",
+      "info": "Łączą kości stępu z podstawami kości śródstopia od strony podeszwowej. Wzmacniają stawy stępowo-śródstopne."
     }
   }
 ];
@@ -3652,7 +5180,8 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
         "items": [
           "Więzadło boczne stawu skroniowo-żuchwowego",
           "Więzadło rylcowo-żuchwowe",
-          "Więzadło klinowo-żuchwowe"
+          "Więzadło klinowo-żuchwowe",
+          "Krążek stawowy stawu skroniowo-żuchwowego"
         ]
       },
       {
@@ -3689,7 +5218,9 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
           "Więzadła skrzydłowate",
           "Więzadło wierzchołka zęba",
           "Więzadło krzyżowe kręgu szczytowego",
-          "Błona szczytowo-potyliczna tylna"
+          "Błona szczytowo-potyliczna tylna",
+          "Błona pokrywająca",
+          "Błona szczytowo-potyliczna przednia"
         ]
       },
       {
@@ -3727,7 +5258,8 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
           "Więzadła międzykolcowe",
           "Więzadło nadkolcowe",
           "Krążek międzykręgowy",
-          "Więzadła międzypoprzeczne"
+          "Więzadła międzypoprzeczne",
+          "Więzadło karkowe"
         ]
       },
       {
@@ -3792,7 +5324,8 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
       {
         "title": "Więzadła",
         "items": [
-          "Więzadła mostkowo-żebrowe promieniste"
+          "Więzadła mostkowo-żebrowe promieniste",
+          "Więzadła żebrowo-mieczykowe"
         ]
       },
       {
@@ -3860,7 +5393,8 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
           "Więzadło kruczo-barkowe",
           "Więzadło kruczo-ramienne",
           "Więzadła obrąbkowo-ramienne",
-          "Obrąbek panewki łopatki"
+          "Obrąbek panewki łopatki",
+          "Więzadło poprzeczne kości ramiennej"
         ]
       },
       {
@@ -4050,7 +5584,9 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
         "items": [
           "Więzadło łonowe górne",
           "Więzadło pachwinowe",
-          "Więzadło łonowe dolne (łukowate)"
+          "Więzadło łonowe dolne (łukowate)",
+          "Błona zasłonowa",
+          "Krążek międzyłonowy"
         ]
       },
       {
@@ -4131,7 +5667,9 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
           "Więzadło podkolanowe skośne",
           "Troczek przyśrodkowy rzepki",
           "Troczek boczny rzepki",
-          "Więzadło poprzeczne kolana"
+          "Więzadło poprzeczne kolana",
+          "Więzadło podkolanowe łukowate",
+          "Więzadło łąkotkowo-udowe tylne"
         ]
       },
       {
@@ -4169,7 +5707,7 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
     ]
   },
   "j-tibiofib": {
-    "image": "/anat/j-tibiofib.webp",
+    "image": "/stawy/j-tibiofib__knee_front.webp",
     "info": "Staw płaski. Umożliwia niewielkie ruchy strzałki przy ruchach w stawie skokowym.",
     "details": [
       {
@@ -4183,6 +5721,13 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
         "items": [
           "powierzchnia stawowa strzałkowa kości piszczelowej",
           "powierzchnia stawowa głowy strzałki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło głowy strzałki przednie",
+          "Błona międzykostna goleni"
         ]
       },
       {
@@ -4217,7 +5762,8 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
           "Więzadło skokowo-strzałkowe tylne",
           "Więzadło piętowo-strzałkowe",
           "Więzadło trójgraniaste (przyśrodkowe)",
-          "Więzadło piszczelowo-strzałkowe przednie"
+          "Więzadło piszczelowo-strzałkowe przednie",
+          "Więzadło piszczelowo-strzałkowe tylne"
         ]
       },
       {
@@ -4248,7 +5794,8 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
       {
         "title": "Więzadła",
         "items": [
-          "Więzadło skokowo-piętowe międzykostne"
+          "Więzadło skokowo-piętowe międzykostne",
+          "Więzadło skokowo-piętowe boczne"
         ]
       },
       {
@@ -4281,6 +5828,10 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
         "items": [
           "Więzadło rozdwojone",
           "Więzadło piętowo-łódkowe podeszwowe (sprężynowe)",
+          "Więzadło skokowo-łódkowe",
+          "Więzadło piętowo-sześcienne podeszwowe (krótkie podeszwowe)",
+          "Więzadło piętowo-sześcienne grzbietowe",
+          "Więzadła klinowo-łódkowe grzbietowe",
           "Więzadło podeszwowe długie"
         ]
       },
@@ -4311,7 +5862,9 @@ export const JOINT_INFO: Record<string, { image: string | null; info: string; de
       {
         "title": "Więzadła",
         "items": [
-          "Więzadła stępowo-śródstopne grzbietowe"
+          "Więzadła stępowo-śródstopne grzbietowe",
+          "Więzadło Lisfranca (klinowo-śródstopne międzykostne)",
+          "Więzadła stępowo-śródstopne podeszwowe"
         ]
       },
       {
