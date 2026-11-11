@@ -18,6 +18,7 @@ export type Card = {
   image: string | null;
   credit?: Credit;
   info?: string;
+  details?: { title: string; items: string[] }[];
 };
 
 type LegacyCard = Omit<Card, "subgroup" | "subgroupSlug" | "image"> & { image: string; credit: Credit };
@@ -2175,7 +2176,7 @@ function with3d(c: Card): Card {
 function withJoints(cards: Card[]): Card[] {
   const out = cards.map((c) => {
     const j = JOINT_INFO[c.id];
-    return j ? { ...c, image: j.image ?? c.image, info: j.info, credit: j.image ? BP3D_CREDIT : c.credit } : c;
+    return j ? { ...c, image: j.image ?? c.image, info: j.info, details: j.details, credit: j.image ? BP3D_CREDIT : c.credit } : c;
   });
   for (const { after, card } of JOINT_EXTRA_CARDS) {
     const i = out.findIndex((c) => c.id === after);

@@ -168,8 +168,19 @@ export default function JointExplorer() {
             <p className="text-xs uppercase tracking-wider text-slate-400">Staw</p>
             <p className="text-xl font-semibold">{joint.polish}</p>
             <p className="italic text-slate-600">{joint.latin}</p>
-            <p className="mt-3 text-sm font-semibold text-slate-800">Funkcja</p>
-            <p className="text-sm leading-relaxed text-slate-700">{joint.info}</p>
+            <p className="mt-3 text-sm leading-relaxed text-slate-700">{joint.info}</p>
+            {joint.details
+              .filter((d) => d.title !== "Więzadła")
+              .map((d) => (
+                <div key={d.title} className="mt-3">
+                  <p className="text-sm font-semibold text-slate-800">{d.title}</p>
+                  <ul className="ml-4 list-disc text-sm leading-relaxed text-slate-700">
+                    {d.items.map((i) => (
+                      <li key={i}>{i}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
           </div>
         )}
 

@@ -201,7 +201,22 @@ export default function Flashcards({ cards, title, initialFilter = "all" }: { ca
                   <p className="text-xs uppercase tracking-wider text-blue-700/70">{backLang}</p>
                   <p className={`text-3xl font-bold text-blue-950 ${direction === "pl-la" ? "italic" : ""}`}>{backName}</p>
                   <p className={`text-slate-500 ${direction === "la-pl" ? "italic" : ""}`}>{frontName}</p>
-                  {card.info && <p className="max-w-lg text-sm leading-relaxed text-slate-700">{card.info}</p>}
+                  {card.details ? (
+                    <div className="max-h-44 w-full max-w-lg overflow-auto rounded-lg border border-blue-100 bg-white px-3 py-2 text-left text-xs leading-relaxed text-slate-700 sm:max-h-56 sm:text-sm">
+                      {card.details.map((d) => (
+                        <div key={d.title} className="mb-1.5">
+                          <span className="font-semibold text-slate-900">{d.title}:</span>
+                          <ul className="ml-4 list-disc">
+                            {d.items.map((i) => (
+                              <li key={i}>{i}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    card.info && <p className="max-w-lg text-sm leading-relaxed text-slate-700">{card.info}</p>
+                  )}
                   <p className="mt-2 rounded-full bg-white px-3 py-1 text-xs text-slate-500 border border-blue-100">{card.group === card.subgroup ? card.group : `${card.group} - ${card.subgroup}`}</p>
                 </div>
               </div>

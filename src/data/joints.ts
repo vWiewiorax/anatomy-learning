@@ -1,12 +1,14 @@
 // Stawy i więzadła: ilustracje wyrenderowane z BodyParts3D 4.0 (DBCLS, CC BY-SA 2.1 JP), więzadła dorysowane schematycznie na modelu 3D.
 import type { Card } from "./cards";
 
+export type Detail = { title: string; items: string[] };
 export type JointView = { image: string; ligaments: string[]; hotspots: Record<string, number[]> };
 export type Joint = {
   id: string;
   latin: string;
   polish: string;
   info: string;
+  details: Detail[];
   group: string;
   groupSlug: string;
   subgroup: string;
@@ -23,6 +25,38 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio temporomandibularis",
     "polish": "Staw skroniowo-żuchwowy",
     "info": "Umożliwia opuszczanie i unoszenie żuchwy (otwieranie i zamykanie ust), wysuwanie i cofanie oraz ruchy żucia na boki. Ma krążek stawowy.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony (zawiasowo-ślizgowy), parzysty, z krążkiem stawowym"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa żuchwy",
+          "dół żuchwowy i guzek stawowy kości skroniowej",
+          "krążek stawowy dzieli jamę stawu na piętro górne i dolne"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło boczne stawu skroniowo-żuchwowego",
+          "Więzadło rylcowo-żuchwowe",
+          "Więzadło klinowo-żuchwowe"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "opuszczanie i unoszenie żuchwy",
+          "wysuwanie i cofanie",
+          "ruchy żucia na boki"
+        ]
+      }
+    ],
     "group": "Czaszka",
     "groupSlug": "czaszka",
     "subgroup": "16. Połączenia kości czaszki",
@@ -45,11 +79,24 @@ export const JOINTS: Joint[] = [
             78.3
           ]
         }
+      },
+      {
+        "image": "/stawy/j-tmj__tmjmed_left.webp",
+        "ligaments": [
+          "lig-sphenomandibulare"
+        ],
+        "hotspots": {
+          "lig-sphenomandibulare": [
+            44.7,
+            71.4
+          ]
+        }
       }
     ],
     "ligaments": [
       "lig-laterale-tmj",
-      "lig-stylomandibulare"
+      "lig-stylomandibulare",
+      "lig-sphenomandibulare"
     ]
   },
   {
@@ -57,6 +104,37 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio atlantoaxialis",
     "polish": "Staw szczytowo-obrotowy",
     "info": "Umożliwia obrót głowy razem z kręgiem szczytowym wokół zęba kręgu obrotowego (ruch przeczenia).",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony, obrotowy (jednoosiowy)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "staw szczytowo-obrotowy pośrodkowy: ząb kręgu obrotowego z dołkiem zęba łuku przedniego kręgu szczytowego i więzadłem poprzecznym",
+          "stawy szczytowo-obrotowe boczne: powierzchnie stawowe dolne kręgu szczytowego z górnymi kręgu obrotowego"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło poprzeczne kręgu szczytowego",
+          "Więzadła skrzydłowate",
+          "Więzadło wierzchołka zęba",
+          "Więzadło krzyżowe kręgu szczytowego",
+          "Błona szczytowo-potyliczna tylna"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "obrót głowy w prawo i w lewo"
+        ]
+      }
+    ],
     "group": "Kręgosłup",
     "groupSlug": "kregoslup",
     "subgroup": "27-28. Połączenia kręgosłupa",
@@ -74,10 +152,48 @@ export const JOINTS: Joint[] = [
             42.0
           ]
         }
+      },
+      {
+        "image": "/stawy/j-atlantoax__craniovert_back.webp",
+        "ligaments": [
+          "ligg-alaria",
+          "lig-apicis-dentis",
+          "lig-cruciforme-atlantis"
+        ],
+        "hotspots": {
+          "ligg-alaria": [
+            50.6,
+            48.8
+          ],
+          "lig-apicis-dentis": [
+            51.4,
+            46.2
+          ],
+          "lig-cruciforme-atlantis": [
+            50.9,
+            57.4
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-atlantoax__occatlas_back.webp",
+        "ligaments": [
+          "membrana-atlantooccipitalis-posterior"
+        ],
+        "hotspots": {
+          "membrana-atlantooccipitalis-posterior": [
+            50.0,
+            71.0
+          ]
+        }
       }
     ],
     "ligaments": [
-      "lig-transversum-atlantis"
+      "lig-transversum-atlantis",
+      "ligg-alaria",
+      "lig-apicis-dentis",
+      "lig-cruciforme-atlantis",
+      "membrana-atlantooccipitalis-posterior"
     ]
   },
   {
@@ -85,6 +201,42 @@ export const JOINTS: Joint[] = [
     "latin": "Articulationes intervertebrales",
     "polish": "Połączenia międzykręgowe",
     "info": "Łączą trzony kręgów krążkami międzykręgowymi i więzadłami. Amortyzują obciążenia i pozwalają na zginanie, prostowanie, zginanie na boki i skręcanie kręgosłupa.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "połączenia chrzęstne trzonów i stawy międzywyrostkowe"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "trzony kręgów połączone krążkami międzykręgowymi (pierścień włóknisty i jądro miażdżyste)",
+          "wyrostki stawowe połączone stawami międzywyrostkowymi (płaskimi)",
+          "łuki i wyrostki połączone więzadłami"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło podłużne przednie",
+          "Więzadło podłużne tylne",
+          "Więzadła żółte",
+          "Więzadła międzykolcowe",
+          "Więzadło nadkolcowe",
+          "Krążek międzykręgowy",
+          "Więzadła międzypoprzeczne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zginanie i prostowanie",
+          "zginanie na boki",
+          "skręcanie"
+        ]
+      }
+    ],
     "group": "Kręgosłup",
     "groupSlug": "kregoslup",
     "subgroup": "27-28. Połączenia kręgosłupa",
@@ -127,6 +279,18 @@ export const JOINTS: Joint[] = [
             48.8
           ]
         }
+      },
+      {
+        "image": "/stawy/j-intervert__spinelat_right.webp",
+        "ligaments": [
+          "ligg-intertransversaria"
+        ],
+        "hotspots": {
+          "ligg-intertransversaria": [
+            44.6,
+            45.2
+          ]
+        }
       }
     ],
     "ligaments": [
@@ -135,7 +299,8 @@ export const JOINTS: Joint[] = [
       "ligg-flava",
       "ligg-interspinalia",
       "lig-supraspinale",
-      "discus-intervertebralis"
+      "discus-intervertebralis",
+      "ligg-intertransversaria"
     ]
   },
   {
@@ -143,6 +308,35 @@ export const JOINTS: Joint[] = [
     "latin": "Articulationes costovertebrales",
     "polish": "Stawy żebrowo-kręgowe",
     "info": "Łączą żebra z kręgami piersiowymi (staw głowy żebra i staw żebrowo-poprzeczny). Umożliwiają unoszenie i obniżanie żeber podczas oddychania.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy płaskie, czynnościowo sprzężone"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "staw głowy żebra: głowa żebra z dołkami żebrowymi trzonów dwóch sąsiednich kręgów",
+          "staw żebrowo-poprzeczny: guzek żebra z dołkiem żebrowym wyrostka poprzecznego (żebra I-X)"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło promieniste głowy żebra",
+          "Więzadło żebrowo-poprzeczne boczne",
+          "Więzadło żebrowo-poprzeczne górne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "obrót żebra wokół osi szyjki: unoszenie i obniżanie żeber przy wdechu i wydechu"
+        ]
+      }
+    ],
     "group": "Klatka piersiowa",
     "groupSlug": "klatka-piersiowa",
     "subgroup": "34. Połączenia stawowe klatki piersiowej",
@@ -164,19 +358,79 @@ export const JOINTS: Joint[] = [
       {
         "image": "/stawy/j-costovert__costov_back.webp",
         "ligaments": [
-          "lig-costotransversarium-laterale"
+          "lig-costotransversarium-laterale",
+          "lig-costotransversarium-superius"
         ],
         "hotspots": {
           "lig-costotransversarium-laterale": [
             66.4,
             38.2
+          ],
+          "lig-costotransversarium-superius": [
+            54.3,
+            25.5
           ]
         }
       }
     ],
     "ligaments": [
       "lig-capitis-costae-radiatum",
-      "lig-costotransversarium-laterale"
+      "lig-costotransversarium-laterale",
+      "lig-costotransversarium-superius"
+    ]
+  },
+  {
+    "id": "j-sternocost",
+    "latin": "Articulationes sternocostales",
+    "polish": "Stawy mostkowo-żebrowe",
+    "info": "Stawy między chrząstkami żeber II-VII a mostkiem (chrząstka I żebra łączy się z mostkiem chrząstkozrostem). Umożliwiają niewielkie ruchy żeber przy oddychaniu.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy płaskie (żebra II-VII), chrząstkozrost (żebro I)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "chrząstki żebrowe II-VII z wcięciami żebrowymi mostka"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła mostkowo-żebrowe promieniste"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe przy oddychaniu"
+        ]
+      }
+    ],
+    "group": "Klatka piersiowa",
+    "groupSlug": "klatka-piersiowa",
+    "subgroup": "34. Połączenia stawowe klatki piersiowej",
+    "subgroupSlug": "rozdzial-34",
+    "image": "/stawy/j-sternocost__sternum_front.webp",
+    "views": [
+      {
+        "image": "/stawy/j-sternocost__sternum_front.webp",
+        "ligaments": [
+          "ligg-sternocostalia-radiata"
+        ],
+        "hotspots": {
+          "ligg-sternocostalia-radiata": [
+            50.0,
+            35.7
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "ligg-sternocostalia-radiata"
     ]
   },
   {
@@ -184,6 +438,39 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio sternoclavicularis",
     "polish": "Staw mostkowo-obojczykowy",
     "info": "Jedyne stawowe połączenie kończyny górnej z tułowiem, ma krążek stawowy. Umożliwia unoszenie i obniżanie, wysuwanie i cofanie barku oraz niewielki obrót obojczyka.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw siodełkowy, czynnościowo kulisty (dzięki krążkowi stawowemu)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "koniec mostkowy obojczyka",
+          "wcięcie obojczykowe rękojeści mostka",
+          "krążek stawowy"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło mostkowo-obojczykowe przednie",
+          "Więzadło międzyobojczykowe",
+          "Więzadło żebrowo-obojczykowe",
+          "Więzadło mostkowo-obojczykowe tylne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "unoszenie i obniżanie barku",
+          "wysuwanie i cofanie barku",
+          "obrót obojczyka"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
@@ -211,12 +498,25 @@ export const JOINTS: Joint[] = [
             38.3
           ]
         }
+      },
+      {
+        "image": "/stawy/j-sternocl__sterncl_back.webp",
+        "ligaments": [
+          "lig-sternoclaviculare-posterius"
+        ],
+        "hotspots": {
+          "lig-sternoclaviculare-posterius": [
+            59.3,
+            41.3
+          ]
+        }
       }
     ],
     "ligaments": [
       "lig-sternoclaviculare-anterius",
       "lig-interclaviculare",
-      "lig-costoclaviculare"
+      "lig-costoclaviculare",
+      "lig-sternoclaviculare-posterius"
     ]
   },
   {
@@ -224,6 +524,36 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio acromioclavicularis",
     "polish": "Staw barkowo-obojczykowy",
     "info": "Łączy obojczyk z wyrostkiem barkowym łopatki. Umożliwia niewielkie ruchy ślizgowe i obrotowe łopatki względem obojczyka przy ruchach barku.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw płaski"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "koniec barkowy obojczyka",
+          "powierzchnia stawowa wyrostka barkowego łopatki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło barkowo-obojczykowe",
+          "Więzadło czworoboczne",
+          "Więzadło stożkowate",
+          "Więzadło poprzeczne górne łopatki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe i obrotowe łopatki względem obojczyka"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
@@ -251,12 +581,25 @@ export const JOINTS: Joint[] = [
             14.5
           ]
         }
+      },
+      {
+        "image": "/stawy/j-acromiocl__shoulder_top.webp",
+        "ligaments": [
+          "lig-transversum-scapulae-superius"
+        ],
+        "hotspots": {
+          "lig-transversum-scapulae-superius": [
+            56.8,
+            60.5
+          ]
+        }
       }
     ],
     "ligaments": [
       "lig-acromioclaviculare",
       "lig-trapezoideum",
-      "lig-conoideum"
+      "lig-conoideum",
+      "lig-transversum-scapulae-superius"
     ]
   },
   {
@@ -264,6 +607,39 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio humeri",
     "polish": "Staw ramienny",
     "info": "Staw kulisty wolny, najbardziej ruchomy staw człowieka. Zgięcie i prostowanie, odwodzenie i przywodzenie, obrót do wewnątrz i na zewnątrz oraz ruch obwodzenia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw kulisty wolny, trójosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa kości ramiennej",
+          "panewka łopatki pogłębiona obrąbkiem stawowym"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło kruczo-barkowe",
+          "Więzadło kruczo-ramienne",
+          "Więzadła obrąbkowo-ramienne",
+          "Obrąbek panewki łopatki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "odwodzenie i przywodzenie",
+          "obrót do wewnątrz i na zewnątrz",
+          "ruch obwodzenia"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "47. Staw ramienny",
@@ -317,6 +693,38 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio cubiti",
     "polish": "Staw łokciowy",
     "info": "Staw złożony (ramienno-łokciowy, ramienno-promieniowy i promieniowo-łokciowy bliższy). Zgięcie i prostowanie przedramienia oraz udział w nawracaniu i odwracaniu.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "ramienno-łokciowy: jednoosiowy, zawiasowy (bloczek k. ramiennej z wcięciem bloczkowym k. łokciowej)",
+          "ramienno-promieniowy: kulisty, dwuosiowy (główka k. ramiennej z dołkiem stawowym głowy k. promieniowej)",
+          "promieniowo-łokciowy bliższy: jednoosiowy, obrotowy (wcięcie promieniowe k. łokciowej i obwód stawowy głowy k. promieniowej otoczony więzadłem pierścieniowatym)"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło poboczne łokciowe",
+          "Więzadło poboczne promieniowe",
+          "Więzadło pierścieniowate (obrączkowate) kości promieniowej",
+          "Więzadło czworokątne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "obrotowe: nawracanie i odwracanie"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "48-49. Staw łokciowy",
@@ -327,7 +735,9 @@ export const JOINTS: Joint[] = [
         "image": "/stawy/j-cubiti__elbow_front.webp",
         "ligaments": [
           "lig-collaterale-ulnare",
-          "lig-collaterale-radiale"
+          "lig-collaterale-radiale",
+          "lig-anulare-radii",
+          "lig-quadratum"
         ],
         "hotspots": {
           "lig-collaterale-ulnare": [
@@ -337,13 +747,23 @@ export const JOINTS: Joint[] = [
           "lig-collaterale-radiale": [
             37.0,
             50.0
+          ],
+          "lig-anulare-radii": [
+            41.5,
+            56.4
+          ],
+          "lig-quadratum": [
+            43.9,
+            60.2
           ]
         }
       }
     ],
     "ligaments": [
       "lig-collaterale-ulnare",
-      "lig-collaterale-radiale"
+      "lig-collaterale-radiale",
+      "lig-anulare-radii",
+      "lig-quadratum"
     ]
   },
   {
@@ -351,6 +771,27 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio humeroulnaris",
     "polish": "Staw ramienno-łokciowy",
     "info": "Staw zawiasowy. Główna część stawu łokciowego odpowiedzialna za zgięcie i prostowanie przedramienia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw zawiasowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "bloczek kości ramiennej",
+          "wcięcie bloczkowe kości łokciowej"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "48-49. Staw łokciowy",
@@ -364,6 +805,28 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio humeroradialis",
     "polish": "Staw ramienno-promieniowy",
     "info": "Staw kulisty o ruchach ograniczonych przez kość łokciową. Uczestniczy w zgięciu i prostowaniu oraz w obrocie kości promieniowej.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw kulisty, dwuosiowy (ruchy ograniczone przez kość łokciową)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "główka kości ramiennej",
+          "dołek stawowy głowy kości promieniowej"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "obrót kości promieniowej"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "48-49. Staw łokciowy",
@@ -377,24 +840,40 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio radioulnaris proximalis",
     "polish": "Staw promieniowo-łokciowy bliższy",
     "info": "Staw obrotowy. Głowa kości promieniowej obraca się we wcięciu promieniowym kości łokciowej podczas nawracania i odwracania przedramienia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw obrotowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "obwód stawowy głowy kości promieniowej",
+          "wcięcie promieniowe kości łokciowej",
+          "więzadło pierścieniowate"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Błona międzykostna przedramienia"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "nawracanie i odwracanie (razem ze stawem promieniowo-łokciowym dalszym)"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "48-49. Staw łokciowy",
     "subgroupSlug": "rozdzial-48-49",
-    "image": "/stawy/j-radioulprox__elbow_front.webp",
+    "image": "/stawy/j-radioulprox__forearm_front.webp",
     "views": [
-      {
-        "image": "/stawy/j-radioulprox__elbow_front.webp",
-        "ligaments": [
-          "lig-anulare-radii"
-        ],
-        "hotspots": {
-          "lig-anulare-radii": [
-            41.5,
-            56.4
-          ]
-        }
-      },
       {
         "image": "/stawy/j-radioulprox__forearm_front.webp",
         "ligaments": [
@@ -409,7 +888,6 @@ export const JOINTS: Joint[] = [
       }
     ],
     "ligaments": [
-      "lig-anulare-radii",
       "membrana-interossea-antebrachii"
     ]
   },
@@ -418,6 +896,39 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio radiocarpea",
     "polish": "Staw promieniowo-nadgarstkowy",
     "info": "Staw eliptyczny. Zgięcie dłoniowe i grzbietowe ręki oraz odwodzenie promieniowe i łokciowe.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw eliptyczny, dwuosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia stawowa nadgarstkowa kości promieniowej i krążek stawowy",
+          "szereg bliższy nadgarstka: kość łódeczkowata, księżycowata i trójgraniasta"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło poboczne promieniowe nadgarstka",
+          "Więzadło poboczne łokciowe nadgarstka",
+          "Więzadło promieniowo-nadgarstkowe dłoniowe",
+          "Więzadło promieniowo-nadgarstkowe grzbietowe",
+          "Troczek zginaczy (więzadło poprzeczne nadgarstka)"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie dłoniowe i grzbietowe",
+          "odwodzenie promieniowe i łokciowe",
+          "ruch obwodzenia"
+        ]
+      }
+    ],
     "group": "Kończyna górna",
     "groupSlug": "konczyna-gorna",
     "subgroup": "50. Stawy ręki",
@@ -429,7 +940,8 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-collaterale-carpi-radiale",
           "lig-collaterale-carpi-ulnare",
-          "lig-radiocarpale-palmare"
+          "lig-radiocarpale-palmare",
+          "retinaculum-flexorum"
         ],
         "hotspots": {
           "lig-collaterale-carpi-radiale": [
@@ -443,6 +955,10 @@ export const JOINTS: Joint[] = [
           "lig-radiocarpale-palmare": [
             51.9,
             57.8
+          ],
+          "retinaculum-flexorum": [
+            52.5,
+            64.3
           ]
         }
       },
@@ -463,7 +979,8 @@ export const JOINTS: Joint[] = [
       "lig-collaterale-carpi-radiale",
       "lig-collaterale-carpi-ulnare",
       "lig-radiocarpale-palmare",
-      "lig-radiocarpale-dorsale"
+      "lig-radiocarpale-dorsale",
+      "retinaculum-flexorum"
     ]
   },
   {
@@ -471,6 +988,37 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio sacroiliaca",
     "polish": "Staw krzyżowo-biodrowy",
     "info": "Staw płaski, prawie nieruchomy (półścisły). Przenosi ciężar tułowia z kręgosłupa na miednicę i kończyny dolne.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw płaski, półścisły"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia uchowata kości krzyżowej",
+          "powierzchnia uchowata kości biodrowej"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła krzyżowo-biodrowe przednie",
+          "Więzadła krzyżowo-biodrowe tylne",
+          "Więzadło biodrowo-lędźwiowe",
+          "Więzadło krzyżowo-guzowe",
+          "Więzadło krzyżowo-kolcowe"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "bardzo małe ruchy kiwania kości krzyżowej"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "54. Połączenia miednicy",
@@ -530,6 +1078,35 @@ export const JOINTS: Joint[] = [
     "latin": "Symphysis pubica",
     "polish": "Spojenie łonowe",
     "info": "Chrzęstne połączenie kości łonowych przez krążek międzyłonowy. Zapewnia stabilność obręczy miednicznej i pozwala na minimalne ruchy, nieco większe podczas porodu.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "spojenie (połączenie chrzęstne)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnie spojeniowe kości łonowych",
+          "krążek międzyłonowy"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło łonowe górne",
+          "Więzadło pachwinowe",
+          "Więzadło łonowe dolne (łukowate)"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "minimalne przesunięcia, większe w czasie porodu"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "54. Połączenia miednicy",
@@ -540,7 +1117,8 @@ export const JOINTS: Joint[] = [
         "image": "/stawy/pv-symph__pelvis_front.webp",
         "ligaments": [
           "lig-pubicum-superius",
-          "lig-inguinale"
+          "lig-inguinale",
+          "lig-pubicum-inferius"
         ],
         "hotspots": {
           "lig-pubicum-superius": [
@@ -550,13 +1128,18 @@ export const JOINTS: Joint[] = [
           "lig-inguinale": [
             30.0,
             65.5
+          ],
+          "lig-pubicum-inferius": [
+            50.0,
+            76.5
           ]
         }
       }
     ],
     "ligaments": [
       "lig-pubicum-superius",
-      "lig-inguinale"
+      "lig-inguinale",
+      "lig-pubicum-inferius"
     ]
   },
   {
@@ -564,6 +1147,42 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio coxae",
     "polish": "Staw biodrowy",
     "info": "Staw kulisty panewkowy. Zgięcie i prostowanie, odwodzenie i przywodzenie, obrót uda do wewnątrz i na zewnątrz. Głęboka panewka i mocne więzadła dają dużą stabilność przy przenoszeniu ciężaru ciała.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw kulisty panewkowy, trójosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa kości udowej",
+          "panewka kości miednicznej (powierzchnia księżycowata) pogłębiona obrąbkiem panewki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło biodrowo-udowe",
+          "Więzadło łonowo-udowe",
+          "Więzadło kulszowo-udowe",
+          "Więzadło głowy kości udowej",
+          "Obrąbek panewki",
+          "Więzadło poprzeczne panewki",
+          "Warstwa okrężna"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "odwodzenie i przywodzenie",
+          "obrót do wewnątrz i na zewnątrz",
+          "ruch obwodzenia"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "58-59. Staw biodrowy",
@@ -574,7 +1193,8 @@ export const JOINTS: Joint[] = [
         "image": "/stawy/j-coxae__hip_front.webp",
         "ligaments": [
           "lig-iliofemorale",
-          "lig-pubofemorale"
+          "lig-pubofemorale",
+          "zona-orbicularis"
         ],
         "hotspots": {
           "lig-iliofemorale": [
@@ -584,6 +1204,10 @@ export const JOINTS: Joint[] = [
           "lig-pubofemorale": [
             49.1,
             56.8
+          ],
+          "zona-orbicularis": [
+            40.0,
+            53.0
           ]
         }
       },
@@ -614,12 +1238,17 @@ export const JOINTS: Joint[] = [
       {
         "image": "/stawy/j-coxae__acet_right.webp",
         "ligaments": [
-          "labrum-acetabuli"
+          "labrum-acetabuli",
+          "lig-transversum-acetabuli"
         ],
         "hotspots": {
           "labrum-acetabuli": [
             54.9,
             66.4
+          ],
+          "lig-transversum-acetabuli": [
+            54.9,
+            74.2
           ]
         }
       }
@@ -629,7 +1258,9 @@ export const JOINTS: Joint[] = [
       "lig-pubofemorale",
       "lig-ischiofemorale",
       "lig-capitis-femoris",
-      "labrum-acetabuli"
+      "labrum-acetabuli",
+      "lig-transversum-acetabuli",
+      "zona-orbicularis"
     ]
   },
   {
@@ -637,6 +1268,44 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio genus",
     "polish": "Staw kolanowy",
     "info": "Największy staw człowieka, staw złożony. Zgięcie i prostowanie podudzia, a przy zgiętym kolanie niewielki obrót. Łąkotki i więzadła zapewniają stabilność.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony, zawiasowo-obrotowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "udowo-piszczelowy: kłykcie kości udowej z kłykciami kości piszczelowej, między nimi łąkotki",
+          "udowo-rzepkowy: powierzchnia rzepkowa kości udowej z powierzchnią stawową rzepki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło rzepki",
+          "Więzadło poboczne piszczelowe",
+          "Więzadło poboczne strzałkowe",
+          "Więzadło krzyżowe przednie",
+          "Więzadło krzyżowe tylne",
+          "Łąkotka przyśrodkowa",
+          "Łąkotka boczna",
+          "Więzadło podkolanowe skośne",
+          "Troczek przyśrodkowy rzepki",
+          "Troczek boczny rzepki",
+          "Więzadło poprzeczne kolana"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "obrót do wewnątrz i na zewnątrz przy zgiętym kolanie"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "60-61. Staw kolanowy",
@@ -648,7 +1317,9 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-patellae",
           "lig-collaterale-tibiale",
-          "lig-collaterale-fibulare"
+          "lig-collaterale-fibulare",
+          "retinaculum-patellae-mediale",
+          "retinaculum-patellae-laterale"
         ],
         "hotspots": {
           "lig-patellae": [
@@ -662,6 +1333,14 @@ export const JOINTS: Joint[] = [
           "lig-collaterale-fibulare": [
             35.1,
             46.9
+          ],
+          "retinaculum-patellae-mediale": [
+            58.4,
+            49.1
+          ],
+          "retinaculum-patellae-laterale": [
+            38.3,
+            49.7
           ]
         }
       },
@@ -669,7 +1348,8 @@ export const JOINTS: Joint[] = [
         "image": "/stawy/j-genus__knee_back.webp",
         "ligaments": [
           "lig-cruciatum-anterius",
-          "lig-cruciatum-posterius"
+          "lig-cruciatum-posterius",
+          "lig-popliteum-obliquum"
         ],
         "hotspots": {
           "lig-cruciatum-anterius": [
@@ -679,6 +1359,10 @@ export const JOINTS: Joint[] = [
           "lig-cruciatum-posterius": [
             48.1,
             46.3
+          ],
+          "lig-popliteum-obliquum": [
+            50.0,
+            47.5
           ]
         }
       },
@@ -686,7 +1370,8 @@ export const JOINTS: Joint[] = [
         "image": "/stawy/j-genus__tibtop_top.webp",
         "ligaments": [
           "meniscus-medialis",
-          "meniscus-lateralis"
+          "meniscus-lateralis",
+          "lig-transversum-genus"
         ],
         "hotspots": {
           "meniscus-medialis": [
@@ -696,6 +1381,10 @@ export const JOINTS: Joint[] = [
           "meniscus-lateralis": [
             67.4,
             51.6
+          ],
+          "lig-transversum-genus": [
+            45.4,
+            32.0
           ]
         }
       }
@@ -707,7 +1396,11 @@ export const JOINTS: Joint[] = [
       "lig-cruciatum-anterius",
       "lig-cruciatum-posterius",
       "meniscus-medialis",
-      "meniscus-lateralis"
+      "meniscus-lateralis",
+      "lig-popliteum-obliquum",
+      "retinaculum-patellae-mediale",
+      "retinaculum-patellae-laterale",
+      "lig-transversum-genus"
     ]
   },
   {
@@ -715,6 +1408,27 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio femoropatellaris",
     "polish": "Staw udowo-rzepkowy",
     "info": "Rzepka ślizga się po powierzchni rzepkowej kości udowej. Zwiększa ramię działania mięśnia czworogłowego uda przy prostowaniu kolana.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "część stawu kolanowego"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia rzepkowa kości udowej",
+          "powierzchnia stawowa rzepki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "ślizganie się rzepki w górę i w dół przy prostowaniu i zginaniu kolana"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "60-61. Staw kolanowy",
@@ -728,6 +1442,27 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio tibiofibularis",
     "polish": "Staw piszczelowo-strzałkowy",
     "info": "Staw płaski. Umożliwia niewielkie ruchy strzałki przy ruchach w stawie skokowym.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw płaski"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia stawowa strzałkowa kości piszczelowej",
+          "powierzchnia stawowa głowy strzałki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe strzałki"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "60-61. Staw kolanowy",
@@ -741,6 +1476,37 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio talocruralis",
     "polish": "Staw skokowy górny",
     "info": "Staw zawiasowy. Zgięcie grzbietowe i podeszwowe stopy.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw zawiasowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "bloczek kości skokowej",
+          "widełki stawu: powierzchnia stawowa dolna kości piszczelowej, kostka przyśrodkowa i kostka boczna"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło skokowo-strzałkowe przednie",
+          "Więzadło skokowo-strzałkowe tylne",
+          "Więzadło piętowo-strzałkowe",
+          "Więzadło trójgraniaste (przyśrodkowe)",
+          "Więzadło piszczelowo-strzałkowe przednie"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie grzbietowe i podeszwowe"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "62. Stawy stopy",
@@ -752,7 +1518,8 @@ export const JOINTS: Joint[] = [
         "ligaments": [
           "lig-talofibulare-anterius",
           "lig-talofibulare-posterius",
-          "lig-calcaneofibulare"
+          "lig-calcaneofibulare",
+          "lig-tibiofibulare-anterius"
         ],
         "hotspots": {
           "lig-talofibulare-anterius": [
@@ -766,6 +1533,10 @@ export const JOINTS: Joint[] = [
           "lig-calcaneofibulare": [
             23.9,
             73.9
+          ],
+          "lig-tibiofibulare-anterius": [
+            33.3,
+            52.5
           ]
         }
       },
@@ -786,7 +1557,8 @@ export const JOINTS: Joint[] = [
       "lig-talofibulare-anterius",
       "lig-talofibulare-posterius",
       "lig-calcaneofibulare",
-      "lig-deltoideum"
+      "lig-deltoideum",
+      "lig-tibiofibulare-anterius"
     ]
   },
   {
@@ -794,25 +1566,120 @@ export const JOINTS: Joint[] = [
     "latin": "Articulatio subtalaris",
     "polish": "Staw skokowy dolny (skokowo-piętowy)",
     "info": "Razem ze stawem skokowo-piętowo-łódkowym umożliwia odwracanie i nawracanie stopy (inwersję i ewersję).",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw walcowaty"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "tylna powierzchnia stawowa piętowa kości skokowej",
+          "tylna powierzchnia stawowa skokowa kości piętowej"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło skokowo-piętowe międzykostne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "odwracanie i nawracanie stopy (inwersja i ewersja)"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "62. Stawy stopy",
     "subgroupSlug": "rozdzial-62",
-    "image": "/anat/j-subtal.webp",
-    "views": [],
-    "ligaments": []
+    "image": "/stawy/j-subtal__ankle_right.webp",
+    "views": [
+      {
+        "image": "/stawy/j-subtal__ankle_right.webp",
+        "ligaments": [
+          "lig-talocalcaneum-interosseum"
+        ],
+        "hotspots": {
+          "lig-talocalcaneum-interosseum": [
+            33.3,
+            68.3
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "lig-talocalcaneum-interosseum"
+    ]
   },
   {
     "id": "j-chopart",
     "latin": "Articulatio tarsi transversa",
     "polish": "Staw poprzeczny stępu (Choparta)",
     "info": "Uczestniczy w odwracaniu i nawracaniu stopy oraz w dopasowaniu stopy do podłoża.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "staw skokowo-łódkowy: głowa kości skokowej z kością łódkowatą",
+          "staw piętowo-sześcienny: kość piętowa z kością sześcienną"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło rozdwojone",
+          "Więzadło piętowo-łódkowe podeszwowe (sprężynowe)",
+          "Więzadło podeszwowe długie"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "udział w odwracaniu i nawracaniu stopy"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "62. Stawy stopy",
     "subgroupSlug": "rozdzial-62",
-    "image": "/stawy/j-chopart__ankle_bottom.webp",
+    "image": "/stawy/j-chopart__ankle_right.webp",
     "views": [
+      {
+        "image": "/stawy/j-chopart__ankle_right.webp",
+        "ligaments": [
+          "lig-bifurcatum"
+        ],
+        "hotspots": {
+          "lig-bifurcatum": [
+            39.5,
+            70.0
+          ]
+        }
+      },
+      {
+        "image": "/stawy/j-chopart__ankle_left.webp",
+        "ligaments": [
+          "lig-calcaneonaviculare-plantare"
+        ],
+        "hotspots": {
+          "lig-calcaneonaviculare-plantare": [
+            59.1,
+            69.2
+          ]
+        }
+      },
       {
         "image": "/stawy/j-chopart__ankle_bottom.webp",
         "ligaments": [
@@ -827,6 +1694,8 @@ export const JOINTS: Joint[] = [
       }
     ],
     "ligaments": [
+      "lig-bifurcatum",
+      "lig-calcaneonaviculare-plantare",
       "lig-plantare-longum"
     ]
   },
@@ -835,13 +1704,54 @@ export const JOINTS: Joint[] = [
     "latin": "Articulationes tarsometatarsales",
     "polish": "Stawy stępowo-śródstopne (Lisfranca)",
     "info": "Mało ruchome stawy. Zapewniają sztywność i sprężystość przedniej części stopy.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy płaskie, mało ruchome"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "kości klinowate i kość sześcienna z podstawami kości śródstopia I-V"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła stępowo-śródstopne grzbietowe"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe"
+        ]
+      }
+    ],
     "group": "Kończyna dolna",
     "groupSlug": "konczyna-dolna",
     "subgroup": "62. Stawy stopy",
     "subgroupSlug": "rozdzial-62",
-    "image": "/anat/j-lisfranc.webp",
-    "views": [],
-    "ligaments": []
+    "image": "/stawy/j-lisfranc__ankle_top.webp",
+    "views": [
+      {
+        "image": "/stawy/j-lisfranc__ankle_top.webp",
+        "ligaments": [
+          "ligg-tarsometatarsalia-dorsalia"
+        ],
+        "hotspots": {
+          "ligg-tarsometatarsalia-dorsalia": [
+            50.5,
+            37.3
+          ]
+        }
+      }
+    ],
+    "ligaments": [
+      "ligg-tarsometatarsalia-dorsalia"
+    ]
   }
 ];
 
@@ -863,12 +1773,52 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-stylomandibulare.webp"
   },
   {
+    "id": "lig-sphenomandibulare",
+    "jointId": "j-tmj",
+    "latin": "Ligamentum sphenomandibulare",
+    "polish": "Więzadło klinowo-żuchwowe",
+    "info": "Biegnie po stronie przyśrodkowej od kolca kości klinowej do języczka żuchwy. Podtrzymuje żuchwę i ogranicza jej nadmierne opuszczanie.",
+    "image": "/stawy/lig-sphenomandibulare.webp"
+  },
+  {
     "id": "lig-transversum-atlantis",
     "jointId": "j-atlantoax",
     "latin": "Ligamentum transversum atlantis",
     "polish": "Więzadło poprzeczne kręgu szczytowego",
     "info": "Przytrzymuje ząb kręgu obrotowego przy łuku przednim kręgu szczytowego. Chroni rdzeń kręgowy przed uciśnięciem przez ząb.",
     "image": "/stawy/lig-transversum-atlantis.webp"
+  },
+  {
+    "id": "ligg-alaria",
+    "jointId": "j-atlantoax",
+    "latin": "Ligamenta alaria",
+    "polish": "Więzadła skrzydłowate",
+    "info": "Biegną od zęba kręgu obrotowego do kłykci kości potylicznej. Ograniczają nadmierny obrót głowy i zginanie na boki.",
+    "image": "/stawy/ligg-alaria.webp"
+  },
+  {
+    "id": "lig-apicis-dentis",
+    "jointId": "j-atlantoax",
+    "latin": "Ligamentum apicis dentis",
+    "polish": "Więzadło wierzchołka zęba",
+    "info": "Łączy wierzchołek zęba kręgu obrotowego z przednim brzegiem otworu wielkiego. Ma małe znaczenie mechaniczne.",
+    "image": "/stawy/lig-apicis-dentis.webp"
+  },
+  {
+    "id": "lig-cruciforme-atlantis",
+    "jointId": "j-atlantoax",
+    "latin": "Ligamentum cruciforme atlantis",
+    "polish": "Więzadło krzyżowe kręgu szczytowego",
+    "info": "Składa się z więzadła poprzecznego i pęczków podłużnych biegnących do kości potylicznej i trzonu kręgu obrotowego. Utrzymuje ząb na miejscu i chroni rdzeń kręgowy.",
+    "image": "/stawy/lig-cruciforme-atlantis.webp"
+  },
+  {
+    "id": "membrana-atlantooccipitalis-posterior",
+    "jointId": "j-atlantoax",
+    "latin": "Membrana atlantooccipitalis posterior",
+    "polish": "Błona szczytowo-potyliczna tylna",
+    "info": "Łączy łuk tylny kręgu szczytowego z tylnym brzegiem otworu wielkiego i zamyka od tyłu przestrzeń między czaszką a kręgiem szczytowym. Przebija ją tętnica kręgowa.",
+    "image": "/stawy/membrana-atlantooccipitalis-posterior.webp"
   },
   {
     "id": "lig-longitudinale-anterius",
@@ -919,6 +1869,14 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/discus-intervertebralis.webp"
   },
   {
+    "id": "ligg-intertransversaria",
+    "jointId": "j-intervert",
+    "latin": "Ligamenta intertransversaria",
+    "polish": "Więzadła międzypoprzeczne",
+    "info": "Łączą sąsiednie wyrostki poprzeczne. Ograniczają zginanie kręgosłupa w bok przeciwny.",
+    "image": "/stawy/ligg-intertransversaria.webp"
+  },
+  {
     "id": "lig-capitis-costae-radiatum",
     "jointId": "j-costovert",
     "latin": "Ligamentum capitis costae radiatum",
@@ -933,6 +1891,22 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Więzadło żebrowo-poprzeczne boczne",
     "info": "Łączy guzek żebra ze szczytem wyrostka poprzecznego. Wzmacnia staw żebrowo-poprzeczny.",
     "image": "/stawy/lig-costotransversarium-laterale.webp"
+  },
+  {
+    "id": "lig-costotransversarium-superius",
+    "jointId": "j-costovert",
+    "latin": "Ligamentum costotransversarium superius",
+    "polish": "Więzadło żebrowo-poprzeczne górne",
+    "info": "Biegnie od szyjki żebra do wyrostka poprzecznego kręgu leżącego wyżej. Stabilizuje żebro przy kręgosłupie.",
+    "image": "/stawy/lig-costotransversarium-superius.webp"
+  },
+  {
+    "id": "ligg-sternocostalia-radiata",
+    "jointId": "j-sternocost",
+    "latin": "Ligamenta sternocostalia radiata",
+    "polish": "Więzadła mostkowo-żebrowe promieniste",
+    "info": "Rozchodzą się wachlarzowato od końców chrząstek żebrowych na przednią powierzchnię mostka. Wzmacniają stawy mostkowo-żebrowe.",
+    "image": "/stawy/ligg-sternocostalia-radiata.webp"
   },
   {
     "id": "lig-sternoclaviculare-anterius",
@@ -959,6 +1933,14 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-costoclaviculare.webp"
   },
   {
+    "id": "lig-sternoclaviculare-posterius",
+    "jointId": "j-sternocl",
+    "latin": "Ligamentum sternoclaviculare posterius",
+    "polish": "Więzadło mostkowo-obojczykowe tylne",
+    "info": "Wzmacnia torebkę stawu od tyłu i ogranicza przesunięcie obojczyka do tyłu.",
+    "image": "/stawy/lig-sternoclaviculare-posterius.webp"
+  },
+  {
     "id": "lig-acromioclaviculare",
     "jointId": "j-acromiocl",
     "latin": "Ligamentum acromioclaviculare",
@@ -981,6 +1963,14 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Więzadło stożkowate",
     "info": "Przyśrodkowa część więzadła kruczo-obojczykowego. Ogranicza unoszenie obojczyka względem łopatki.",
     "image": "/stawy/lig-conoideum.webp"
+  },
+  {
+    "id": "lig-transversum-scapulae-superius",
+    "jointId": "j-acromiocl",
+    "latin": "Ligamentum transversum scapulae superius",
+    "polish": "Więzadło poprzeczne górne łopatki",
+    "info": "Zamyka od góry wcięcie łopatki, tworząc otwór, przez który przechodzi nerw nadłopatkowy. Nie łączy kości w stawie.",
+    "image": "/stawy/lig-transversum-scapulae-superius.webp"
   },
   {
     "id": "lig-coracoacromiale",
@@ -1032,11 +2022,19 @@ export const LIGAMENTS: Ligament[] = [
   },
   {
     "id": "lig-anulare-radii",
-    "jointId": "j-radioulprox",
+    "jointId": "j-cubiti",
     "latin": "Ligamentum anulare radii",
-    "polish": "Więzadło obrączkowate kości promieniowej",
+    "polish": "Więzadło pierścieniowate (obrączkowate) kości promieniowej",
     "info": "Obejmuje głowę kości promieniowej i przytrzymuje ją przy kości łokciowej, umożliwiając jej obrót przy nawracaniu i odwracaniu.",
     "image": "/stawy/lig-anulare-radii.webp"
+  },
+  {
+    "id": "lig-quadratum",
+    "jointId": "j-cubiti",
+    "latin": "Ligamentum quadratum",
+    "polish": "Więzadło czworokątne",
+    "info": "Biegnie od dolnego brzegu wcięcia promieniowego kości łokciowej do szyjki kości promieniowej. Wzmacnia od dołu staw promieniowo-łokciowy bliższy i ogranicza nadmierny obrót kości promieniowej.",
+    "image": "/stawy/lig-quadratum.webp"
   },
   {
     "id": "membrana-interossea-antebrachii",
@@ -1077,6 +2075,14 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Więzadło promieniowo-nadgarstkowe grzbietowe",
     "info": "Wzmacnia staw od strony grzbietowej i ogranicza zgięcie dłoniowe ręki.",
     "image": "/stawy/lig-radiocarpale-dorsale.webp"
+  },
+  {
+    "id": "retinaculum-flexorum",
+    "jointId": "j-radiocarp",
+    "latin": "Retinaculum musculorum flexorum",
+    "polish": "Troczek zginaczy (więzadło poprzeczne nadgarstka)",
+    "info": "Rozpięty między wyniosłościami promieniową i łokciową nadgarstka. Zamyka od przodu kanał nadgarstka, w którym biegną ścięgna zginaczy i nerw pośrodkowy.",
+    "image": "/stawy/retinaculum-flexorum.webp"
   },
   {
     "id": "ligg-sacroiliaca-anteriora",
@@ -1135,6 +2141,14 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-inguinale.webp"
   },
   {
+    "id": "lig-pubicum-inferius",
+    "jointId": "pv-symph",
+    "latin": "Ligamentum pubicum inferius",
+    "polish": "Więzadło łonowe dolne (łukowate)",
+    "info": "Biegnie łukiem pod dolnym brzegiem spojenia łonowego. Najsilniejsze więzadło spojenia, wzmacnia je od dołu.",
+    "image": "/stawy/lig-pubicum-inferius.webp"
+  },
+  {
     "id": "lig-iliofemorale",
     "jointId": "j-coxae",
     "latin": "Ligamentum iliofemorale",
@@ -1173,6 +2187,22 @@ export const LIGAMENTS: Ligament[] = [
     "polish": "Obrąbek panewki",
     "info": "Pierścień włóknisto-chrzęstny na brzegu panewki. Pogłębia panewkę i obejmuje głowę kości udowej, zwiększając stabilność stawu.",
     "image": "/stawy/labrum-acetabuli.webp"
+  },
+  {
+    "id": "lig-transversum-acetabuli",
+    "jointId": "j-coxae",
+    "latin": "Ligamentum transversum acetabuli",
+    "polish": "Więzadło poprzeczne panewki",
+    "info": "Przechodzi nad wcięciem panewki i uzupełnia obrąbek panewki. Pod nim do stawu wchodzą naczynia.",
+    "image": "/stawy/lig-transversum-acetabuli.webp"
+  },
+  {
+    "id": "zona-orbicularis",
+    "jointId": "j-coxae",
+    "latin": "Zona orbicularis",
+    "polish": "Warstwa okrężna",
+    "info": "Okrężne włókna torebki stawowej otaczające szyjkę kości udowej. Przytrzymują głowę kości udowej w panewce.",
+    "image": "/stawy/zona-orbicularis.webp"
   },
   {
     "id": "lig-patellae",
@@ -1231,6 +2261,38 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/meniscus-lateralis.webp"
   },
   {
+    "id": "lig-popliteum-obliquum",
+    "jointId": "j-genus",
+    "latin": "Ligamentum popliteum obliquum",
+    "polish": "Więzadło podkolanowe skośne",
+    "info": "Biegnie skośnie po tylnej stronie torebki stawowej jako przedłużenie ścięgna mięśnia półbłoniastego. Wzmacnia torebkę od tyłu i ogranicza przeprost kolana.",
+    "image": "/stawy/lig-popliteum-obliquum.webp"
+  },
+  {
+    "id": "retinaculum-patellae-mediale",
+    "jointId": "j-genus",
+    "latin": "Retinaculum patellae mediale",
+    "polish": "Troczek przyśrodkowy rzepki",
+    "info": "Pasma włókniste po przyśrodkowej stronie rzepki. Stabilizują rzepkę i chronią ją przed przemieszczeniem na bok.",
+    "image": "/stawy/retinaculum-patellae-mediale.webp"
+  },
+  {
+    "id": "retinaculum-patellae-laterale",
+    "jointId": "j-genus",
+    "latin": "Retinaculum patellae laterale",
+    "polish": "Troczek boczny rzepki",
+    "info": "Pasma włókniste po bocznej stronie rzepki. Razem z troczkiem przyśrodkowym utrzymują rzepkę w prawidłowym torze ruchu.",
+    "image": "/stawy/retinaculum-patellae-laterale.webp"
+  },
+  {
+    "id": "lig-transversum-genus",
+    "jointId": "j-genus",
+    "latin": "Ligamentum transversum genus",
+    "polish": "Więzadło poprzeczne kolana",
+    "info": "Łączy przednie rogi łąkotki przyśrodkowej i bocznej. Stabilizuje łąkotki.",
+    "image": "/stawy/lig-transversum-genus.webp"
+  },
+  {
     "id": "lig-talofibulare-anterius",
     "jointId": "j-talocrur",
     "latin": "Ligamentum talofibulare anterius",
@@ -1263,12 +2325,52 @@ export const LIGAMENTS: Ligament[] = [
     "image": "/stawy/lig-deltoideum.webp"
   },
   {
+    "id": "lig-tibiofibulare-anterius",
+    "jointId": "j-talocrur",
+    "latin": "Ligamentum tibiofibulare anterius",
+    "polish": "Więzadło piszczelowo-strzałkowe przednie",
+    "info": "Łączy z przodu dolne końce kości piszczelowej i strzałkowej (więzozrost piszczelowo-strzałkowy). Utrzymuje widełki stawu skokowego.",
+    "image": "/stawy/lig-tibiofibulare-anterius.webp"
+  },
+  {
+    "id": "lig-talocalcaneum-interosseum",
+    "jointId": "j-subtal",
+    "latin": "Ligamentum talocalcaneum interosseum",
+    "polish": "Więzadło skokowo-piętowe międzykostne",
+    "info": "Leży w zatoce stępu między kością skokową a piętową. Najsilniejsze więzadło stawu skokowego dolnego, ogranicza nadmierne odwracanie stopy.",
+    "image": "/stawy/lig-talocalcaneum-interosseum.webp"
+  },
+  {
+    "id": "lig-bifurcatum",
+    "jointId": "j-chopart",
+    "latin": "Ligamentum bifurcatum",
+    "polish": "Więzadło rozdwojone",
+    "info": "Biegnie od kości piętowej dwoma pasmami do kości łódkowatej i sześciennej. Wzmacnia staw poprzeczny stępu.",
+    "image": "/stawy/lig-bifurcatum.webp"
+  },
+  {
+    "id": "lig-calcaneonaviculare-plantare",
+    "jointId": "j-chopart",
+    "latin": "Ligamentum calcaneonaviculare plantare",
+    "polish": "Więzadło piętowo-łódkowe podeszwowe (sprężynowe)",
+    "info": "Biegnie od podpórki kości skokowej do kości łódkowatej. Podtrzymuje głowę kości skokowej i łuk podłużny przyśrodkowy stopy.",
+    "image": "/stawy/lig-calcaneonaviculare-plantare.webp"
+  },
+  {
     "id": "lig-plantare-longum",
     "jointId": "j-chopart",
     "latin": "Ligamentum plantare longum",
     "polish": "Więzadło podeszwowe długie",
     "info": "Biegnie od kości piętowej do kości sześciennej i podstaw kości śródstopia. Podtrzymuje łuk podłużny boczny stopy.",
     "image": "/stawy/lig-plantare-longum.webp"
+  },
+  {
+    "id": "ligg-tarsometatarsalia-dorsalia",
+    "jointId": "j-lisfranc",
+    "latin": "Ligamenta tarsometatarsalia dorsalia",
+    "polish": "Więzadła stępowo-śródstopne grzbietowe",
+    "info": "Łączą kości klinowate i sześcienną z podstawami kości śródstopia od strony grzbietowej. Wzmacniają stawy stępowo-śródstopne.",
+    "image": "/stawy/ligg-tarsometatarsalia-dorsalia.webp"
   }
 ];
 
@@ -1304,6 +2406,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-stylomandibulare",
+    "card": {
+      "id": "lig-sphenomandibulare",
+      "latin": "Ligamentum sphenomandibulare",
+      "polish": "Więzadło klinowo-żuchwowe",
+      "system": "kostno-stawowy",
+      "group": "Czaszka",
+      "groupSlug": "czaszka",
+      "subgroup": "16. Połączenia kości czaszki",
+      "subgroupSlug": "rozdzial-16",
+      "image": "/stawy/lig-sphenomandibulare.webp",
+      "info": "Biegnie po stronie przyśrodkowej od kolca kości klinowej do języczka żuchwy. Podtrzymuje żuchwę i ogranicza jej nadmierne opuszczanie."
+    }
+  },
+  {
     "after": "j-atlantoax",
     "card": {
       "id": "lig-transversum-atlantis",
@@ -1316,6 +2433,66 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-27-28",
       "image": "/stawy/lig-transversum-atlantis.webp",
       "info": "Przytrzymuje ząb kręgu obrotowego przy łuku przednim kręgu szczytowego. Chroni rdzeń kręgowy przed uciśnięciem przez ząb."
+    }
+  },
+  {
+    "after": "lig-transversum-atlantis",
+    "card": {
+      "id": "ligg-alaria",
+      "latin": "Ligamenta alaria",
+      "polish": "Więzadła skrzydłowate",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/ligg-alaria.webp",
+      "info": "Biegną od zęba kręgu obrotowego do kłykci kości potylicznej. Ograniczają nadmierny obrót głowy i zginanie na boki."
+    }
+  },
+  {
+    "after": "ligg-alaria",
+    "card": {
+      "id": "lig-apicis-dentis",
+      "latin": "Ligamentum apicis dentis",
+      "polish": "Więzadło wierzchołka zęba",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/lig-apicis-dentis.webp",
+      "info": "Łączy wierzchołek zęba kręgu obrotowego z przednim brzegiem otworu wielkiego. Ma małe znaczenie mechaniczne."
+    }
+  },
+  {
+    "after": "lig-apicis-dentis",
+    "card": {
+      "id": "lig-cruciforme-atlantis",
+      "latin": "Ligamentum cruciforme atlantis",
+      "polish": "Więzadło krzyżowe kręgu szczytowego",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/lig-cruciforme-atlantis.webp",
+      "info": "Składa się z więzadła poprzecznego i pęczków podłużnych biegnących do kości potylicznej i trzonu kręgu obrotowego. Utrzymuje ząb na miejscu i chroni rdzeń kręgowy."
+    }
+  },
+  {
+    "after": "lig-cruciforme-atlantis",
+    "card": {
+      "id": "membrana-atlantooccipitalis-posterior",
+      "latin": "Membrana atlantooccipitalis posterior",
+      "polish": "Błona szczytowo-potyliczna tylna",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/membrana-atlantooccipitalis-posterior.webp",
+      "info": "Łączy łuk tylny kręgu szczytowego z tylnym brzegiem otworu wielkiego i zamyka od tyłu przestrzeń między czaszką a kręgiem szczytowym. Przebija ją tętnica kręgowa."
     }
   },
   {
@@ -1409,6 +2586,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "discus-intervertebralis",
+    "card": {
+      "id": "ligg-intertransversaria",
+      "latin": "Ligamenta intertransversaria",
+      "polish": "Więzadła międzypoprzeczne",
+      "system": "kostno-stawowy",
+      "group": "Kręgosłup",
+      "groupSlug": "kregoslup",
+      "subgroup": "27-28. Połączenia kręgosłupa",
+      "subgroupSlug": "rozdzial-27-28",
+      "image": "/stawy/ligg-intertransversaria.webp",
+      "info": "Łączą sąsiednie wyrostki poprzeczne. Ograniczają zginanie kręgosłupa w bok przeciwny."
+    }
+  },
+  {
     "after": "j-costovert",
     "card": {
       "id": "lig-capitis-costae-radiatum",
@@ -1439,6 +2631,36 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-costotransversarium-laterale",
+    "card": {
+      "id": "lig-costotransversarium-superius",
+      "latin": "Ligamentum costotransversarium superius",
+      "polish": "Więzadło żebrowo-poprzeczne górne",
+      "system": "kostno-stawowy",
+      "group": "Klatka piersiowa",
+      "groupSlug": "klatka-piersiowa",
+      "subgroup": "34. Połączenia stawowe klatki piersiowej",
+      "subgroupSlug": "rozdzial-34",
+      "image": "/stawy/lig-costotransversarium-superius.webp",
+      "info": "Biegnie od szyjki żebra do wyrostka poprzecznego kręgu leżącego wyżej. Stabilizuje żebro przy kręgosłupie."
+    }
+  },
+  {
+    "after": "j-sternocost",
+    "card": {
+      "id": "ligg-sternocostalia-radiata",
+      "latin": "Ligamenta sternocostalia radiata",
+      "polish": "Więzadła mostkowo-żebrowe promieniste",
+      "system": "kostno-stawowy",
+      "group": "Klatka piersiowa",
+      "groupSlug": "klatka-piersiowa",
+      "subgroup": "34. Połączenia stawowe klatki piersiowej",
+      "subgroupSlug": "rozdzial-34",
+      "image": "/stawy/ligg-sternocostalia-radiata.webp",
+      "info": "Rozchodzą się wachlarzowato od końców chrząstek żebrowych na przednią powierzchnię mostka. Wzmacniają stawy mostkowo-żebrowe."
+    }
+  },
+  {
     "after": "j-acromiocl",
     "card": {
       "id": "j-sternocl",
@@ -1450,7 +2672,40 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
       "subgroupSlug": "rozdzial-46",
       "image": "/stawy/j-sternocl__sterncl_front.webp",
-      "info": "Jedyne stawowe połączenie kończyny górnej z tułowiem, ma krążek stawowy. Umożliwia unoszenie i obniżanie, wysuwanie i cofanie barku oraz niewielki obrót obojczyka."
+      "info": "Jedyne stawowe połączenie kończyny górnej z tułowiem, ma krążek stawowy. Umożliwia unoszenie i obniżanie, wysuwanie i cofanie barku oraz niewielki obrót obojczyka.",
+      "details": [
+        {
+          "title": "Rodzaj",
+          "items": [
+            "staw siodełkowy, czynnościowo kulisty (dzięki krążkowi stawowemu)"
+          ]
+        },
+        {
+          "title": "Budowa",
+          "items": [
+            "koniec mostkowy obojczyka",
+            "wcięcie obojczykowe rękojeści mostka",
+            "krążek stawowy"
+          ]
+        },
+        {
+          "title": "Więzadła",
+          "items": [
+            "Więzadło mostkowo-obojczykowe przednie",
+            "Więzadło międzyobojczykowe",
+            "Więzadło żebrowo-obojczykowe",
+            "Więzadło mostkowo-obojczykowe tylne"
+          ]
+        },
+        {
+          "title": "Ruchy",
+          "items": [
+            "unoszenie i obniżanie barku",
+            "wysuwanie i cofanie barku",
+            "obrót obojczyka"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1499,6 +2754,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-costoclaviculare",
+    "card": {
+      "id": "lig-sternoclaviculare-posterius",
+      "latin": "Ligamentum sternoclaviculare posterius",
+      "polish": "Więzadło mostkowo-obojczykowe tylne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
+      "subgroupSlug": "rozdzial-46",
+      "image": "/stawy/lig-sternoclaviculare-posterius.webp",
+      "info": "Wzmacnia torebkę stawu od tyłu i ogranicza przesunięcie obojczyka do tyłu."
+    }
+  },
+  {
     "after": "j-acromiocl",
     "card": {
       "id": "lig-acromioclaviculare",
@@ -1541,6 +2811,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-46",
       "image": "/stawy/lig-conoideum.webp",
       "info": "Przyśrodkowa część więzadła kruczo-obojczykowego. Ogranicza unoszenie obojczyka względem łopatki."
+    }
+  },
+  {
+    "after": "lig-conoideum",
+    "card": {
+      "id": "lig-transversum-scapulae-superius",
+      "latin": "Ligamentum transversum scapulae superius",
+      "polish": "Więzadło poprzeczne górne łopatki",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "46. Połączenia stawowe obręczy kończyny górnej",
+      "subgroupSlug": "rozdzial-46",
+      "image": "/stawy/lig-transversum-scapulae-superius.webp",
+      "info": "Zamyka od góry wcięcie łopatki, tworząc otwór, przez który przechodzi nerw nadłopatkowy. Nie łączy kości w stawie."
     }
   },
   {
@@ -1634,11 +2919,11 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
-    "after": "j-radioulprox",
+    "after": "lig-collaterale-radiale",
     "card": {
       "id": "lig-anulare-radii",
       "latin": "Ligamentum anulare radii",
-      "polish": "Więzadło obrączkowate kości promieniowej",
+      "polish": "Więzadło pierścieniowate (obrączkowate) kości promieniowej",
       "system": "kostno-stawowy",
       "group": "Kończyna górna",
       "groupSlug": "konczyna-gorna",
@@ -1650,6 +2935,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
   },
   {
     "after": "lig-anulare-radii",
+    "card": {
+      "id": "lig-quadratum",
+      "latin": "Ligamentum quadratum",
+      "polish": "Więzadło czworokątne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "48-49. Staw łokciowy",
+      "subgroupSlug": "rozdzial-48-49",
+      "image": "/stawy/lig-quadratum.webp",
+      "info": "Biegnie od dolnego brzegu wcięcia promieniowego kości łokciowej do szyjki kości promieniowej. Wzmacnia od dołu staw promieniowo-łokciowy bliższy i ogranicza nadmierny obrót kości promieniowej."
+    }
+  },
+  {
+    "after": "j-radioulprox",
     "card": {
       "id": "membrana-interossea-antebrachii",
       "latin": "Membrana interossea antebrachii",
@@ -1675,7 +2975,40 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroup": "50. Stawy ręki",
       "subgroupSlug": "rozdzial-50",
       "image": "/stawy/j-radiocarp__wrist_front.webp",
-      "info": "Staw eliptyczny. Zgięcie dłoniowe i grzbietowe ręki oraz odwodzenie promieniowe i łokciowe."
+      "info": "Staw eliptyczny. Zgięcie dłoniowe i grzbietowe ręki oraz odwodzenie promieniowe i łokciowe.",
+      "details": [
+        {
+          "title": "Rodzaj",
+          "items": [
+            "staw eliptyczny, dwuosiowy"
+          ]
+        },
+        {
+          "title": "Budowa",
+          "items": [
+            "powierzchnia stawowa nadgarstkowa kości promieniowej i krążek stawowy",
+            "szereg bliższy nadgarstka: kość łódeczkowata, księżycowata i trójgraniasta"
+          ]
+        },
+        {
+          "title": "Więzadła",
+          "items": [
+            "Więzadło poboczne promieniowe nadgarstka",
+            "Więzadło poboczne łokciowe nadgarstka",
+            "Więzadło promieniowo-nadgarstkowe dłoniowe",
+            "Więzadło promieniowo-nadgarstkowe grzbietowe",
+            "Troczek zginaczy (więzadło poprzeczne nadgarstka)"
+          ]
+        },
+        {
+          "title": "Ruchy",
+          "items": [
+            "zgięcie dłoniowe i grzbietowe",
+            "odwodzenie promieniowe i łokciowe",
+            "ruch obwodzenia"
+          ]
+        }
+      ]
     }
   },
   {
@@ -1736,6 +3069,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-50",
       "image": "/stawy/lig-radiocarpale-dorsale.webp",
       "info": "Wzmacnia staw od strony grzbietowej i ogranicza zgięcie dłoniowe ręki."
+    }
+  },
+  {
+    "after": "lig-radiocarpale-dorsale",
+    "card": {
+      "id": "retinaculum-flexorum",
+      "latin": "Retinaculum musculorum flexorum",
+      "polish": "Troczek zginaczy (więzadło poprzeczne nadgarstka)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna górna",
+      "groupSlug": "konczyna-gorna",
+      "subgroup": "50. Stawy ręki",
+      "subgroupSlug": "rozdzial-50",
+      "image": "/stawy/retinaculum-flexorum.webp",
+      "info": "Rozpięty między wyniosłościami promieniową i łokciową nadgarstka. Zamyka od przodu kanał nadgarstka, w którym biegną ścięgna zginaczy i nerw pośrodkowy."
     }
   },
   {
@@ -1844,6 +3192,21 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-inguinale",
+    "card": {
+      "id": "lig-pubicum-inferius",
+      "latin": "Ligamentum pubicum inferius",
+      "polish": "Więzadło łonowe dolne (łukowate)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "54. Połączenia miednicy",
+      "subgroupSlug": "rozdzial-54",
+      "image": "/stawy/lig-pubicum-inferius.webp",
+      "info": "Biegnie łukiem pod dolnym brzegiem spojenia łonowego. Najsilniejsze więzadło spojenia, wzmacnia je od dołu."
+    }
+  },
+  {
     "after": "j-coxae",
     "card": {
       "id": "lig-iliofemorale",
@@ -1916,6 +3279,36 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "subgroupSlug": "rozdzial-58-59",
       "image": "/stawy/labrum-acetabuli.webp",
       "info": "Pierścień włóknisto-chrzęstny na brzegu panewki. Pogłębia panewkę i obejmuje głowę kości udowej, zwiększając stabilność stawu."
+    }
+  },
+  {
+    "after": "labrum-acetabuli",
+    "card": {
+      "id": "lig-transversum-acetabuli",
+      "latin": "Ligamentum transversum acetabuli",
+      "polish": "Więzadło poprzeczne panewki",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "58-59. Staw biodrowy",
+      "subgroupSlug": "rozdzial-58-59",
+      "image": "/stawy/lig-transversum-acetabuli.webp",
+      "info": "Przechodzi nad wcięciem panewki i uzupełnia obrąbek panewki. Pod nim do stawu wchodzą naczynia."
+    }
+  },
+  {
+    "after": "lig-transversum-acetabuli",
+    "card": {
+      "id": "zona-orbicularis",
+      "latin": "Zona orbicularis",
+      "polish": "Warstwa okrężna",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "58-59. Staw biodrowy",
+      "subgroupSlug": "rozdzial-58-59",
+      "image": "/stawy/zona-orbicularis.webp",
+      "info": "Okrężne włókna torebki stawowej otaczające szyjkę kości udowej. Przytrzymują głowę kości udowej w panewce."
     }
   },
   {
@@ -2024,6 +3417,66 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "meniscus-lateralis",
+    "card": {
+      "id": "lig-popliteum-obliquum",
+      "latin": "Ligamentum popliteum obliquum",
+      "polish": "Więzadło podkolanowe skośne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/lig-popliteum-obliquum.webp",
+      "info": "Biegnie skośnie po tylnej stronie torebki stawowej jako przedłużenie ścięgna mięśnia półbłoniastego. Wzmacnia torebkę od tyłu i ogranicza przeprost kolana."
+    }
+  },
+  {
+    "after": "lig-popliteum-obliquum",
+    "card": {
+      "id": "retinaculum-patellae-mediale",
+      "latin": "Retinaculum patellae mediale",
+      "polish": "Troczek przyśrodkowy rzepki",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/retinaculum-patellae-mediale.webp",
+      "info": "Pasma włókniste po przyśrodkowej stronie rzepki. Stabilizują rzepkę i chronią ją przed przemieszczeniem na bok."
+    }
+  },
+  {
+    "after": "retinaculum-patellae-mediale",
+    "card": {
+      "id": "retinaculum-patellae-laterale",
+      "latin": "Retinaculum patellae laterale",
+      "polish": "Troczek boczny rzepki",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/retinaculum-patellae-laterale.webp",
+      "info": "Pasma włókniste po bocznej stronie rzepki. Razem z troczkiem przyśrodkowym utrzymują rzepkę w prawidłowym torze ruchu."
+    }
+  },
+  {
+    "after": "retinaculum-patellae-laterale",
+    "card": {
+      "id": "lig-transversum-genus",
+      "latin": "Ligamentum transversum genus",
+      "polish": "Więzadło poprzeczne kolana",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "60-61. Staw kolanowy",
+      "subgroupSlug": "rozdzial-60-61",
+      "image": "/stawy/lig-transversum-genus.webp",
+      "info": "Łączy przednie rogi łąkotki przyśrodkowej i bocznej. Stabilizuje łąkotki."
+    }
+  },
+  {
     "after": "j-talocrur",
     "card": {
       "id": "lig-talofibulare-anterius",
@@ -2084,7 +3537,67 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
     }
   },
   {
+    "after": "lig-deltoideum",
+    "card": {
+      "id": "lig-tibiofibulare-anterius",
+      "latin": "Ligamentum tibiofibulare anterius",
+      "polish": "Więzadło piszczelowo-strzałkowe przednie",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-tibiofibulare-anterius.webp",
+      "info": "Łączy z przodu dolne końce kości piszczelowej i strzałkowej (więzozrost piszczelowo-strzałkowy). Utrzymuje widełki stawu skokowego."
+    }
+  },
+  {
+    "after": "j-subtal",
+    "card": {
+      "id": "lig-talocalcaneum-interosseum",
+      "latin": "Ligamentum talocalcaneum interosseum",
+      "polish": "Więzadło skokowo-piętowe międzykostne",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-talocalcaneum-interosseum.webp",
+      "info": "Leży w zatoce stępu między kością skokową a piętową. Najsilniejsze więzadło stawu skokowego dolnego, ogranicza nadmierne odwracanie stopy."
+    }
+  },
+  {
     "after": "j-chopart",
+    "card": {
+      "id": "lig-bifurcatum",
+      "latin": "Ligamentum bifurcatum",
+      "polish": "Więzadło rozdwojone",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-bifurcatum.webp",
+      "info": "Biegnie od kości piętowej dwoma pasmami do kości łódkowatej i sześciennej. Wzmacnia staw poprzeczny stępu."
+    }
+  },
+  {
+    "after": "lig-bifurcatum",
+    "card": {
+      "id": "lig-calcaneonaviculare-plantare",
+      "latin": "Ligamentum calcaneonaviculare plantare",
+      "polish": "Więzadło piętowo-łódkowe podeszwowe (sprężynowe)",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/lig-calcaneonaviculare-plantare.webp",
+      "info": "Biegnie od podpórki kości skokowej do kości łódkowatej. Podtrzymuje głowę kości skokowej i łuk podłużny przyśrodkowy stopy."
+    }
+  },
+  {
+    "after": "lig-calcaneonaviculare-plantare",
     "card": {
       "id": "lig-plantare-longum",
       "latin": "Ligamentum plantare longum",
@@ -2097,89 +3610,717 @@ export const JOINT_EXTRA_CARDS: { after: string; card: Omit<Card, "credit"> }[] 
       "image": "/stawy/lig-plantare-longum.webp",
       "info": "Biegnie od kości piętowej do kości sześciennej i podstaw kości śródstopia. Podtrzymuje łuk podłużny boczny stopy."
     }
+  },
+  {
+    "after": "j-lisfranc",
+    "card": {
+      "id": "ligg-tarsometatarsalia-dorsalia",
+      "latin": "Ligamenta tarsometatarsalia dorsalia",
+      "polish": "Więzadła stępowo-śródstopne grzbietowe",
+      "system": "kostno-stawowy",
+      "group": "Kończyna dolna",
+      "groupSlug": "konczyna-dolna",
+      "subgroup": "62. Stawy stopy",
+      "subgroupSlug": "rozdzial-62",
+      "image": "/stawy/ligg-tarsometatarsalia-dorsalia.webp",
+      "info": "Łączą kości klinowate i sześcienną z podstawami kości śródstopia od strony grzbietowej. Wzmacniają stawy stępowo-śródstopne."
+    }
   }
 ];
 
-export const JOINT_INFO: Record<string, { image: string | null; info: string }> = {
+export const JOINT_INFO: Record<string, { image: string | null; info: string; details?: Detail[] }> = {
   "j-tmj": {
     "image": "/stawy/j-tmj__tmj_right.webp",
-    "info": "Umożliwia opuszczanie i unoszenie żuchwy (otwieranie i zamykanie ust), wysuwanie i cofanie oraz ruchy żucia na boki. Ma krążek stawowy."
+    "info": "Umożliwia opuszczanie i unoszenie żuchwy (otwieranie i zamykanie ust), wysuwanie i cofanie oraz ruchy żucia na boki. Ma krążek stawowy.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony (zawiasowo-ślizgowy), parzysty, z krążkiem stawowym"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa żuchwy",
+          "dół żuchwowy i guzek stawowy kości skroniowej",
+          "krążek stawowy dzieli jamę stawu na piętro górne i dolne"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło boczne stawu skroniowo-żuchwowego",
+          "Więzadło rylcowo-żuchwowe",
+          "Więzadło klinowo-żuchwowe"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "opuszczanie i unoszenie żuchwy",
+          "wysuwanie i cofanie",
+          "ruchy żucia na boki"
+        ]
+      }
+    ]
   },
   "j-atlantoax": {
     "image": "/stawy/j-atlantoax__atlas_top.webp",
-    "info": "Umożliwia obrót głowy razem z kręgiem szczytowym wokół zęba kręgu obrotowego (ruch przeczenia)."
+    "info": "Umożliwia obrót głowy razem z kręgiem szczytowym wokół zęba kręgu obrotowego (ruch przeczenia).",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony, obrotowy (jednoosiowy)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "staw szczytowo-obrotowy pośrodkowy: ząb kręgu obrotowego z dołkiem zęba łuku przedniego kręgu szczytowego i więzadłem poprzecznym",
+          "stawy szczytowo-obrotowe boczne: powierzchnie stawowe dolne kręgu szczytowego z górnymi kręgu obrotowego"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło poprzeczne kręgu szczytowego",
+          "Więzadła skrzydłowate",
+          "Więzadło wierzchołka zęba",
+          "Więzadło krzyżowe kręgu szczytowego",
+          "Błona szczytowo-potyliczna tylna"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "obrót głowy w prawo i w lewo"
+        ]
+      }
+    ]
   },
   "j-intervert": {
     "image": "/stawy/j-intervert__spine_right.webp",
-    "info": "Łączą trzony kręgów krążkami międzykręgowymi i więzadłami. Amortyzują obciążenia i pozwalają na zginanie, prostowanie, zginanie na boki i skręcanie kręgosłupa."
+    "info": "Łączą trzony kręgów krążkami międzykręgowymi i więzadłami. Amortyzują obciążenia i pozwalają na zginanie, prostowanie, zginanie na boki i skręcanie kręgosłupa.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "połączenia chrzęstne trzonów i stawy międzywyrostkowe"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "trzony kręgów połączone krążkami międzykręgowymi (pierścień włóknisty i jądro miażdżyste)",
+          "wyrostki stawowe połączone stawami międzywyrostkowymi (płaskimi)",
+          "łuki i wyrostki połączone więzadłami"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło podłużne przednie",
+          "Więzadło podłużne tylne",
+          "Więzadła żółte",
+          "Więzadła międzykolcowe",
+          "Więzadło nadkolcowe",
+          "Krążek międzykręgowy",
+          "Więzadła międzypoprzeczne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zginanie i prostowanie",
+          "zginanie na boki",
+          "skręcanie"
+        ]
+      }
+    ]
   },
   "j-costovert": {
     "image": "/stawy/j-costovert__costov_front.webp",
-    "info": "Łączą żebra z kręgami piersiowymi (staw głowy żebra i staw żebrowo-poprzeczny). Umożliwiają unoszenie i obniżanie żeber podczas oddychania."
+    "info": "Łączą żebra z kręgami piersiowymi (staw głowy żebra i staw żebrowo-poprzeczny). Umożliwiają unoszenie i obniżanie żeber podczas oddychania.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy płaskie, czynnościowo sprzężone"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "staw głowy żebra: głowa żebra z dołkami żebrowymi trzonów dwóch sąsiednich kręgów",
+          "staw żebrowo-poprzeczny: guzek żebra z dołkiem żebrowym wyrostka poprzecznego (żebra I-X)"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło promieniste głowy żebra",
+          "Więzadło żebrowo-poprzeczne boczne",
+          "Więzadło żebrowo-poprzeczne górne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "obrót żebra wokół osi szyjki: unoszenie i obniżanie żeber przy wdechu i wydechu"
+        ]
+      }
+    ]
+  },
+  "j-sternocost": {
+    "image": "/stawy/j-sternocost__sternum_front.webp",
+    "info": "Stawy między chrząstkami żeber II-VII a mostkiem (chrząstka I żebra łączy się z mostkiem chrząstkozrostem). Umożliwiają niewielkie ruchy żeber przy oddychaniu.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy płaskie (żebra II-VII), chrząstkozrost (żebro I)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "chrząstki żebrowe II-VII z wcięciami żebrowymi mostka"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła mostkowo-żebrowe promieniste"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe przy oddychaniu"
+        ]
+      }
+    ]
   },
   "j-acromiocl": {
     "image": "/stawy/j-acromiocl__shoulder_front.webp",
-    "info": "Łączy obojczyk z wyrostkiem barkowym łopatki. Umożliwia niewielkie ruchy ślizgowe i obrotowe łopatki względem obojczyka przy ruchach barku."
+    "info": "Łączy obojczyk z wyrostkiem barkowym łopatki. Umożliwia niewielkie ruchy ślizgowe i obrotowe łopatki względem obojczyka przy ruchach barku.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw płaski"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "koniec barkowy obojczyka",
+          "powierzchnia stawowa wyrostka barkowego łopatki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło barkowo-obojczykowe",
+          "Więzadło czworoboczne",
+          "Więzadło stożkowate",
+          "Więzadło poprzeczne górne łopatki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe i obrotowe łopatki względem obojczyka"
+        ]
+      }
+    ]
   },
   "j-humeri": {
     "image": "/stawy/j-humeri__shoulder_front.webp",
-    "info": "Staw kulisty wolny, najbardziej ruchomy staw człowieka. Zgięcie i prostowanie, odwodzenie i przywodzenie, obrót do wewnątrz i na zewnątrz oraz ruch obwodzenia."
+    "info": "Staw kulisty wolny, najbardziej ruchomy staw człowieka. Zgięcie i prostowanie, odwodzenie i przywodzenie, obrót do wewnątrz i na zewnątrz oraz ruch obwodzenia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw kulisty wolny, trójosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa kości ramiennej",
+          "panewka łopatki pogłębiona obrąbkiem stawowym"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło kruczo-barkowe",
+          "Więzadło kruczo-ramienne",
+          "Więzadła obrąbkowo-ramienne",
+          "Obrąbek panewki łopatki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "odwodzenie i przywodzenie",
+          "obrót do wewnątrz i na zewnątrz",
+          "ruch obwodzenia"
+        ]
+      }
+    ]
   },
   "j-cubiti": {
     "image": "/stawy/j-cubiti__elbow_front.webp",
-    "info": "Staw złożony (ramienno-łokciowy, ramienno-promieniowy i promieniowo-łokciowy bliższy). Zgięcie i prostowanie przedramienia oraz udział w nawracaniu i odwracaniu."
+    "info": "Staw złożony (ramienno-łokciowy, ramienno-promieniowy i promieniowo-łokciowy bliższy). Zgięcie i prostowanie przedramienia oraz udział w nawracaniu i odwracaniu.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "ramienno-łokciowy: jednoosiowy, zawiasowy (bloczek k. ramiennej z wcięciem bloczkowym k. łokciowej)",
+          "ramienno-promieniowy: kulisty, dwuosiowy (główka k. ramiennej z dołkiem stawowym głowy k. promieniowej)",
+          "promieniowo-łokciowy bliższy: jednoosiowy, obrotowy (wcięcie promieniowe k. łokciowej i obwód stawowy głowy k. promieniowej otoczony więzadłem pierścieniowatym)"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło poboczne łokciowe",
+          "Więzadło poboczne promieniowe",
+          "Więzadło pierścieniowate (obrączkowate) kości promieniowej",
+          "Więzadło czworokątne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "obrotowe: nawracanie i odwracanie"
+        ]
+      }
+    ]
   },
   "j-humeroul": {
     "image": "/anat/j-humeroul.webp",
-    "info": "Staw zawiasowy. Główna część stawu łokciowego odpowiedzialna za zgięcie i prostowanie przedramienia."
+    "info": "Staw zawiasowy. Główna część stawu łokciowego odpowiedzialna za zgięcie i prostowanie przedramienia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw zawiasowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "bloczek kości ramiennej",
+          "wcięcie bloczkowe kości łokciowej"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost"
+        ]
+      }
+    ]
   },
   "j-humerorad": {
     "image": "/anat/j-humerorad.webp",
-    "info": "Staw kulisty o ruchach ograniczonych przez kość łokciową. Uczestniczy w zgięciu i prostowaniu oraz w obrocie kości promieniowej."
+    "info": "Staw kulisty o ruchach ograniczonych przez kość łokciową. Uczestniczy w zgięciu i prostowaniu oraz w obrocie kości promieniowej.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw kulisty, dwuosiowy (ruchy ograniczone przez kość łokciową)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "główka kości ramiennej",
+          "dołek stawowy głowy kości promieniowej"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "obrót kości promieniowej"
+        ]
+      }
+    ]
   },
   "j-radioulprox": {
-    "image": "/stawy/j-radioulprox__elbow_front.webp",
-    "info": "Staw obrotowy. Głowa kości promieniowej obraca się we wcięciu promieniowym kości łokciowej podczas nawracania i odwracania przedramienia."
+    "image": "/stawy/j-radioulprox__forearm_front.webp",
+    "info": "Staw obrotowy. Głowa kości promieniowej obraca się we wcięciu promieniowym kości łokciowej podczas nawracania i odwracania przedramienia.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw obrotowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "obwód stawowy głowy kości promieniowej",
+          "wcięcie promieniowe kości łokciowej",
+          "więzadło pierścieniowate"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Błona międzykostna przedramienia"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "nawracanie i odwracanie (razem ze stawem promieniowo-łokciowym dalszym)"
+        ]
+      }
+    ]
   },
   "pv-sacroil": {
     "image": "/stawy/pv-sacroil__pelvis_front.webp",
-    "info": "Staw płaski, prawie nieruchomy (półścisły). Przenosi ciężar tułowia z kręgosłupa na miednicę i kończyny dolne."
+    "info": "Staw płaski, prawie nieruchomy (półścisły). Przenosi ciężar tułowia z kręgosłupa na miednicę i kończyny dolne.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw płaski, półścisły"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia uchowata kości krzyżowej",
+          "powierzchnia uchowata kości biodrowej"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła krzyżowo-biodrowe przednie",
+          "Więzadła krzyżowo-biodrowe tylne",
+          "Więzadło biodrowo-lędźwiowe",
+          "Więzadło krzyżowo-guzowe",
+          "Więzadło krzyżowo-kolcowe"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "bardzo małe ruchy kiwania kości krzyżowej"
+        ]
+      }
+    ]
   },
   "pv-symph": {
     "image": "/stawy/pv-symph__pelvis_front.webp",
-    "info": "Chrzęstne połączenie kości łonowych przez krążek międzyłonowy. Zapewnia stabilność obręczy miednicznej i pozwala na minimalne ruchy, nieco większe podczas porodu."
+    "info": "Chrzęstne połączenie kości łonowych przez krążek międzyłonowy. Zapewnia stabilność obręczy miednicznej i pozwala na minimalne ruchy, nieco większe podczas porodu.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "spojenie (połączenie chrzęstne)"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnie spojeniowe kości łonowych",
+          "krążek międzyłonowy"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło łonowe górne",
+          "Więzadło pachwinowe",
+          "Więzadło łonowe dolne (łukowate)"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "minimalne przesunięcia, większe w czasie porodu"
+        ]
+      }
+    ]
   },
   "j-coxae": {
     "image": "/stawy/j-coxae__hip_front.webp",
-    "info": "Staw kulisty panewkowy. Zgięcie i prostowanie, odwodzenie i przywodzenie, obrót uda do wewnątrz i na zewnątrz. Głęboka panewka i mocne więzadła dają dużą stabilność przy przenoszeniu ciężaru ciała."
+    "info": "Staw kulisty panewkowy. Zgięcie i prostowanie, odwodzenie i przywodzenie, obrót uda do wewnątrz i na zewnątrz. Głęboka panewka i mocne więzadła dają dużą stabilność przy przenoszeniu ciężaru ciała.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw kulisty panewkowy, trójosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "głowa kości udowej",
+          "panewka kości miednicznej (powierzchnia księżycowata) pogłębiona obrąbkiem panewki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło biodrowo-udowe",
+          "Więzadło łonowo-udowe",
+          "Więzadło kulszowo-udowe",
+          "Więzadło głowy kości udowej",
+          "Obrąbek panewki",
+          "Więzadło poprzeczne panewki",
+          "Warstwa okrężna"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "odwodzenie i przywodzenie",
+          "obrót do wewnątrz i na zewnątrz",
+          "ruch obwodzenia"
+        ]
+      }
+    ]
   },
   "j-genus": {
     "image": "/stawy/j-genus__knee_front.webp",
-    "info": "Największy staw człowieka, staw złożony. Zgięcie i prostowanie podudzia, a przy zgiętym kolanie niewielki obrót. Łąkotki i więzadła zapewniają stabilność."
+    "info": "Największy staw człowieka, staw złożony. Zgięcie i prostowanie podudzia, a przy zgiętym kolanie niewielki obrót. Łąkotki i więzadła zapewniają stabilność.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony, zawiasowo-obrotowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "udowo-piszczelowy: kłykcie kości udowej z kłykciami kości piszczelowej, między nimi łąkotki",
+          "udowo-rzepkowy: powierzchnia rzepkowa kości udowej z powierzchnią stawową rzepki"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło rzepki",
+          "Więzadło poboczne piszczelowe",
+          "Więzadło poboczne strzałkowe",
+          "Więzadło krzyżowe przednie",
+          "Więzadło krzyżowe tylne",
+          "Łąkotka przyśrodkowa",
+          "Łąkotka boczna",
+          "Więzadło podkolanowe skośne",
+          "Troczek przyśrodkowy rzepki",
+          "Troczek boczny rzepki",
+          "Więzadło poprzeczne kolana"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie i wyprost",
+          "obrót do wewnątrz i na zewnątrz przy zgiętym kolanie"
+        ]
+      }
+    ]
   },
   "j-femoropat": {
     "image": "/anat/j-femoropat.webp",
-    "info": "Rzepka ślizga się po powierzchni rzepkowej kości udowej. Zwiększa ramię działania mięśnia czworogłowego uda przy prostowaniu kolana."
+    "info": "Rzepka ślizga się po powierzchni rzepkowej kości udowej. Zwiększa ramię działania mięśnia czworogłowego uda przy prostowaniu kolana.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "część stawu kolanowego"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia rzepkowa kości udowej",
+          "powierzchnia stawowa rzepki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "ślizganie się rzepki w górę i w dół przy prostowaniu i zginaniu kolana"
+        ]
+      }
+    ]
   },
   "j-tibiofib": {
     "image": "/anat/j-tibiofib.webp",
-    "info": "Staw płaski. Umożliwia niewielkie ruchy strzałki przy ruchach w stawie skokowym."
+    "info": "Staw płaski. Umożliwia niewielkie ruchy strzałki przy ruchach w stawie skokowym.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw płaski"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "powierzchnia stawowa strzałkowa kości piszczelowej",
+          "powierzchnia stawowa głowy strzałki"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe strzałki"
+        ]
+      }
+    ]
   },
   "j-talocrur": {
     "image": "/stawy/j-talocrur__ankle_right.webp",
-    "info": "Staw zawiasowy. Zgięcie grzbietowe i podeszwowe stopy."
+    "info": "Staw zawiasowy. Zgięcie grzbietowe i podeszwowe stopy.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw zawiasowy, jednoosiowy"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "bloczek kości skokowej",
+          "widełki stawu: powierzchnia stawowa dolna kości piszczelowej, kostka przyśrodkowa i kostka boczna"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło skokowo-strzałkowe przednie",
+          "Więzadło skokowo-strzałkowe tylne",
+          "Więzadło piętowo-strzałkowe",
+          "Więzadło trójgraniaste (przyśrodkowe)",
+          "Więzadło piszczelowo-strzałkowe przednie"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "zgięcie grzbietowe i podeszwowe"
+        ]
+      }
+    ]
   },
   "j-subtal": {
-    "image": "/anat/j-subtal.webp",
-    "info": "Razem ze stawem skokowo-piętowo-łódkowym umożliwia odwracanie i nawracanie stopy (inwersję i ewersję)."
+    "image": "/stawy/j-subtal__ankle_right.webp",
+    "info": "Razem ze stawem skokowo-piętowo-łódkowym umożliwia odwracanie i nawracanie stopy (inwersję i ewersję).",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw walcowaty"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "tylna powierzchnia stawowa piętowa kości skokowej",
+          "tylna powierzchnia stawowa skokowa kości piętowej"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło skokowo-piętowe międzykostne"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "odwracanie i nawracanie stopy (inwersja i ewersja)"
+        ]
+      }
+    ]
   },
   "j-chopart": {
-    "image": "/stawy/j-chopart__ankle_bottom.webp",
-    "info": "Uczestniczy w odwracaniu i nawracaniu stopy oraz w dopasowaniu stopy do podłoża."
+    "image": "/stawy/j-chopart__ankle_right.webp",
+    "info": "Uczestniczy w odwracaniu i nawracaniu stopy oraz w dopasowaniu stopy do podłoża.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "staw złożony"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "staw skokowo-łódkowy: głowa kości skokowej z kością łódkowatą",
+          "staw piętowo-sześcienny: kość piętowa z kością sześcienną"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadło rozdwojone",
+          "Więzadło piętowo-łódkowe podeszwowe (sprężynowe)",
+          "Więzadło podeszwowe długie"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "udział w odwracaniu i nawracaniu stopy"
+        ]
+      }
+    ]
   },
   "j-lisfranc": {
-    "image": "/anat/j-lisfranc.webp",
-    "info": "Mało ruchome stawy. Zapewniają sztywność i sprężystość przedniej części stopy."
+    "image": "/stawy/j-lisfranc__ankle_top.webp",
+    "info": "Mało ruchome stawy. Zapewniają sztywność i sprężystość przedniej części stopy.",
+    "details": [
+      {
+        "title": "Rodzaj",
+        "items": [
+          "stawy płaskie, mało ruchome"
+        ]
+      },
+      {
+        "title": "Budowa",
+        "items": [
+          "kości klinowate i kość sześcienna z podstawami kości śródstopia I-V"
+        ]
+      },
+      {
+        "title": "Więzadła",
+        "items": [
+          "Więzadła stępowo-śródstopne grzbietowe"
+        ]
+      },
+      {
+        "title": "Ruchy",
+        "items": [
+          "niewielkie ruchy ślizgowe"
+        ]
+      }
+    ]
   },
   "p-staw-biodrowy-budowa-2": {
     "image": "/stawy/labrum-acetabuli.webp",

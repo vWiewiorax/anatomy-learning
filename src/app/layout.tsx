@@ -48,7 +48,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <main className="flex-1">{children}</main>
         <footer className="border-t border-slate-200 bg-white text-xs text-slate-500">
           <div className="mx-auto flex max-w-6xl flex-wrap justify-between gap-x-4 gap-y-1 px-4 py-5">
-            <span>Ilustracje kości wykonane na podstawie modeli BodyParts3D, (c) DBCLS, CC BY-SA 2.1 JP. Ilustracje mięśni: Wikimedia Commons.</span>
+            <span>Ilustracje 3D na podstawie modeli BodyParts3D, (c) DBCLS, CC BY-SA 2.1 JP, część z Wikimedia Commons (Anatomography).</span>
             <Link href="/zrodla" className="underline hover:text-slate-800">
               Autorzy i licencje
             </Link>
